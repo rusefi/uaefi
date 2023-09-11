@@ -1,0 +1,5 @@
+*-backups
+*.kicad_prl
+.idea/
+# we should live without KiCAD caches
+fp-info-cache

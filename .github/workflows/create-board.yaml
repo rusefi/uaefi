@@ -1,0 +1,9 @@
+name: Create Board
+
+on: [ push, pull_request ]
+
+jobs:
+  call-workflow-passing-data:
+    uses: andreika-git/hellen-one/.github/workflows/create-board.yaml@master
+    permissions:
+      contents: write
