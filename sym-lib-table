@@ -23,4 +23,5 @@
   (lib (name "rusefi_logo")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/rusefi_logo.kicad_sym")(options "")(descr ""))
   (lib (name "Off_Road_Disclaimer")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/Off_Road_Disclaimer.kicad_sym")(options "")(descr ""))
   (lib (name "hellen-one-vr-discrete-0.4")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-discrete/0.4/vr-discrete.kicad_sym")(options "")(descr "Hellen-One VR discrete Module"))
+  (lib (name "MPX-4_MAP")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/MPX-4_MAP.kicad_sym")(options "")(descr ""))
 )

@@ -362,6 +362,12 @@
     (uuid f72acfa4-d7bb-4339-a51e-63e5b7a5da37)
   )
 
+  (text "Remove R19, R21, R25, R23, R28, R29, and install Q1-Q6 for use with dumb coils"
+    (at 104.14 58.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 94f1ae4f-7f0e-4242-92e7-cc42eec85819)
+  )
+
   (hierarchical_label "IN5" (shape input) (at 185.42 97.79 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 160bc99e-f908-4dcb-becd-865f5bcbc482)
