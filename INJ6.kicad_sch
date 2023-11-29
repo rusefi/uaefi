@@ -454,7 +454,7 @@
   (symbol (lib_id "Transistor_FET:BSP129") (at 165.1 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 368d9ff1-c512-4558-87bf-07a92e11625e)
-    (property "Reference" "Q9" (at 158.75 64.77 0)
+    (property "Reference" "Q16" (at 158.75 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ZXMS6005SGTA" (at 158.75 67.31 0)
@@ -475,7 +475,7 @@
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "Q9") (unit 1)
+          (reference "Q16") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "Q16") (unit 1)
@@ -522,7 +522,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "#PWR018") (unit 1)
@@ -574,7 +574,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "#PWR020") (unit 1)
@@ -591,7 +591,7 @@
   (symbol (lib_id "Transistor_FET:BSP129") (at 118.11 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c1aa53a-61f9-4559-bf03-5cdaa86b8308)
-    (property "Reference" "Q8" (at 111.76 120.65 0)
+    (property "Reference" "Q15" (at 111.76 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ZXMS6005SGTA" (at 111.76 123.19 0)
@@ -612,7 +612,7 @@
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "Q8") (unit 1)
+          (reference "Q15") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "Q15") (unit 1)
@@ -655,7 +655,7 @@
           (reference "R53") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "R32") (unit 1)
+          (reference "R31") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "R38") (unit 1)
@@ -702,7 +702,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "#PWR017") (unit 1)
@@ -719,7 +719,7 @@
   (symbol (lib_id "Transistor_FET:BSP129") (at 118.11 93.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a299e70-9378-4e07-995d-8569566b13eb)
-    (property "Reference" "Q7" (at 111.76 92.71 0)
+    (property "Reference" "Q14" (at 111.76 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ZXMS6005SGTA" (at 111.76 95.25 0)
@@ -740,7 +740,7 @@
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "Q7") (unit 1)
+          (reference "Q14") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "Q14") (unit 1)
@@ -787,7 +787,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "#PWR021") (unit 1)
@@ -839,7 +839,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "#PWR019") (unit 1)
@@ -856,7 +856,7 @@
   (symbol (lib_id "Transistor_FET:BSP129") (at 165.1 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d652c9d-be01-42a9-9e9f-3a20b480b201)
-    (property "Reference" "Q11" (at 158.75 120.65 0)
+    (property "Reference" "Q18" (at 158.75 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ZXMS6005SGTA" (at 158.75 123.19 0)
@@ -877,7 +877,7 @@
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "Q11") (unit 1)
+          (reference "Q18") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "Q18") (unit 1)
@@ -920,7 +920,7 @@
           (reference "R53") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "R35") (unit 1)
+          (reference "R34") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "R41") (unit 1)
@@ -932,7 +932,7 @@
   (symbol (lib_id "Transistor_FET:BSP129") (at 165.1 93.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9139a14-5fac-4224-b2fb-0e4470021d5c)
-    (property "Reference" "Q10" (at 158.75 92.71 0)
+    (property "Reference" "Q17" (at 158.75 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ZXMS6005SGTA" (at 158.75 95.25 0)
@@ -953,7 +953,7 @@
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "Q10") (unit 1)
+          (reference "Q17") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "Q17") (unit 1)
@@ -1000,7 +1000,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "#PWR024") (unit 1)
@@ -1048,7 +1048,7 @@
           (reference "R53") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "R31") (unit 1)
+          (reference "R30") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "R37") (unit 1)
@@ -1091,7 +1091,7 @@
           (reference "R53") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "R34") (unit 1)
+          (reference "R33") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "R40") (unit 1)
@@ -1134,7 +1134,7 @@
           (reference "R53") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "R33") (unit 1)
+          (reference "R32") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "R39") (unit 1)
@@ -1177,7 +1177,7 @@
           (reference "R53") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "R30") (unit 1)
+          (reference "R29") (unit 1)
         )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "R36") (unit 1)

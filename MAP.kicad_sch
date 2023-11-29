@@ -256,7 +256,7 @@
       )
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/7f618b1f-fe11-49db-a473-d0b521b1fa4f"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -289,7 +289,7 @@
       )
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/7f618b1f-fe11-49db-a473-d0b521b1fa4f"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -322,7 +322,7 @@
       )
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/7f618b1f-fe11-49db-a473-d0b521b1fa4f"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -359,7 +359,7 @@
       )
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/7f618b1f-fe11-49db-a473-d0b521b1fa4f"
-          (reference "C2") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
