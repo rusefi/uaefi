@@ -12,8 +12,8 @@
   (lib (name "hellen-one-knock-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/knock/0.2")(options "")(descr "Hellen-One Knock Pre-amplifier Module"))
   (lib (name "hellen-one-stlink-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/stlink/0.1")(options "")(descr "Hellen-One ST/Link Module"))
   (lib (name "hellen-one-common")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/kicad/footprints")(options "")(descr "Hellen-One common library"))
-  (lib (name "hellen-one-wbo-0.3")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.3")(options "")(descr "Hellen-One WBO Module"))
-  (lib (name "hellen-one-vr-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr/0.1")(options "")(descr "Hellen-One VR Module"))
+  (lib (name "hellen-one-wbo-0.5")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.5")(options "")(descr "Hellen-One WBO Module"))
+ 
   (lib (name "hellen-one-vr-max9924-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-max9924/0.1")(options "")(descr "Hellen-One VR max9924 Module"))
   (lib (name "kicad6-libraries")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries")(options "")(descr ""))
   (lib (name "hellen-one-power_12and5V-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/power_12and5V/0.2")(options "")(descr ""))

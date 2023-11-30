@@ -8,3 +8,13 @@
    (layer inner)
    (constraint clearance (min 0.15mm))
    (condition "A.NetClass == 'HV'"))
+
+(rule "IGN"
+   (layer outer)
+   (constraint clearance (min 0.4mm))
+   (condition "A.NetClass == 'IGN'"))
+
+(rule "IGNin"
+   (layer inner)
+   (constraint clearance (min 0.15mm))
+   (condition "A.NetClass == 'IGN'"))
