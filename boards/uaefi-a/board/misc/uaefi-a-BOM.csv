@@ -25,7 +25,7 @@ Comment,Designator,Footprint,LCSC Part #
 "5569-06A2","J3","Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal","C293509"
 "5569-08A2","J4","Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal","C490533"
 "5569-18A2","J5","Molex_Mini-Fit_Jr_5569-18A2_2x09_P4.20mm_Horizontal","C240834"
-"Conn_01x06","J6","PinHeader_1x06_P2.54mm_Vertical",""
+"Conn_01x06","J6","PinHeader_1x06_P2.54mm_Vertical","C37208"
 "Conn_01x05_Male","J7","Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical",""
 "USB_B_Mini","J8","USB-MINI-B-VERTICAL",""
 "USB_C_Receptacle_USB2.0","J9","USB_C_Receptacle_XKB_U262-16XN-4BVC11","C2927038"

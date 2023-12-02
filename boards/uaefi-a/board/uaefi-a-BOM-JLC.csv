@@ -11,6 +11,7 @@ Comment,Designator,Footprint,LCSC Part #
 "5569-06A2","J3","Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal","C293509"
 "5569-08A2","J4","Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal","C490533"
 "5569-18A2","J5","Molex_Mini-Fit_Jr_5569-18A2_2x09_P4.20mm_Horizontal","C240834"
+"Conn_01x06","J6","PinHeader_1x06_P2.54mm_Vertical","C37208"
 "USB_C_Receptacle_USB2.0","J9","USB_C_Receptacle_XKB_U262-16XN-4BVC11","C2927038"
 "ZXMS6005SGTA","Q1, Q2, Q3, Q4, Q13, Q14, Q15, Q16, Q17, Q18","SOT-223","C174042"
 "AO3400A","Q5, Q6, Q101, Q103","SOT-23","C20917"
