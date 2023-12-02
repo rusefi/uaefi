@@ -41,5 +41,8 @@ C133,"1u","C0603","C519559"
 #mux
 "U755,U756","WAS3157B-6","SOT-363","C213161"
 
+#02x08 shortage
+J10,"39301160","02x08_4.2mm","C5355564"
+
 #include hellen-one/board_id/generated/board_id_uaefi-a.csv
 #include bom_pullups_uaefi-a.csv
