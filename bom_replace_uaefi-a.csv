@@ -11,9 +11,6 @@ R145,
 #PWR_EN not used as GPIO
 R142,
 
-#IGBT series resistor
-"R114, R115, R116, R117","33","R0402","C25105"
-
 # DC-DC Inductor
 L421,"MWSA0503S-100MT","MWSA0503","C408412"
 
@@ -28,6 +25,9 @@ U106,
 
 # STM32F407VGT6 is very cheap
 U105,"STM32F407VGT6","LQFP100","C12345"
+
+#without CAN2
+"C430,C431,D430,R430,U430",
 
 #include hellen-one/board_id/generated/board_id_uaefi-a.csv
 #include bom_pullups_uaefi-a.csv
