@@ -7119,6 +7119,7 @@
     (at 148.15 122.1 -90)
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.54mm single row")
+    (property "LCSC" "C37208")
     (property "Sheetfile" "uaefi.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
