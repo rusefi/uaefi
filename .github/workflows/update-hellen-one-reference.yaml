@@ -1,0 +1,10 @@
+name: Update hellen-one Reference
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-workflow-passing-data:
+    uses: andreika-git/hellen-one/.github/workflows/custom-board-update-hellen-one-reference.yaml@master
+    permissions:
+      contents: write
