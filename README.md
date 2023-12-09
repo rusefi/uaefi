@@ -8,4 +8,4 @@ powerted by [rusEFI](https://github.com/rusefi/rusefi)
 
 1mg of flash is _required_.
 
-One day we shall try https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F427VIT6%2FC57097#EC
+One day we shall try https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F427VIT6%2FC57097#EC or https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F437VIT7%2FC1338578#EC
