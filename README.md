@@ -6,6 +6,10 @@ powerted by [rusEFI firmware](https://github.com/rusefi/rusefi)
 
 [User Documentation](https://github.com/rusefi/rusefi/wiki/uaEFI)
 
+![x](https://raw.githubusercontent.com/rusefi/uaefi/master/docs/uaefi-a-top.png)
+
+![x](https://raw.githubusercontent.com/rusefi/uaefi/master/docs/uaefi-a-back.png)
+
 ## MCU options
 
 1mg of flash is _required_.
