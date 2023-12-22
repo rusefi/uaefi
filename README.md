@@ -1,6 +1,15 @@
 # Ultra Affordable EFI
 
-$100 base model. Open Source KiCAD 7 hardware powered by [Hellen-One](https://github.com/andreika-git/hellen-one)
+$100 base model. 
+
+## Community Support
+
+<span style="color:red">Community support ONLY: https://www.facebook.com/groups/rusEfi</span>.
+
+## Technical Details
+
+
+Open Source KiCAD 7 hardware powered by [Hellen-One](https://github.com/andreika-git/hellen-one)
 
 powerted by [rusEFI firmware](https://github.com/rusefi/rusefi)
 
