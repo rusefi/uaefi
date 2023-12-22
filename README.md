@@ -4,7 +4,7 @@ $100 base model.
 
 ## Community Support
 
-<span style="color:red">Community support ONLY: https://www.facebook.com/groups/rusEfi</span>.
+<span style="color:red">Community support ONLY: https://www.facebook.com/groups/rusEfi and https://github.com/rusefi/rusefi/wiki/Discord</span>.
 
 ## Technical Details
 
