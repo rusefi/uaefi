@@ -19,3 +19,7 @@ One day we shall try https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F427V
 ## HOWTO JLCPCB
 
 You would need three files from ``boards/uaefi-a/board`` folder to place your JLCPB Assembly order: gerber.zip BOM-JLC.csv and CPL.csv
+
+## rusEFI Store
+
+https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi
