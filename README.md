@@ -16,10 +16,17 @@ powerted by [rusEFI firmware](https://github.com/rusefi/rusefi)
 
 One day we shall try https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F427VIT6%2FC57097#EC or https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F437VIT7%2FC1338578#EC
 
+## rusEFI Store
+
+https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi
+
 ## HOWTO JLCPCB
 
 You would need three files from ``boards/uaefi-a/board`` folder to place your JLCPB Assembly order: gerber.zip BOM-JLC.csv and CPL.csv
 
-## rusEFI Store
+### Q: Something wrong with BOM?
 
-https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi
+A: Nope, that's normal nothing to worry about click 'Continue'.
+
+![image](https://github.com/rusefi/uaefi/assets/48498823/1b708b27-13b7-40da-857d-7ef85a8ad960)
+
