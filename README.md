@@ -1,6 +1,6 @@
 # Ultra Affordable EFI
 
-$100 base model. 
+🟢 $100 base model 🟢
 
 ## Community Support
 
