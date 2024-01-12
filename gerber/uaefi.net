@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>Fri Jan 12 05:23:25 2024</date>
+    <date>Fri Jan 12 21:21:01 2024</date>
     <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -26,7 +26,7 @@
       <title_block>
         <title>UAEFI DC motor driver</title>
         <company>rusefi.com</company>
-        <rev/>
+        <rev>B</rev>
         <date>2023-11-01</date>
         <source>DC_MOTOR_0.1.kicad_sch</source>
         <comment number="1" value=""/>
@@ -44,7 +44,7 @@
       <title_block>
         <title>UAEFI Low Side</title>
         <company>rusefi.com</company>
-        <rev/>
+        <rev>B</rev>
         <date>2023-11-01</date>
         <source>LS4.kicad_sch</source>
         <comment number="1" value=""/>
@@ -62,7 +62,7 @@
       <title_block>
         <title>UAEFI DC motor driver</title>
         <company>rusefi.com</company>
-        <rev/>
+        <rev>B</rev>
         <date>2023-11-01</date>
         <source>DC_MOTOR_0.1.kicad_sch</source>
         <comment number="1" value=""/>
@@ -80,7 +80,7 @@
       <title_block>
         <title>UAEF Low Side low current</title>
         <company>rusefi.com</company>
-        <rev/>
+        <rev>B</rev>
         <date>2023-11-01</date>
         <source>LS_weak.kicad_sch</source>
         <comment number="1" value=""/>
@@ -98,7 +98,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>B</rev>
         <date/>
         <source>MAP.kicad_sch</source>
         <comment number="1" value=""/>
@@ -116,7 +116,7 @@
       <title_block>
         <title>UAEFI Ignition</title>
         <company>rusefi.com</company>
-        <rev/>
+        <rev>B</rev>
         <date>2023-11-01</date>
         <source>IGN6.kicad_sch</source>
         <comment number="1" value=""/>
@@ -134,7 +134,7 @@
       <title_block>
         <title/>
         <company/>
-        <rev/>
+        <rev>B</rev>
         <date/>
         <source>egt.kicad_sch</source>
         <comment number="1" value=""/>
@@ -152,7 +152,7 @@
       <title_block>
         <title>UAEFI Injector</title>
         <company>rusefi.com</company>
-        <rev/>
+        <rev>B</rev>
         <date>2023-11-01</date>
         <source>INJ6.kicad_sch</source>
         <comment number="1" value=""/>
