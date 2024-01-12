@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (rev "B")
+  )
+
   (lib_symbols
     (symbol "MPX-4_MAP:MPX4{slash}MPXH6400_MAP" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 10.16 0)

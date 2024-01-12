@@ -7,6 +7,7 @@
   (title_block
     (title "UAEF Low Side low current")
     (date "2023-11-01")
+    (rev "B")
     (company "rusefi.com")
   )
 

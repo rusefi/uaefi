@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (rev "B")
+  )
+
   (lib_symbols
     (symbol "Device:L" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at -1.27 0 90)
