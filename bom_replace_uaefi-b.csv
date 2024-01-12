@@ -1,0 +1,56 @@
+# remove +5V pull-ups from SPI1, because we use it with +3.3v accelerometer
+R103,
+R105,
+
+# remove jumper resistor connecting BOOT1 with A22 input line, because we use STM32F4
+R131,
+
+#CAN wakeup disabled, O2S input enabled
+R145,
+
+#PWR_EN not used as GPIO
+R142,
+
+# DC-DC Inductor
+L421,"MWSA0503S-100MT","MWSA0503","C408412"
+
+# fuses
+F410,"nSMD050-24V","SMD1206","C70076"
+
+# TLS115
+U411,"TLS115B0EJXUMA1","PG-DSO-8","C3743696"
+
+# no software for accelerometer
+U106,
+
+# STM32F407VGT6 is very cheap
+U105,"STM32F407VGT6","LQFP100","C12345"
+
+#without CAN2
+"C430,C431,D430,R430,U430",
+
+#20MHz crystal
+Y102,"TXM20M0002503LFBEO00T","SMD5032-2P","C362485"
+
+#SD Card
+J100,"TF-014-H16","SMD","C125814"
+
+#board ID capacitor shortage
+C133,"1u","C0603","C519559"
+
+#mux
+"U755,U756","WAS3157B-6","SOT-363","C213161"
+
+#02x08 shortage
+J10,"39301160","02x08_4.2mm","C5355564"
+
+# Q1 options
+# ZXMS6005SGTA C174042
+# ZXMS6005DGTA C174045
+# NCV8440ASTT3G C604063
+# would VNL5160 work? would VNL5160 be the cheapest option?
+
+# same board ID as rev A for now!
+#include hellen-one/board_id/generated/board_id_uaefi-a.csv
+# same pullups as rev A for now!
+#include bom_pullups_uaefi-a.csv
