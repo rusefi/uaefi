@@ -20,7 +20,11 @@ F410,"nSMD050-24V","SMD1206","C70076"
 # TLS115
 U411,"TLS115B0EJXUMA1","PG-DSO-8","C3743696"
 
-# no software for accelerometer
+# SD card caps drama
+C123,
+C117,"C0603","C0603","C96446"
+
+# cost reduction
 U106,
 
 # STM32F407VGT6 is very cheap
