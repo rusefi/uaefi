@@ -58,6 +58,11 @@ J10,"39301160","02x08_4.2mm","C5355564"
 # NCV8440ASTT3G C604063
 # would VNL5160 work? would VNL5160 be the cheapest option?
 
+# cost
+D6,"PSM712-LF","SOT-23","C5180294"
+D7,"PSM712-LF","SOT-23","C5180294"
+D411,"PSM712-LF","SOT-23","C5180294"
+
 # same board ID as rev A for now!
 #include hellen-one/board_id/generated/board_id_uaefi-a.csv
 # same pullups as rev A for now!
