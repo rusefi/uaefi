@@ -10,7 +10,6 @@ Comment,Designator,Footprint,LCSC Part #
 "1u","C32","C0603",""
 "1N4148WS","D1, D410, D412, D413, D414","SOD-323","C2128"
 "B5819W","D2, D3, D4, D5, D416, D417, D101, D107","SOD-123","C8598"
-"PSM712-LF","D6, D7, D411","SOT-23","C32677"
 "NUP2105L","D8","SOT-23",""
 "12H1500D","F1, F2, F3, F4","PAD-1206-PAD","C182446"
 "RUSEFI_LOGO","G1","rusefi_logo",""
@@ -160,4 +159,5 @@ Comment,Designator,Footprint,LCSC Part #
 "5569-08A2","J4","2x4P 2 Tin 4.2mm Female 4.2mm","C388760"
 "5569-18A2","J5","2x9P 2 4.2mm Female 4.2mm 9 Right-Angle","C725776"
 "39301160","J10","02x08_4.2mm","C5355564"
+"PSM712-LF","D6, D7, D411","SOT-23","C5180294"
 "750","R133","R0603","C23241"
