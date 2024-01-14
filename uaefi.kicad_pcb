@@ -544,6 +544,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3D models/039301160.stp"
+      (offset (xyz 14.75 14 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (footprint "hellen-one-common:PAD-TH" (layer "F.Cu")
@@ -924,6 +929,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3D models/039301200.stp"
+      (offset (xyz 19 14 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -3386,6 +3396,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3D models/022035055.stp"
+      (offset (xyz 0 0 9))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -180 0 0))
+    )
   )
 
   (footprint "Package_TO_SOT_SMD:SOT-223" (layer "F.Cu")
@@ -3744,6 +3759,11 @@
       (offset (xyz -1.6 -0.875 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3D models/User Library-UE25BE5510H.STEP"
+      (offset (xyz 0 2 -0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -4515,6 +4535,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3D models/039301180.stp"
+      (offset (xyz 17 13.75 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
@@ -5202,7 +5227,7 @@
     (property "ki_keywords" "connector")
     (path "/085387ef-4c88-46a9-a9ab-c92f307f2668")
     (attr through_hole)
-    (fp_text reference "J3" (at -3.6 -1.875 -180) (layer "F.SilkS")
+    (fp_text reference "J3" (at -3.6 -1.875) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 665b3082-abc3-435e-b388-1567de076815)
     )
@@ -5286,6 +5311,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3D models/039301060.stp"
+      (offset (xyz 4.25 14 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -5969,6 +5999,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3D models/039301080.stp"
+      (offset (xyz 6.5 13.85 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (footprint "hellen-one-common:PAD-TH" (layer "F.Cu")
@@ -6588,6 +6623,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3D models/User Library-USB - C.STEP"
+      (offset (xyz 14 46.5 3.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
     )
   )
 
