@@ -4573,6 +4573,10 @@
     (stroke (width 0) (type default))
     (uuid 44c8a025-9ea9-4b55-8561-ff71f96236a4)
   )
+  (wire (pts (xy 73.66 167.64) (xy 78.74 167.64))
+    (stroke (width 0) (type default))
+    (uuid 450a4dd6-0a3a-4523-95de-a7ad2f7f0219)
+  )
   (bus (pts (xy 59.69 97.79) (xy 59.69 100.33))
     (stroke (width 0) (type default) (color 255 153 0 1))
     (uuid 45716c67-0c08-48b1-ad88-b021bdf92002)
@@ -4838,6 +4842,11 @@
     (stroke (width 0) (type default) (color 255 153 0 1))
     (uuid 5ea2b07a-3948-44e5-9969-7ea428b70ca3)
   )
+
+  (wire (pts (xy 73.66 177.8) (xy 78.74 177.8))
+    (stroke (width 0) (type default))
+    (uuid 606396dd-d7a0-476e-b53d-7cb335638b75)
+  )
   (bus (pts (xy 168.91 195.58) (xy 168.91 198.12))
     (stroke (width 0) (type default) (color 255 0 255 1))
     (uuid 609f4a75-6d26-4ca2-a7fe-587960ad1265)
@@ -4881,6 +4890,10 @@
   (wire (pts (xy 118.11 127) (xy 135.89 127))
     (stroke (width 0) (type default))
     (uuid 6451924d-16d4-4e98-81d6-cce1c6dd76a3)
+  )
+  (wire (pts (xy 73.66 182.88) (xy 78.74 182.88))
+    (stroke (width 0) (type default))
+    (uuid 6494f3a5-ff76-417a-b32b-e2e7566e00c4)
   )
   (wire (pts (xy 31.75 113.03) (xy 19.05 113.03))
     (stroke (width 0) (type default))
@@ -5614,6 +5627,10 @@
     (stroke (width 0) (type default))
     (uuid c46f8371-7daf-41b3-9a0f-1eba7e6848dd)
   )
+  (wire (pts (xy 73.66 172.72) (xy 78.74 172.72))
+    (stroke (width 0) (type default))
+    (uuid c548254a-4a31-46d0-be7a-ecf39a6ba486)
+  )
   (wire (pts (xy 254 152.4) (xy 262.89 152.4))
     (stroke (width 0) (type default))
     (uuid c5b2bffa-c934-480e-93f0-67565fd7e472)
@@ -5689,6 +5706,11 @@
     (stroke (width 0) (type default) (color 0 194 194 1))
     (uuid cb7e6651-e0ce-4b6d-a519-1ac796d26d3f)
   )
+
+  (wire (pts (xy 73.66 175.26) (xy 78.74 175.26))
+    (stroke (width 0) (type default))
+    (uuid cc2de905-fc1d-4a79-86c4-c50db75fe850)
+  )
   (bus (pts (xy 115.57 95.25) (xy 115.57 97.79))
     (stroke (width 0) (type default) (color 255 153 0 1))
     (uuid ccb0060a-e872-446d-8cee-7ae3851fcb76)
@@ -5727,6 +5749,11 @@
     (stroke (width 0) (type default) (color 194 194 0 1))
     (uuid d06374e1-50f5-450e-a0ef-3637594b068e)
   )
+
+  (wire (pts (xy 73.66 180.34) (xy 78.74 180.34))
+    (stroke (width 0) (type default))
+    (uuid d0c9ca35-7942-4d5b-9e0a-cfe5ccf5152d)
+  )
   (bus (pts (xy 115.57 132.08) (xy 115.57 134.62))
     (stroke (width 0) (type default) (color 255 153 0 1))
     (uuid d1435c53-eab6-43bc-bf25-6885595aa034)
@@ -5756,6 +5783,10 @@
     (stroke (width 0) (type default))
     (uuid d557d4c7-5941-441c-b996-6dbc2de1fa62)
   )
+  (wire (pts (xy 73.66 170.18) (xy 78.74 170.18))
+    (stroke (width 0) (type default))
+    (uuid d5f89c1f-377d-4bfd-8e15-dbf59991cd8c)
+  )
   (wire (pts (xy 158.75 156.21) (xy 158.75 149.86))
     (stroke (width 0) (type default))
     (uuid d652010c-419b-4b30-9467-afd42331a56f)
@@ -5781,6 +5812,10 @@
     (uuid d86e38c4-7071-4037-8fbb-dbeb14253edb)
   )
 
+  (wire (pts (xy 73.66 185.42) (xy 78.74 185.42))
+    (stroke (width 0) (type default))
+    (uuid d9540c12-7c4f-4e49-9317-1cabd0669e85)
+  )
   (wire (pts (xy 153.67 158.75) (xy 161.29 158.75))
     (stroke (width 0) (type default))
     (uuid d9705fcc-8630-4bce-a5b2-94b373878472)
@@ -6171,6 +6206,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0240c613-d7d8-4e74-9c99-f98400869348)
   )
+  (label "IN_PPS1" (at 73.66 172.72 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 03206251-2d39-48f2-b04e-07517c79b3a4)
+  )
   (label "VR1_A" (at 125.73 220.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 04b13b08-74ec-468a-813c-0eb7d53bba2c)
@@ -6242,6 +6281,10 @@
   (label "IN_CLT" (at 180.34 187.96 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1a80acb4-e24e-4b55-a15e-67e10e14bd14)
+  )
+  (label "IN_IAT" (at 73.66 180.34 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 1b1bfb32-9c95-4db4-8aff-00107b627f99)
   )
   (label "OUT_INJ4" (at 120.65 127 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -6362,6 +6405,10 @@
   (label "LS4" (at 154.94 147.32 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 512c9388-2bb3-4c53-af83-97ad62f32374)
+  )
+  (label "IN_CLT" (at 73.66 177.8 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 516caed8-9b67-4f72-96a3-9ac031acdc5e)
   )
   (label "IN_HALL2" (at 27.94 223.52 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -6547,6 +6594,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8b737211-1790-40e9-afcd-9934d8b226e3)
   )
+  (label "CAN-" (at 73.66 167.64 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 8c92d991-0d66-4363-afab-5a9c784d940e)
+  )
   (label "WBO_Rtrim" (at 40.64 41.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8cf9abee-35e4-450f-a40c-776be4330ce7)
@@ -6630,6 +6681,10 @@
   (label "OUT_INJ6" (at 120.65 132.08 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ab3419e8-1b0b-4580-8158-7d64cff6cb3e)
+  )
+  (label "IN_TPS1" (at 73.66 185.42 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid ae091ee4-9be5-4918-ba2f-94670a3df5c1)
   )
   (label "VBUS" (at 251.46 175.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -6751,6 +6806,14 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid da80e199-d289-45c6-a8d1-82b395dd0a07)
   )
+  (label "CAN+" (at 73.66 170.18 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid db007b05-78f6-4e14-a62e-07364557acd3)
+  )
+  (label "IN_FLEX" (at 73.66 175.26 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid db8e557d-1cf4-4251-bfcd-5bba3b073d3c)
+  )
   (label "LS_WEAK1" (at 154.94 104.14 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dd012ab9-d990-4754-b958-39a6083fa2c5)
@@ -6798,6 +6861,10 @@
   (label "EGT-" (at 275.59 116.84 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e8a9b4b0-de31-4007-aca2-28fe96c684af)
+  )
+  (label "IN_KNOCK_RAW" (at 73.66 182.88 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid e8dac13b-082c-4574-86b3-86ec5929e18a)
   )
   (label "USB-" (at 229.87 283.21 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -6902,6 +6969,76 @@
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
           (reference "#PWR034") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "hellen-one-common:Pad") (at 83.82 177.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 033cd44c-7b63-4c9d-8db5-bf1ca50e045e)
+    (property "Reference" "P17" (at 87.63 177.8 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Pad" (at 83.82 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "hellen-one-common:PAD-TH" (at 83.82 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dd2bee79-b3ee-4616-9a33-f04116d50eb1))
+    (instances
+      (project "uaefi-adapter-NA6"
+        (path "/62be380c-4f45-483a-9614-39f0039d587a"
+          (reference "P17") (unit 1)
+        )
+      )
+      (project "hellen64_NA6_94"
+        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+          (reference "P7") (unit 1)
+        )
+      )
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+          (reference "P11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "hellen-one-common:Pad") (at 83.82 180.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0474fe26-68ce-494e-8aed-a3881a25a9d1)
+    (property "Reference" "P18" (at 87.63 180.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Pad" (at 83.82 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "hellen-one-common:PAD-TH" (at 83.82 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3b964872-e354-4ff2-a033-8bf262f4aab1))
+    (instances
+      (project "uaefi-adapter-NA6"
+        (path "/62be380c-4f45-483a-9614-39f0039d587a"
+          (reference "P18") (unit 1)
+        )
+      )
+      (project "hellen64_NA6_94"
+        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+          (reference "P7") (unit 1)
+        )
+      )
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+          (reference "P12") (unit 1)
         )
       )
     )
@@ -7549,6 +7686,41 @@
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
           (reference "G3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "hellen-one-common:Pad") (at 83.82 170.18 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2ba9ecd9-c097-4a37-8e91-206e2da15caf)
+    (property "Reference" "P14" (at 87.63 170.18 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Pad" (at 83.82 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "hellen-one-common:PAD-TH" (at 83.82 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7c14f5f6-fb5a-4d11-9e1f-f330e4c0e4c6))
+    (instances
+      (project "uaefi-adapter-NA6"
+        (path "/62be380c-4f45-483a-9614-39f0039d587a"
+          (reference "P14") (unit 1)
+        )
+      )
+      (project "hellen64_NA6_94"
+        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+          (reference "P7") (unit 1)
+        )
+      )
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+          (reference "P6") (unit 1)
         )
       )
     )
@@ -8333,6 +8505,41 @@
     )
   )
 
+  (symbol (lib_id "hellen-one-common:Pad") (at 83.82 167.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6a6ddafe-b3ea-455d-940e-bc235299b739)
+    (property "Reference" "P13" (at 87.63 167.64 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Pad" (at 83.82 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "hellen-one-common:PAD-TH" (at 83.82 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9e665a79-ea88-45e1-a720-b3c67c6ffc50))
+    (instances
+      (project "uaefi-adapter-NA6"
+        (path "/62be380c-4f45-483a-9614-39f0039d587a"
+          (reference "P13") (unit 1)
+        )
+      )
+      (project "hellen64_NA6_94"
+        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+          (reference "P7") (unit 1)
+        )
+      )
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+          (reference "P5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 97.79 289.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6baf1a9f-886c-4645-94a5-f364099346f7)
@@ -8787,6 +8994,41 @@
     )
   )
 
+  (symbol (lib_id "hellen-one-common:Pad") (at 83.82 175.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8a580599-f083-4e3d-8189-242143c57b31)
+    (property "Reference" "P16" (at 87.63 175.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Pad" (at 83.82 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "hellen-one-common:PAD-TH" (at 83.82 179.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5f8d4eef-83ca-4fc5-adf0-c3a2757f2e69))
+    (instances
+      (project "uaefi-adapter-NA6"
+        (path "/62be380c-4f45-483a-9614-39f0039d587a"
+          (reference "P16") (unit 1)
+        )
+      )
+      (project "hellen64_NA6_94"
+        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+          (reference "P7") (unit 1)
+        )
+      )
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+          (reference "P10") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "hellen-one-common:Pad") (at 279.4 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f6af518-581f-4c21-adf1-ee35c841f616)
@@ -8893,6 +9135,41 @@
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
           (reference "#PWR014") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "hellen-one-common:Pad") (at 83.82 182.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9250c50c-23bc-4397-a6e4-b10d22c23cb0)
+    (property "Reference" "P19" (at 87.63 182.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Pad" (at 83.82 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "hellen-one-common:PAD-TH" (at 83.82 186.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 182.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ad47b83c-b336-4507-8c31-62c5f3cf504b))
+    (instances
+      (project "uaefi-adapter-NA6"
+        (path "/62be380c-4f45-483a-9614-39f0039d587a"
+          (reference "P19") (unit 1)
+        )
+      )
+      (project "hellen64_NA6_94"
+        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+          (reference "P7") (unit 1)
+        )
+      )
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+          (reference "P13") (unit 1)
         )
       )
     )
@@ -9212,6 +9489,41 @@
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
           (reference "R8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "hellen-one-common:Pad") (at 83.82 172.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bc74dd46-44b1-4e2d-97c1-c243e876d6a0)
+    (property "Reference" "P15" (at 87.63 172.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Pad" (at 83.82 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "hellen-one-common:PAD-TH" (at 83.82 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d6ba9381-b956-483a-ac8a-0367df804018))
+    (instances
+      (project "uaefi-adapter-NA6"
+        (path "/62be380c-4f45-483a-9614-39f0039d587a"
+          (reference "P15") (unit 1)
+        )
+      )
+      (project "hellen64_NA6_94"
+        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+          (reference "P7") (unit 1)
+        )
+      )
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+          (reference "P9") (unit 1)
         )
       )
     )
@@ -10048,6 +10360,41 @@
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
           (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "hellen-one-common:Pad") (at 83.82 185.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f7a027cf-2712-445a-964e-8829379eb8ed)
+    (property "Reference" "P20" (at 87.63 185.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Pad" (at 83.82 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "hellen-one-common:PAD-TH" (at 83.82 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 51ba3fbb-c6b6-42c5-b4d9-e77e9724468d))
+    (instances
+      (project "uaefi-adapter-NA6"
+        (path "/62be380c-4f45-483a-9614-39f0039d587a"
+          (reference "P20") (unit 1)
+        )
+      )
+      (project "hellen64_NA6_94"
+        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+          (reference "P7") (unit 1)
+        )
+      )
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+          (reference "P14") (unit 1)
         )
       )
     )
