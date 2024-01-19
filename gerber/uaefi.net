@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>Sun Jan 14 14:03:01 2024</date>
+    <date>Thu Jan 18 17:40:54 2024</date>
     <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -610,6 +610,28 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>df020caf-5e9e-4b69-a553-8212cdd0ab35</tstamps>
     </comp>
+    <comp ref="P5">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a6ddafe-b3ea-455d-940e-bc235299b739</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ba9ecd9-c097-4a37-8e91-206e2da15caf</tstamps>
+    </comp>
     <comp ref="P7">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
@@ -631,6 +653,72 @@
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2109366e-1742-401b-abc8-92b063de393e</tstamps>
+    </comp>
+    <comp ref="P9">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc74dd46-44b1-4e2d-97c1-c243e876d6a0</tstamps>
+    </comp>
+    <comp ref="P10">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a580599-f083-4e3d-8189-242143c57b31</tstamps>
+    </comp>
+    <comp ref="P11">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>033cd44c-7b63-4c9d-8db5-bf1ca50e045e</tstamps>
+    </comp>
+    <comp ref="P12">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0474fe26-68ce-494e-8aed-a3881a25a9d1</tstamps>
+    </comp>
+    <comp ref="P13">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9250c50c-23bc-4397-a6e4-b10d22c23cb0</tstamps>
+    </comp>
+    <comp ref="P14">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7a027cf-2712-445a-964e-8829379eb8ed</tstamps>
     </comp>
     <comp ref="R1">
       <value>4.7k</value>
@@ -2946,11 +3034,13 @@
       <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="M5" pin="W4" pinfunction="CANH" pintype="passive"/>
       <node ref="M6" pin="W11" pinfunction="CANH" pintype="passive"/>
+      <node ref="P6" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="10" name="/CAN-">
       <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="M5" pin="W3" pinfunction="CANL" pintype="passive"/>
       <node ref="M6" pin="W12" pinfunction="CANL" pintype="passive"/>
+      <node ref="P5" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="11" name="/DC Driver 1/PWR">
       <node ref="C1" pin="2" pintype="passive"/>
@@ -3119,10 +3209,12 @@
     <net code="43" name="/IN_CLT">
       <node ref="J10" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="M6" pin="S21" pinfunction="IN_CLT_(PC2)" pintype="passive"/>
+      <node ref="P11" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="44" name="/IN_FLEX">
       <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="M6" pin="S17" pinfunction="IN_VSS_(PE11)" pintype="passive"/>
+      <node ref="P10" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="45" name="/IN_HALL1">
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
@@ -3139,6 +3231,7 @@
     <net code="48" name="/IN_IAT">
       <node ref="J10" pin="15" pinfunction="Pin_15" pintype="passive"/>
       <node ref="M6" pin="S20" pinfunction="IN_IAT_(PC3)" pintype="passive"/>
+      <node ref="P12" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="49" name="/IN_KNOCK">
       <node ref="M2" pin="E3" pinfunction="OUT_KNOCK" pintype="passive"/>
@@ -3147,6 +3240,7 @@
     <net code="50" name="/IN_KNOCK_RAW">
       <node ref="J10" pin="14" pinfunction="Pin_14" pintype="passive"/>
       <node ref="M2" pin="W1" pinfunction="IN_KNOCK" pintype="passive"/>
+      <node ref="P13" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="51" name="/IN_MAP">
       <node ref="J10" pin="9" pinfunction="Pin_9" pintype="passive"/>
@@ -3155,6 +3249,7 @@
     <net code="52" name="/IN_PPS1">
       <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="M6" pin="S19" pinfunction="IN_PPS_(PA3)" pintype="passive"/>
+      <node ref="P9" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="53" name="/IN_PPS2">
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
@@ -3163,6 +3258,7 @@
     <net code="54" name="/IN_TPS1">
       <node ref="J10" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="M6" pin="S18" pinfunction="IN_TPS_(PA4)" pintype="passive"/>
+      <node ref="P14" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="55" name="/IN_TPS2">
       <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
