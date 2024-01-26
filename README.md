@@ -40,5 +40,5 @@ A: Nope, that's normal nothing to worry about click 'Continue'.
 
 ### Q: how do I get more RAM for Lua?
 
-A: fabricate with STM32F42xVI
+A: fabricate with STM32F42xVI firmware would defect extra RAM and give you extra Lua. Once your script does not fit into STM32F42xVI it's F7 time or help us leverage F413.
 
