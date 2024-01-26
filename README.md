@@ -38,3 +38,7 @@ A: Nope, that's normal nothing to worry about click 'Continue'.
 
 ![image](https://github.com/rusefi/uaefi/assets/48498823/1b708b27-13b7-40da-857d-7ef85a8ad960)
 
+### Q: how do I get more RAM for Lua?
+
+A: fabricate with STM32F42xVI
+
