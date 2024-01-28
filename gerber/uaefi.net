@@ -2,16 +2,16 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>Fri Jan 26 19:57:34 2024</date>
+    <date>Sun Jan 28 07:20:54 2024</date>
     <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>hellen-112-17</title>
+        <title>UAEFI</title>
         <company>rusEFI.com</company>
         <rev>B</rev>
-        <date>2023-10-01</date>
+        <date>2024-01-28</date>
         <source>uaefi.kicad_sch</source>
-        <comment number="1" value="https://rusefi.com/s/h112-17"/>
+        <comment number="1" value="https://rusefi.com/s/uaefi"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -527,8 +527,8 @@
       <tstamps>7bd3e2b2-1d2d-4d27-ae40-93a1cb2e73e4</tstamps>
     </comp>
     <comp ref="M6">
-      <value>Module:mega-mcu100/0.2</value>
-      <footprint>hellen-one-mega-mcu100-0.2:mega-mcu100</footprint>
+      <value>Module:mega-mcu100/0.3</value>
+      <footprint>hellen-one-mega-mcu100-0.3:mega-mcu100</footprint>
       <fields>
         <field name="FITTED">False</field>
         <field name="PUBLISHER">qwerty-off</field>
@@ -539,7 +539,7 @@
         <field name="SUPPLIER PART NUMBER 2">*</field>
         <field name="TYPE">Module</field>
       </fields>
-      <libsource lib="hellen-one-mega-mcu100-0.2" part="Module{colon}mega-mcu100/0.2" description="Hellen One MEGA-MCU100 Module"/>
+      <libsource lib="hellen-one-mega-mcu100-0.3" part="Module{colon}mega-mcu100/0.3" description="Hellen One MEGA-MCU100 Module"/>
       <property name="PUBLISHER" value="qwerty-off"/>
       <property name="SUPPLIER PART NUMBER 1" value="*"/>
       <property name="SUPPLIER PART NUMBER 2" value="*"/>
@@ -833,6 +833,81 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b6315cb8-4e19-4b1e-bc04-c50f5c8a7966</tstamps>
     </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>hellen-one-common:R0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45753884-ffca-4882-83aa-f19d1993d996</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>hellen-one-common:R0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f58c3361-5b5b-43f8-a2ff-5dd0c7a3343f</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>hellen-one-common:R0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bf03350-ae97-4dad-ab2e-783ee3977d4c</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>DNP</value>
+      <footprint>hellen-one-common:R0805</footprint>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fad9d3b2-2680-49a5-a37c-068e70812097</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>DNP</value>
+      <footprint>hellen-one-common:R0805</footprint>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7769ca0-70ab-4293-9f54-745ada1ffaf8</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>DNP</value>
+      <footprint>hellen-one-common:R0805</footprint>
+      <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea318b7e-3858-47d1-a628-a4bdddb5052f</tstamps>
+    </comp>
     <comp ref="U5">
       <value>JDY-33</value>
       <footprint>kicad6-libraries:JDY-33</footprint>
@@ -1033,6 +1108,28 @@
       <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>fa6d36d6-89fc-4f6a-af0b-221e8f53b977</tstamps>
+    </comp>
+    <comp ref="P15">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="DC Driver 1"/>
+      <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
+      <tstamps>9faec45c-6d01-4dd8-b73d-cd669a0f016d</tstamps>
+    </comp>
+    <comp ref="P17">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="DC Driver 1"/>
+      <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
+      <tstamps>fb810003-c1bf-498b-9e16-7834ff8b980a</tstamps>
     </comp>
     <comp ref="R9">
       <value>4.7k</value>
@@ -1415,6 +1512,28 @@
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>fa6d36d6-89fc-4f6a-af0b-221e8f53b977</tstamps>
     </comp>
+    <comp ref="P16">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="DC Driver 2"/>
+      <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
+      <tstamps>9faec45c-6d01-4dd8-b73d-cd669a0f016d</tstamps>
+    </comp>
+    <comp ref="P18">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="DC Driver 2"/>
+      <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
+      <tstamps>fb810003-c1bf-498b-9e16-7834ff8b980a</tstamps>
+    </comp>
     <comp ref="R14">
       <value>4.7k</value>
       <footprint>hellen-one-common:R0603</footprint>
@@ -1556,7 +1675,7 @@
       <tstamps>ddfaa397-150f-408f-97b0-77dcfe7f8bf2</tstamps>
     </comp>
     <comp ref="Q7">
-      <value>ISL9V3040D3S</value>
+      <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
         <field name="MyComment">DNP</field>
@@ -1572,7 +1691,7 @@
       <tstamps>5a21e231-a92c-4570-b132-2decd3096709</tstamps>
     </comp>
     <comp ref="Q8">
-      <value>ISL9V3040D3S</value>
+      <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
         <field name="MyComment">DNP</field>
@@ -1588,7 +1707,7 @@
       <tstamps>6b800909-d074-4dbe-a04b-e4cb2b67c2b1</tstamps>
     </comp>
     <comp ref="Q9">
-      <value>ISL9V3040D3S</value>
+      <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
         <field name="MyComment">DNP</field>
@@ -1604,7 +1723,7 @@
       <tstamps>007e3d0d-aa46-4fe8-b808-b02941d83161</tstamps>
     </comp>
     <comp ref="Q10">
-      <value>ISL9V3040D3S</value>
+      <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
         <field name="MyComment">DNP</field>
@@ -1620,7 +1739,7 @@
       <tstamps>75753624-419d-4d0d-b38b-3a92704c17d2</tstamps>
     </comp>
     <comp ref="Q11">
-      <value>ISL9V3040D3S</value>
+      <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
         <field name="MyComment">DNP</field>
@@ -1636,7 +1755,7 @@
       <tstamps>d93bae62-4072-470d-a6c2-cbcf56e3951b</tstamps>
     </comp>
     <comp ref="Q12">
-      <value>ISL9V3040D3S</value>
+      <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
         <field name="MyComment">DNP</field>
@@ -2723,15 +2842,15 @@
         <pin num="W2" name="VREF" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="hellen-one-mega-mcu100-0.2" part="Module{colon}mega-mcu100/0.2">
+    <libpart lib="hellen-one-mega-mcu100-0.3" part="Module{colon}mega-mcu100/0.3">
       <description>Hellen One MEGA-MCU100 Module</description>
       <footprints>
         <fp>MOD_Hellen_MEGA_MCU100_0.1</fp>
       </footprints>
       <fields>
         <field name="Reference">M100</field>
-        <field name="Value">Module:mega-mcu100/0.2</field>
-        <field name="Footprint">hellen-one-mega-mcu100-0.2:mega-mcu100</field>
+        <field name="Value">Module:mega-mcu100/0.3</field>
+        <field name="Footprint">hellen-one-mega-mcu100-0.3:mega-mcu100</field>
         <field name="PUBLISHER">qwerty-off</field>
         <field name="SUPPLIER PART NUMBER 1">*</field>
         <field name="SUPPLIER PART NUMBER 2">*</field>
@@ -2796,8 +2915,8 @@
         <pin num="S3" name="IN_D2_(PE13)" type="passive"/>
         <pin num="S4" name="IN_D1_(PE12)" type="passive"/>
         <pin num="S5" name="VREF2" type="passive"/>
-        <pin num="S6" name="IN_AUX4_(PA7)" type="passive"/>
-        <pin num="S7" name="IN_AUX3_(PC5)" type="passive"/>
+        <pin num="S6" name="IN_AUX4_(PC5)" type="passive"/>
+        <pin num="S7" name="IN_AUX3_(PA7)" type="passive"/>
         <pin num="S8" name="IN_AUX2_(PC4/PE9)" type="passive"/>
         <pin num="S9" name="IN_AUX1_(PB0)" type="passive"/>
         <pin num="S10" name="IN_O2S2_(PA1)" type="passive"/>
@@ -2940,8 +3059,8 @@
     <library logical="hellen-one-knock-0.2">
       <uri>/home/runner/work/uaefi/uaefi/hellen-one/modules/knock/0.2/knock.kicad_sym</uri>
     </library>
-    <library logical="hellen-one-mega-mcu100-0.2">
-      <uri>/home/runner/work/uaefi/uaefi/hellen-one/modules/mega-mcu100/0.2/mega-mcu100.kicad_sym</uri>
+    <library logical="hellen-one-mega-mcu100-0.3">
+      <uri>/home/runner/work/uaefi/uaefi/hellen-one/modules/mega-mcu100/0.3/mega-mcu100.kicad_sym</uri>
     </library>
     <library logical="hellen-one-power_12and5V">
       <uri>/home/runner/work/uaefi/uaefi/hellen-one/modules/power_12and5V/0.2/power_12and5V.kicad_sym</uri>
@@ -2995,6 +3114,9 @@
       <node ref="M6" pin="E1" pinfunction="V5A_SWITCHABLE" pintype="passive"/>
       <node ref="M6" pin="W2" pinfunction="V5A_SWITCHABLE" pintype="passive"/>
       <node ref="M7" pin="V1" pinfunction="V5" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="VCC" pintype="passive"/>
     </net>
     <net code="5" name="+5VP">
@@ -3074,6 +3196,7 @@
     </net>
     <net code="13" name="/DC1_DIR">
       <node ref="M6" pin="E21" pinfunction="OUT_PWM4_(PC8)" pintype="passive"/>
+      <node ref="P15" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="DIR" pintype="passive"/>
     </net>
     <net code="14" name="/DC1_DIS">
@@ -3083,10 +3206,12 @@
     </net>
     <net code="15" name="/DC1_PWM">
       <node ref="M6" pin="E20" pinfunction="OUT_PWM3_(PC7)" pintype="passive"/>
+      <node ref="P17" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="PWM" pintype="passive"/>
     </net>
     <net code="16" name="/DC2_DIR">
       <node ref="M6" pin="E9" pinfunction="SPI2_MOSI_(PB15)" pintype="passive"/>
+      <node ref="P16" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="DIR" pintype="passive"/>
     </net>
     <net code="17" name="/DC2_DIS">
@@ -3096,6 +3221,7 @@
     </net>
     <net code="18" name="/DC2_PWM">
       <node ref="M6" pin="E22" pinfunction="OUT_PWM5_(PC9)" pintype="passive"/>
+      <node ref="P18" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="PWM" pintype="passive"/>
     </net>
     <net code="19" name="/EGT+">
@@ -3192,19 +3318,25 @@
     </net>
     <net code="39" name="/IN_AUX3">
       <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
-      <node ref="M6" pin="S7" pinfunction="IN_AUX3_(PC5)" pintype="passive"/>
+      <node ref="M6" pin="S7" pinfunction="IN_AUX3_(PA7)" pintype="passive"/>
     </net>
     <net code="40" name="/IN_BUTTON1">
       <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="M6" pin="S14" pinfunction="IN_CRANK_(PB1)" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
     </net>
     <net code="41" name="/IN_BUTTON2">
       <node ref="J10" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="M6" pin="S16" pinfunction="IN_CAM_(PA6)" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
     </net>
     <net code="42" name="/IN_BUTTON3">
       <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="M6" pin="S1" pinfunction="IN_D4_(PE15)" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
     </net>
     <net code="43" name="/IN_CLT">
       <node ref="J10" pin="16" pinfunction="Pin_16" pintype="passive"/>
@@ -3269,7 +3401,7 @@
       <node ref="M1" pin="V2" pinfunction="IN_VIGN" pintype="passive"/>
     </net>
     <net code="57" name="/IN_VMAIN">
-      <node ref="M6" pin="S6" pinfunction="IN_AUX4_(PA7)" pintype="passive"/>
+      <node ref="M6" pin="S6" pinfunction="IN_AUX4_(PC5)" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
@@ -3622,6 +3754,9 @@
       <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="M6" pin="W1" pinfunction="GNDA" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
     </net>
     <net code="109" name="Net-(BT1-+)">
       <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>

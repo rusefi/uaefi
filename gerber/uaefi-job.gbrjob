@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.10-7.0.10~ubuntu22.04.1"
     },
-    "CreationDate": "2024-01-26T19:57:37+00:00"
+    "CreationDate": "2024-01-28T07:20:57+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "uaefi",
       "GUID": "75616566-692e-46b6-9963-61645f706362",
-      "Revision": "rev?"
+      "Revision": "B"
     },
     "Size": {
       "X": 100.1,
@@ -27,7 +27,7 @@
       "PadToPad": 0.15,
       "PadToTrack": 0.15,
       "TrackToTrack": 0.15,
-      "MinLineWidth": 0.2,
+      "MinLineWidth": 0.15,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     },
