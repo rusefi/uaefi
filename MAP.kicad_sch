@@ -9,7 +9,7 @@
   )
 
   (lib_symbols
-    (symbol "MPX-4_MAP:MPX4{slash}MPXH6400_MAP" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "MPX-4_MAP:MPX4/MPXH6400_MAP" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 10.16 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -22,13 +22,13 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (symbol "MPX4{slash}MPXH6400_MAP_0_1"
+      (symbol "MPX4/MPXH6400_MAP_0_1"
         (rectangle (start -2.54 7.62) (end 10.16 -7.62)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "MPX4{slash}MPXH6400_MAP_1_1"
+      (symbol "MPX4/MPXH6400_MAP_1_1"
         (pin passive line (at -8.89 6.35 0) (length 6.35)
           (name "VOUT" (effects (font (size 1.524 1.524))))
           (number "1" (effects (font (size 1.524 1.524))))
@@ -369,7 +369,7 @@
     )
   )
 
-  (symbol (lib_id "MPX-4_MAP:MPX4{slash}MPXH6400_MAP") (at 146.05 90.17 0) (mirror y) (unit 1)
+  (symbol (lib_id "MPX-4_MAP:MPX4/MPXH6400_MAP") (at 146.05 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddfaa397-150f-408f-97b0-77dcfe7f8bf2)
     (property "Reference" "U3" (at 142.24 77.47 0)

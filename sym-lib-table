@@ -18,7 +18,7 @@
   (lib (name "semiconductors")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/semiconductors.kicad_sym")(options "")(descr ""))
   (lib (name "rusefi_2x56_pin_connector")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/rusefi_2x56_pin_connector.kicad_sym")(options "")(descr ""))
   (lib (name "hellen-one-power_12and5V")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/power_12and5V/0.2/power_12and5V.kicad_sym")(options "")(descr ""))
-  (lib (name "hellen-one-mega-mcu100-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mega-mcu100/0.2/mega-mcu100.kicad_sym")(options "")(descr ""))
+  (lib (name "hellen-one-mega-mcu100-0.3")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mega-mcu100/0.3/mega-mcu100.kicad_sym")(options "")(descr ""))
   (lib (name "rusefi_logo")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/rusefi_logo.kicad_sym")(options "")(descr ""))
   (lib (name "Off_Road_Disclaimer")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/Off_Road_Disclaimer.kicad_sym")(options "")(descr ""))
   (lib (name "hellen-one-vr-discrete-0.4")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-discrete/0.4/vr-discrete.kicad_sym")(options "")(descr "Hellen-One VR discrete Module"))
