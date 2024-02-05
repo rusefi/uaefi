@@ -1281,7 +1281,7 @@
   (symbol (lib_id "hellen-one-common:Pad") (at 220.98 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9faec45c-6d01-4dd8-b73d-cd669a0f016d)
-    (property "Reference" "P3" (at 222.25 107.95 0)
+    (property "Reference" "P15" (at 222.25 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Pad" (at 220.98 110.49 0)
@@ -1296,9 +1296,6 @@
     (pin "1" (uuid cc503013-efb8-4b13-acb9-52f23068b090))
     (instances
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "P3") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/0c617583-4e3e-4059-8607-2ed650d520f4"
           (reference "P15") (unit 1)
         )
@@ -1610,7 +1607,7 @@
   (symbol (lib_id "hellen-one-common:Pad") (at 220.98 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb810003-c1bf-498b-9e16-7834ff8b980a)
-    (property "Reference" "P3" (at 222.25 105.41 0)
+    (property "Reference" "P17" (at 222.25 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Pad" (at 220.98 107.95 0)
@@ -1625,9 +1622,6 @@
     (pin "1" (uuid 0e626a57-6d1c-4901-8d24-a132761fec62))
     (instances
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "P3") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/0c617583-4e3e-4059-8607-2ed650d520f4"
           (reference "P17") (unit 1)
         )

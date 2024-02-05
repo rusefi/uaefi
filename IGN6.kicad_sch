@@ -12,6 +12,63 @@
   )
 
   (lib_symbols
+    (symbol "Device:Polyfuse" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "F" (at -2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Polyfuse" (at 2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 1.27 -5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resettable fuse, polymeric positive temperature coefficient" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "*polyfuse* *PTC*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Polyfuse_0_1"
+        (rectangle (start -0.762 2.54) (end 0.762 -2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 2.54)
+            (xy -1.524 1.524)
+            (xy 1.524 -1.524)
+            (xy 1.524 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Polyfuse_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:Q_NIGBT_GCE" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -282,14 +339,6 @@
     (stroke (width 0) (type default))
     (uuid 3a00cf48-4ed2-40c0-b5f8-612f38dd48be)
   )
-  (wire (pts (xy 182.88 97.79) (xy 185.42 97.79))
-    (stroke (width 0) (type default))
-    (uuid 3a4aa6e4-3f8d-4531-b728-0ef48bc3d27a)
-  )
-  (wire (pts (xy 135.89 69.85) (xy 138.43 69.85))
-    (stroke (width 0) (type default))
-    (uuid 3caecb78-12e2-46c4-839a-d6096fce3678)
-  )
   (wire (pts (xy 165.1 64.77) (xy 172.72 64.77))
     (stroke (width 0) (type default))
     (uuid 3d143fcf-6d76-4451-8763-1243e727606a)
@@ -322,10 +371,6 @@
     (stroke (width 0) (type default))
     (uuid 6d6b05b1-f47d-4050-8766-b786fc8cb9e9)
   )
-  (wire (pts (xy 182.88 125.73) (xy 185.42 125.73))
-    (stroke (width 0) (type default))
-    (uuid 6e06db24-e10a-4bef-abc0-7d3a824280cf)
-  )
   (wire (pts (xy 182.88 92.71) (xy 182.88 97.79))
     (stroke (width 0) (type default))
     (uuid 75100292-398a-4df3-b139-d568660384eb)
@@ -333,14 +378,6 @@
   (wire (pts (xy 182.88 120.65) (xy 182.88 125.73))
     (stroke (width 0) (type default))
     (uuid abc784c2-8804-4c89-964e-9b9c2ab97d63)
-  )
-  (wire (pts (xy 135.89 97.79) (xy 138.43 97.79))
-    (stroke (width 0) (type default))
-    (uuid af4bf1b3-c917-4a8f-a360-c21569baea97)
-  )
-  (wire (pts (xy 135.89 125.73) (xy 138.43 125.73))
-    (stroke (width 0) (type default))
-    (uuid b3019217-8bd7-48a3-b4e7-2c7e6a17d5b5)
   )
   (wire (pts (xy 118.11 130.81) (xy 118.11 135.89))
     (stroke (width 0) (type default))
@@ -354,10 +391,6 @@
     (stroke (width 0) (type default))
     (uuid dd8c3125-7854-456b-8d71-67c2c4e53bcc)
   )
-  (wire (pts (xy 182.88 69.85) (xy 185.42 69.85))
-    (stroke (width 0) (type default))
-    (uuid f258155b-59b6-460b-a6b9-79b32d97c7ad)
-  )
   (wire (pts (xy 135.89 64.77) (xy 135.89 69.85))
     (stroke (width 0) (type default))
     (uuid f72acfa4-d7bb-4339-a51e-63e5b7a5da37)
@@ -369,7 +402,7 @@
     (uuid 94f1ae4f-7f0e-4242-92e7-cc42eec85819)
   )
 
-  (hierarchical_label "IN5" (shape input) (at 185.42 97.79 0) (fields_autoplaced)
+  (hierarchical_label "IN5" (shape input) (at 190.5 97.79 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 160bc99e-f908-4dcb-becd-865f5bcbc482)
   )
@@ -381,11 +414,11 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4a4e953c-4f6c-40b7-8220-85f3aedbc5e9)
   )
-  (hierarchical_label "IN2" (shape input) (at 138.43 97.79 0) (fields_autoplaced)
+  (hierarchical_label "IN2" (shape input) (at 143.51 97.79 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 543149c3-2e93-4084-a771-2b3d5cb83826)
   )
-  (hierarchical_label "IN6" (shape input) (at 185.42 125.73 0) (fields_autoplaced)
+  (hierarchical_label "IN6" (shape input) (at 190.5 125.73 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 658a6c56-b61f-46d9-88be-288c826b8ac3)
   )
@@ -401,11 +434,11 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 925ba267-6288-40ef-9266-98915f60e417)
   )
-  (hierarchical_label "IN3" (shape input) (at 138.43 125.73 0) (fields_autoplaced)
+  (hierarchical_label "IN3" (shape input) (at 143.51 125.73 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 94b9e1c7-e614-4b03-a442-7767647b1fc1)
   )
-  (hierarchical_label "IN1" (shape input) (at 138.43 69.85 0) (fields_autoplaced)
+  (hierarchical_label "IN1" (shape input) (at 143.51 69.85 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d38144a4-fbf5-4f59-a486-a1e0b900a2d1)
   )
@@ -413,7 +446,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d6003afb-95af-4633-b8ee-68fa33a9e86b)
   )
-  (hierarchical_label "IN4" (shape input) (at 185.42 69.85 0) (fields_autoplaced)
+  (hierarchical_label "IN4" (shape input) (at 190.5 69.85 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid db7dbaec-b01c-462d-b8d7-3ab29eb9e199)
   )
@@ -457,9 +490,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "Q1") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "Q9") (unit 1)
         )
@@ -501,6 +531,35 @@
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "R27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Polyfuse") (at 186.69 125.73 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 02e392c0-f907-4220-80f8-b5f2c7dbb6e6)
+    (property "Reference" "F10" (at 186.69 123.19 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "50mA" (at 186.69 128.27 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 191.77 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "~" (at 186.69 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C369141" (at 186.69 125.73 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a084700d-d248-46cd-bf8f-1705319db551))
+    (pin "2" (uuid d8b63c92-acc8-4d0f-bb7d-8046ad64516d))
+    (instances
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+          (reference "F10") (unit 1)
         )
       )
     )
@@ -673,9 +732,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "#PWR0101") (unit 1)
         )
@@ -722,6 +778,35 @@
     )
   )
 
+  (symbol (lib_id "Device:Polyfuse") (at 186.69 97.79 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 539da5c1-e20c-4d0b-9eb0-ee7a9ad6ec64)
+    (property "Reference" "F9" (at 186.69 95.25 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "50mA" (at 186.69 100.33 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 191.77 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "~" (at 186.69 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C369141" (at 186.69 97.79 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e7b7f04c-28ca-4f55-8623-9afb1ddfe216))
+    (pin "2" (uuid daa01cff-7d06-40f2-8f94-4e31d97a2bed))
+    (instances
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+          (reference "F9") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:Q_NIGBT_GCE") (at 120.65 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a21e231-a92c-4570-b132-2decd3096709)
@@ -761,9 +846,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "Q1") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "Q7") (unit 1)
         )
@@ -807,9 +889,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "#PWR0104") (unit 1)
         )
@@ -895,9 +974,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "Q1") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "Q8") (unit 1)
         )
@@ -941,9 +1017,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "#PWR099") (unit 1)
         )
@@ -951,6 +1024,35 @@
       (project "ign_quad"
         (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
           (reference "#PWR?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Polyfuse") (at 139.7 69.85 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 74582e7f-aae7-4bd5-8922-bd4012b3feb1)
+    (property "Reference" "F6" (at 139.7 67.31 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "50mA" (at 139.7 72.39 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 144.78 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C369141" (at 139.7 69.85 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid eb105802-6d4a-412e-b934-6ab57ebf29f4))
+    (pin "2" (uuid 58775a3c-73e6-477d-b90b-db13ceaeec10))
+    (instances
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+          (reference "F6") (unit 1)
         )
       )
     )
@@ -995,9 +1097,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "Q1") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "Q10") (unit 1)
         )
@@ -1044,6 +1143,35 @@
     )
   )
 
+  (symbol (lib_id "Device:Polyfuse") (at 139.7 97.79 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8f419c94-9c21-46bc-a9d6-d31ff121b1fe)
+    (property "Reference" "F5" (at 139.7 95.25 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "50mA" (at 139.7 100.33 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 144.78 96.52 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C369141" (at 139.7 97.79 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a2e05eb9-4555-4cb9-830b-766402befc6d))
+    (pin "2" (uuid 31647673-1137-4b73-92f9-37c1f91ae521))
+    (instances
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+          (reference "F5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:Q_NIGBT_GCE") (at 167.64 125.73 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a952d20c-a9f6-4ed1-9ed0-50db5783e8d7)
@@ -1083,9 +1211,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "Q1") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "Q12") (unit 1)
         )
@@ -1163,9 +1288,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "#PWR0102") (unit 1)
         )
@@ -1277,9 +1399,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "#PWR0103") (unit 1)
         )
@@ -1323,9 +1442,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR019") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "#PWR0100") (unit 1)
         )
@@ -1411,9 +1527,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "Q1") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
           (reference "Q11") (unit 1)
         )
@@ -1421,6 +1534,64 @@
       (project "ign_quad"
         (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
           (reference "Q?") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Polyfuse") (at 186.69 69.85 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e394cc70-d8a7-4040-a9fe-6c15b0bbe8b0)
+    (property "Reference" "F8" (at 186.69 67.31 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "50mA" (at 186.69 72.39 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 191.77 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "~" (at 186.69 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C369141" (at 186.69 69.85 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 473283e7-201a-4c31-b922-feaf0738a777))
+    (pin "2" (uuid 306fdd3a-d6ac-45b1-947a-1219436b4526))
+    (instances
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+          (reference "F8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:Polyfuse") (at 139.7 125.73 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fd4d96da-ebf7-471c-a7b1-6d6c11aa07ad)
+    (property "Reference" "F7" (at 139.7 123.19 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "50mA" (at 139.7 128.27 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 144.78 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "~" (at 139.7 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C369141" (at 139.7 125.73 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f2fdee93-4d04-4048-b506-6142e7beb1a5))
+    (pin "2" (uuid 80cc267a-0b35-4f5f-aeda-c15ea03d52a7))
+    (instances
+      (project "uaefi"
+        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+          (reference "F7") (unit 1)
         )
       )
     )

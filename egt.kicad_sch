@@ -557,12 +557,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/0c617583-4e3e-4059-8607-2ed650d520f4"
-          (reference "C11") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/b2716558-3a44-4e63-a5d7-5409c167071f"
-          (reference "C24") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/ced20183-e5c8-42b4-80bd-35fc70d9313a"
           (reference "C28") (unit 1)
         )
@@ -637,12 +631,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/0c617583-4e3e-4059-8607-2ed650d520f4"
-          (reference "C11") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/b2716558-3a44-4e63-a5d7-5409c167071f"
-          (reference "C24") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/ced20183-e5c8-42b4-80bd-35fc70d9313a"
           (reference "C32") (unit 1)
         )
@@ -680,12 +668,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/0c617583-4e3e-4059-8607-2ed650d520f4"
-          (reference "C11") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/b2716558-3a44-4e63-a5d7-5409c167071f"
-          (reference "C24") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/ced20183-e5c8-42b4-80bd-35fc70d9313a"
           (reference "C30") (unit 1)
         )
@@ -756,12 +738,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/0c617583-4e3e-4059-8607-2ed650d520f4"
-          (reference "C11") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/b2716558-3a44-4e63-a5d7-5409c167071f"
-          (reference "C24") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/ced20183-e5c8-42b4-80bd-35fc70d9313a"
           (reference "C31") (unit 1)
         )
@@ -981,12 +957,6 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/0c617583-4e3e-4059-8607-2ed650d520f4"
-          (reference "C11") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/b2716558-3a44-4e63-a5d7-5409c167071f"
-          (reference "C24") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/ced20183-e5c8-42b4-80bd-35fc70d9313a"
           (reference "C29") (unit 1)
         )

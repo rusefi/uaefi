@@ -445,9 +445,6 @@
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "Q13") (unit 1)
         )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "Q12") (unit 1)
-        )
       )
     )
   )
@@ -476,9 +473,6 @@
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "Q16") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "Q16") (unit 1)
         )
       )
@@ -516,17 +510,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR018") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "#PWR0112") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "#PWR018") (unit 1)
         )
       )
       (project "ign_quad"
@@ -568,17 +553,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR018") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "#PWR0114") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "#PWR020") (unit 1)
         )
       )
       (project "ign_quad"
@@ -615,9 +591,6 @@
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "Q15") (unit 1)
         )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "Q15") (unit 1)
-        )
       )
     )
   )
@@ -652,14 +625,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "R53") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "R31") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "R38") (unit 1)
         )
       )
     )
@@ -696,17 +663,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR018") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "#PWR0111") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "#PWR017") (unit 1)
         )
       )
       (project "ign_quad"
@@ -741,9 +699,6 @@
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "Q14") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "Q14") (unit 1)
         )
       )
@@ -781,17 +736,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR018") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "#PWR0115") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "#PWR021") (unit 1)
         )
       )
       (project "ign_quad"
@@ -833,17 +779,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR018") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "#PWR0113") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "#PWR019") (unit 1)
         )
       )
       (project "ign_quad"
@@ -880,9 +817,6 @@
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "Q18") (unit 1)
         )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "Q18") (unit 1)
-        )
       )
     )
   )
@@ -917,14 +851,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "R53") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "R34") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "R41") (unit 1)
         )
       )
     )
@@ -954,9 +882,6 @@
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
-          (reference "Q17") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
           (reference "Q17") (unit 1)
         )
       )
@@ -994,17 +919,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "#PWR018") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "#PWR0116") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "#PWR024") (unit 1)
         )
       )
       (project "ign_quad"
@@ -1045,14 +961,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "R53") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "R30") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "R37") (unit 1)
         )
       )
     )
@@ -1088,14 +998,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "R53") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "R33") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "R40") (unit 1)
         )
       )
     )
@@ -1131,14 +1035,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "R53") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "R32") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "R39") (unit 1)
         )
       )
     )
@@ -1174,14 +1072,8 @@
         )
       )
       (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-          (reference "R53") (unit 1)
-        )
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
           (reference "R29") (unit 1)
-        )
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-          (reference "R36") (unit 1)
         )
       )
     )
