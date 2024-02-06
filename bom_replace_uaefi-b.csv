@@ -61,6 +61,7 @@ J10,"39301160","02x08_4.2mm","C5355564"
 #LEDs
 "D751,D771,D601,D104,D108","GREEN_LED","LED0603","C965804"
 "D602,D105,D109,D110,D111,D112,D113,D114,D115,D116","BLUE_LED","LED0603","C497940"
+"LED1, LED2, LED3, LED4","BLUE_LED","LED0402","C2844007"
 
 # same board ID as rev A for now!
 #include hellen-one/board_id/generated/board_id_uaefi-a.csv
