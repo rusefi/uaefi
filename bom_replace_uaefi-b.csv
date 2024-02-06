@@ -13,6 +13,7 @@ R142,
 
 # DC-DC Inductor
 L421,"MWSA0503S-100MT","MWSA0503","C408412"
+L420,"LBC3225T2R2MR","L1210","C223413"
 
 # fuses
 F410,"nSMD050-24V","SMD1206","C70076"
@@ -56,6 +57,10 @@ J10,"39301160","02x08_4.2mm","C5355564"
 
 # cost
 "D6, D7, D411","PSM712-LF","SOT-23","C5180294"
+
+#LEDs
+"D751,D771,D601,D104,D108","GREEN_LED","LED0603","C965804"
+"D602,D105,D109,D110,D111,D112,D113,D114,D115,D116","BLUE_LED","LED0603","C497940"
 
 # same board ID as rev A for now!
 #include hellen-one/board_id/generated/board_id_uaefi-a.csv
