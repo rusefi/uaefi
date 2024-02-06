@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>Mon Feb  5 22:43:47 2024</date>
+    <date>Tue Feb  6 17:54:17 2024</date>
     <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -40,7 +40,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/">
+    <sheet number="3" name="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/">
       <title_block>
         <title>UAEFI Low Side</title>
         <company>rusefi.com</company>
@@ -76,13 +76,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/Low Side/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/">
+    <sheet number="5" name="/LS HOT/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/">
       <title_block>
-        <title>UAEF Low Side low current</title>
+        <title>UAEF Low Side always hot</title>
         <company>rusefi.com</company>
         <rev>B</rev>
         <date>2023-11-01</date>
-        <source>LS_weak.kicad_sch</source>
+        <source>LS_HOT.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -460,13 +460,13 @@
       <tstamps>2d33a534-432c-486d-9dc7-a214bd1ec959</tstamps>
     </comp>
     <comp ref="J9">
-      <value>USB_C_Receptacle_USB2.0</value>
-      <footprint>Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11</footprint>
+      <value>USB_C</value>
+      <footprint>kicad6-libraries:USB_C</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
       <fields>
         <field name="LCSC">C2927038</field>
       </fields>
-      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <libsource lib="misc" part="USB_C" description="USB 2.0-only Type-C Receptacle connector"/>
       <property name="LCSC" value="C2927038"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
@@ -979,12 +979,13 @@
       <footprint>kicad6-libraries:JDY-33</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/2106070033_QIACHIP-WL9981TC_C2689544.pdf</datasheet>
       <fields>
+        <field name="LCSC">C9900001612</field>
         <field name="MF">HuiCheng</field>
         <field name="PARTREV">v1.0</field>
         <field name="STANDARD">Manufacturer Recommendations</field>
       </fields>
       <libsource lib="JDY-33" part="JDY-33" description=""/>
-      <property name="LCSC" value=""/>
+      <property name="LCSC" value="C9900001612"/>
       <property name="PARTREV" value="v1.0"/>
       <property name="MF" value="HuiCheng"/>
       <property name="STANDARD" value="Manufacturer Recommendations"/>
@@ -1232,9 +1233,9 @@
       </fields>
       <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
       <property name="LCSC" value="C8598"/>
-      <property name="Sheetname" value="Low Side 2A"/>
+      <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
+      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>a229b1dd-7eef-4384-9219-a9c6742afd2c</tstamps>
     </comp>
     <comp ref="D3">
@@ -1245,9 +1246,9 @@
       </fields>
       <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
       <property name="LCSC" value="C8598"/>
-      <property name="Sheetname" value="Low Side 2A"/>
+      <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
+      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>d8aac5d0-8e81-4075-a94c-5399bf076ddd</tstamps>
     </comp>
     <comp ref="D4">
@@ -1258,9 +1259,9 @@
       </fields>
       <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
       <property name="LCSC" value="C8598"/>
-      <property name="Sheetname" value="Low Side 2A"/>
+      <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
+      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>995ee271-75cf-4035-813e-88dfd0b0289f</tstamps>
     </comp>
     <comp ref="D5">
@@ -1271,74 +1272,10 @@
       </fields>
       <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
       <property name="LCSC" value="C8598"/>
-      <property name="Sheetname" value="Low Side 2A"/>
+      <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
+      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>6dc333b3-b2d9-4cbe-afc3-11364d961655</tstamps>
-    </comp>
-    <comp ref="Q1">
-      <value>ZXMS6005SGTA</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds32249.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C174042</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSP129" description="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="LCSC" value="C174042"/>
-      <property name="Sheetname" value="Low Side 2A"/>
-      <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <property name="ki_description" value="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
-      <tstamps>5aafc5d4-7675-49ea-9d71-5e7f22de3caa</tstamps>
-    </comp>
-    <comp ref="Q2">
-      <value>ZXMS6005SGTA</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds32249.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C174042</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSP129" description="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="LCSC" value="C174042"/>
-      <property name="Sheetname" value="Low Side 2A"/>
-      <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <property name="ki_description" value="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
-      <tstamps>3af410d8-cb4f-4220-852b-f1aa328cb1fe</tstamps>
-    </comp>
-    <comp ref="Q3">
-      <value>ZXMS6005SGTA</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds32249.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C174042</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSP129" description="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="LCSC" value="C174042"/>
-      <property name="Sheetname" value="Low Side 2A"/>
-      <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <property name="ki_description" value="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
-      <tstamps>05e1b87b-47a1-433e-bd8d-f437d93933f9</tstamps>
-    </comp>
-    <comp ref="Q4">
-      <value>ZXMS6005SGTA</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds32249.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C174042</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSP129" description="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="LCSC" value="C174042"/>
-      <property name="Sheetname" value="Low Side 2A"/>
-      <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <property name="ki_description" value="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
-      <tstamps>99f4db1d-13d1-4375-bec9-e4625488f895</tstamps>
     </comp>
     <comp ref="R10">
       <value>4.7k</value>
@@ -1348,10 +1285,10 @@
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
-      <property name="Sheetname" value="Low Side 2A"/>
+      <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
+      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>20067a66-836b-402a-89d1-4b65b1e4d190</tstamps>
     </comp>
     <comp ref="R11">
@@ -1362,10 +1299,10 @@
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
-      <property name="Sheetname" value="Low Side 2A"/>
+      <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
+      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>f992e9c9-4492-40b8-823b-f6fa15d06892</tstamps>
     </comp>
     <comp ref="R12">
@@ -1376,10 +1313,10 @@
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
-      <property name="Sheetname" value="Low Side 2A"/>
+      <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
+      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>2e374842-b6e3-496f-a78a-2e5dbd03287d</tstamps>
     </comp>
     <comp ref="R13">
@@ -1390,11 +1327,37 @@
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
-      <property name="Sheetname" value="Low Side 2A"/>
+      <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
-      <sheetpath names="/Low Side 2A/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
+      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>eec87eff-5471-42c8-aaa0-ff5c0793a9cf</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>VNLD5160TR-E</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C377942</field>
+      </fields>
+      <libsource lib="chips" part="VNLD5160" description=""/>
+      <property name="LCSC" value="C377942"/>
+      <property name="Sheetname" value="LS"/>
+      <property name="Sheetfile" value="LS4.kicad_sch"/>
+      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
+      <tstamps>a776ffc1-9589-4f0b-a440-e8d41acf38e5</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>VNLD5160TR-E</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C377942</field>
+      </fields>
+      <libsource lib="chips" part="VNLD5160" description=""/>
+      <property name="LCSC" value="C377942"/>
+      <property name="Sheetname" value="LS"/>
+      <property name="Sheetfile" value="LS4.kicad_sch"/>
+      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
+      <tstamps>54b47e04-0442-472d-9811-0033f41bf6e0</tstamps>
     </comp>
     <comp ref="C14">
       <value>10u</value>
@@ -1627,68 +1590,6 @@
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>8a70b5fe-d1f1-4c0a-a49b-2c68c8198cb5</tstamps>
     </comp>
-    <comp ref="D6">
-      <value>PSM712-LF</value>
-      <footprint>hellen-one-common:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811061632_ProTek-Devices-PSM712-LF-T7_C32677.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C32677</field>
-      </fields>
-      <libsource lib="hellen-one-common" part="PSM712" description="19V 13.3V 12V Bi-Directional SOT-23(SOT-23-3) TVS"/>
-      <property name="LCSC" value="C32677"/>
-      <property name="Sheetname" value="Low Side"/>
-      <property name="Sheetfile" value="LS_weak.kicad_sch"/>
-      <property name="ki_description" value="19V 13.3V 12V Bi-Directional SOT-23(SOT-23-3) TVS"/>
-      <property name="ki_keywords" value="TVS"/>
-      <sheetpath names="/Low Side/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
-      <tstamps>e6a1aab1-c60e-45eb-82ae-01f07fbb7341</tstamps>
-    </comp>
-    <comp ref="D7">
-      <value>PSM712-LF</value>
-      <footprint>hellen-one-common:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811061632_ProTek-Devices-PSM712-LF-T7_C32677.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C32677</field>
-      </fields>
-      <libsource lib="hellen-one-common" part="PSM712" description="19V 13.3V 12V Bi-Directional SOT-23(SOT-23-3) TVS"/>
-      <property name="LCSC" value="C32677"/>
-      <property name="Sheetname" value="Low Side"/>
-      <property name="Sheetfile" value="LS_weak.kicad_sch"/>
-      <property name="ki_description" value="19V 13.3V 12V Bi-Directional SOT-23(SOT-23-3) TVS"/>
-      <property name="ki_keywords" value="TVS"/>
-      <sheetpath names="/Low Side/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
-      <tstamps>24d53538-c1f6-4a3d-9366-7befcec8388a</tstamps>
-    </comp>
-    <comp ref="Q5">
-      <value>AO3400A</value>
-      <footprint>hellen-one-common:SOT-23</footprint>
-      <fields>
-        <field name="LCSC"> C20917</field>
-      </fields>
-      <libsource lib="hellen-one-common" part="MOSFET-N" description="Generic N-Channel Power MOSFET"/>
-      <property name="LCSC" value=" C20917"/>
-      <property name="Sheetname" value="Low Side"/>
-      <property name="Sheetfile" value="LS_weak.kicad_sch"/>
-      <property name="ki_description" value="Generic N-Channel Power MOSFET"/>
-      <property name="ki_keywords" value="N-Channel Power MOSFET OMNIFET"/>
-      <sheetpath names="/Low Side/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
-      <tstamps>77265246-241c-42e3-9cba-24403a785065</tstamps>
-    </comp>
-    <comp ref="Q6">
-      <value>AO3400A</value>
-      <footprint>hellen-one-common:SOT-23</footprint>
-      <fields>
-        <field name="LCSC"> C20917</field>
-      </fields>
-      <libsource lib="hellen-one-common" part="MOSFET-N" description="Generic N-Channel Power MOSFET"/>
-      <property name="LCSC" value=" C20917"/>
-      <property name="Sheetname" value="Low Side"/>
-      <property name="Sheetfile" value="LS_weak.kicad_sch"/>
-      <property name="ki_description" value="Generic N-Channel Power MOSFET"/>
-      <property name="ki_keywords" value="N-Channel Power MOSFET OMNIFET"/>
-      <sheetpath names="/Low Side/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
-      <tstamps>7ec957a8-f7a8-47ee-947c-280f8562adc4</tstamps>
-    </comp>
     <comp ref="R15">
       <value>4.7k</value>
       <footprint>hellen-one-common:R0603</footprint>
@@ -1697,10 +1598,10 @@
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
-      <property name="Sheetname" value="Low Side"/>
-      <property name="Sheetfile" value="LS_weak.kicad_sch"/>
+      <property name="Sheetname" value="LS HOT"/>
+      <property name="Sheetfile" value="LS_HOT.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
-      <sheetpath names="/Low Side/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
+      <sheetpath names="/LS HOT/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
       <tstamps>94472053-6dde-4e9a-9a4a-1dcfa880e1a8</tstamps>
     </comp>
     <comp ref="R16">
@@ -1711,11 +1612,24 @@
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
-      <property name="Sheetname" value="Low Side"/>
-      <property name="Sheetfile" value="LS_weak.kicad_sch"/>
+      <property name="Sheetname" value="LS HOT"/>
+      <property name="Sheetfile" value="LS_HOT.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
-      <sheetpath names="/Low Side/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
+      <sheetpath names="/LS HOT/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
       <tstamps>a284569b-b861-48e2-88ac-fb31172ac17f</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>VNLD5160TR-E</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C377942</field>
+      </fields>
+      <libsource lib="chips" part="VNLD5160" description=""/>
+      <property name="LCSC" value="C377942"/>
+      <property name="Sheetname" value="LS HOT"/>
+      <property name="Sheetfile" value="LS_HOT.kicad_sch"/>
+      <sheetpath names="/LS HOT/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
+      <tstamps>4be98d8b-8e41-425e-b67f-7cdd0edf380d</tstamps>
     </comp>
     <comp ref="C27">
       <value>100n</value>
@@ -2235,102 +2149,6 @@
       <sheetpath names="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/"/>
       <tstamps>04a7e2ba-939e-46ce-8acf-be15c18c0aff</tstamps>
     </comp>
-    <comp ref="Q13">
-      <value>ZXMS6005SGTA</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds32249.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C174042</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSP129" description="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="LCSC" value="C174042"/>
-      <property name="Sheetname" value="Injector"/>
-      <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
-      <tstamps>14641c2d-5a9a-464d-9905-31eb9e5aefb7</tstamps>
-    </comp>
-    <comp ref="Q14">
-      <value>ZXMS6005SGTA</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds32249.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C174042</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSP129" description="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="LCSC" value="C174042"/>
-      <property name="Sheetname" value="Injector"/>
-      <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
-      <tstamps>6a299e70-9378-4e07-995d-8569566b13eb</tstamps>
-    </comp>
-    <comp ref="Q15">
-      <value>ZXMS6005SGTA</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds32249.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C174042</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSP129" description="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="LCSC" value="C174042"/>
-      <property name="Sheetname" value="Injector"/>
-      <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
-      <tstamps>4c1aa53a-61f9-4559-bf03-5cdaa86b8308</tstamps>
-    </comp>
-    <comp ref="Q16">
-      <value>ZXMS6005SGTA</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds32249.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C174042</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSP129" description="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="LCSC" value="C174042"/>
-      <property name="Sheetname" value="Injector"/>
-      <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
-      <tstamps>368d9ff1-c512-4558-87bf-07a92e11625e</tstamps>
-    </comp>
-    <comp ref="Q17">
-      <value>ZXMS6005SGTA</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds32249.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C174042</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSP129" description="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="LCSC" value="C174042"/>
-      <property name="Sheetname" value="Injector"/>
-      <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
-      <tstamps>b9139a14-5fac-4224-b2fb-0e4470021d5c</tstamps>
-    </comp>
-    <comp ref="Q18">
-      <value>ZXMS6005SGTA</value>
-      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/ds32249.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C174042</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSP129" description="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="LCSC" value="C174042"/>
-      <property name="Sheetname" value="Injector"/>
-      <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
-      <tstamps>9d652c9d-be01-42a9-9e9f-3a20b480b201</tstamps>
-    </comp>
     <comp ref="R29">
       <value>4.7k</value>
       <footprint>hellen-one-common:R0603</footprint>
@@ -2415,6 +2233,45 @@
       <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
       <tstamps>b8d7625b-ab7d-42ef-ac67-f281327e1e91</tstamps>
     </comp>
+    <comp ref="U9">
+      <value>VNLD5160TR-E</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C377942</field>
+      </fields>
+      <libsource lib="chips" part="VNLD5160" description=""/>
+      <property name="LCSC" value="C377942"/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
+      <tstamps>57264c8c-ea68-43f2-b549-946e46c432ad</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>VNLD5160TR-E</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C377942</field>
+      </fields>
+      <libsource lib="chips" part="VNLD5160" description=""/>
+      <property name="LCSC" value="C377942"/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
+      <tstamps>7692aee6-7889-467d-b30e-1eef65696b24</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>VNLD5160TR-E</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C377942</field>
+      </fields>
+      <libsource lib="chips" part="VNLD5160" description=""/>
+      <property name="LCSC" value="C377942"/>
+      <property name="Sheetname" value="Injector"/>
+      <property name="Sheetfile" value="INJ6.kicad_sch"/>
+      <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
+      <tstamps>c20b277e-1af9-499e-ae63-20dac3bdd699</tstamps>
+    </comp>
   </components>
   <libparts>
     <libpart lib="" part="MAX31855KASA_1">
@@ -2456,37 +2313,6 @@
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
-      <description>USB 2.0-only Type-C Receptacle connector</description>
-      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
-      <footprints>
-        <fp>USB*C*Receptacle*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_C_Receptacle_USB2.0</field>
-        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
-      </fields>
-      <pins>
-        <pin num="A1" name="GND" type="passive"/>
-        <pin num="A4" name="VBUS" type="passive"/>
-        <pin num="A5" name="CC1" type="bidirectional"/>
-        <pin num="A6" name="D+" type="bidirectional"/>
-        <pin num="A7" name="D-" type="bidirectional"/>
-        <pin num="A8" name="SBU1" type="bidirectional"/>
-        <pin num="A9" name="VBUS" type="passive"/>
-        <pin num="A12" name="GND" type="passive"/>
-        <pin num="B1" name="GND" type="passive"/>
-        <pin num="B4" name="VBUS" type="passive"/>
-        <pin num="B5" name="CC2" type="bidirectional"/>
-        <pin num="B6" name="D+" type="bidirectional"/>
-        <pin num="B7" name="D-" type="bidirectional"/>
-        <pin num="B8" name="SBU2" type="bidirectional"/>
-        <pin num="B9" name="VBUS" type="passive"/>
-        <pin num="B12" name="GND" type="passive"/>
-        <pin num="S1" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x06">
@@ -2736,6 +2562,7 @@
         <field name="PARTREV">v1.0</field>
         <field name="MF">HuiCheng</field>
         <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="LCSC">C9900001612</field>
       </fields>
       <pins>
         <pin num="1" name="TXD" type="output"/>
@@ -2794,24 +2621,6 @@
         <pin num="3" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_FET" part="BSP129">
-      <description>0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223</description>
-      <docs>https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f</docs>
-      <footprints>
-        <fp>SOT?223*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">BSP129</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
-        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="D" type="passive"/>
-        <pin num="3" name="S" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="chips" part="TLE9201SG">
       <fields>
         <field name="Reference">U</field>
@@ -2833,6 +2642,24 @@
         <pin num="11" name="DIS" type="passive"/>
         <pin num="12" name="PWM" type="passive"/>
         <pin num="13" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="chips" part="VNLD5160">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VNLD5160TR-E</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="LCSC">C377942</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="input"/>
+        <pin num="2" name="STATUS1" type="open_collector"/>
+        <pin num="3" name="IN2" type="input"/>
+        <pin num="4" name="STATUS2" type="open_collector"/>
+        <pin num="5" name="S2" type="power_in"/>
+        <pin num="6" name="D2" type="power_out"/>
+        <pin num="7" name="S1" type="power_in"/>
+        <pin num="8" name="D1" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="hellen-one-can-0.1" part="Module-can-0.1">
@@ -2908,23 +2735,6 @@
         <field name="Footprint">hellen-one-common:LOGO</field>
       </fields>
     </libpart>
-    <libpart lib="hellen-one-common" part="MOSFET-N">
-      <description>Generic N-Channel Power MOSFET</description>
-      <footprints>
-        <fp>TO?220*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">MOSFET-N</field>
-        <field name="Footprint">hellen-one-common:SOT-23</field>
-        <field name="LCSC"> C20917</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="D" type="passive"/>
-        <pin num="3" name="S" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="hellen-one-common" part="PROTO_AREA">
       <fields>
         <field name="Reference">G</field>
@@ -2947,25 +2757,6 @@
         <pin num="13" name="" type="passive"/>
         <pin num="14" name="" type="passive"/>
         <pin num="15" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="hellen-one-common" part="PSM712">
-      <description>19V 13.3V 12V Bi-Directional SOT-23(SOT-23-3) TVS</description>
-      <docs>https://datasheet.lcsc.com/lcsc/1811061632_ProTek-Devices-PSM712-LF-T7_C32677.pdf</docs>
-      <footprints>
-        <fp>SOT?223*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D?</field>
-        <field name="Value">PSM712</field>
-        <field name="Footprint">hellen-one-common:SOT-23</field>
-        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/1811061632_ProTek-Devices-PSM712-LF-T7_C32677.pdf</field>
-        <field name="LCSC">C32677</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-        <pin num="3" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="hellen-one-common" part="Pad">
@@ -3207,6 +2998,37 @@
         <pin num="W9" name="VDDA" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="misc" part="USB_C">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C</field>
+        <field name="Footprint">kicad6-libraries:USB_C</field>
+        <field name="LCSC">C2927038</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="rusefi_logo" part="RUSEFI_LOGO">
       <fields>
         <field name="Reference">G</field>
@@ -3261,6 +3083,9 @@
     </library>
     <library logical="hellen-one-wbo-0.5">
       <uri>/home/runner/work/uaefi/uaefi/hellen-one/modules/wbo/0.5/wbo.kicad_sym</uri>
+    </library>
+    <library logical="misc">
+      <uri>/home/runner/work/uaefi/uaefi/kicad6-libraries/misc.kicad_sym</uri>
     </library>
     <library logical="rusefi_logo">
       <uri>/home/runner/work/uaefi/uaefi/kicad6-libraries/rusefi_logo.kicad_sym</uri>
@@ -3472,33 +3297,33 @@
     </net>
     <net code="31" name="/INJ1">
       <node ref="M6" pin="E17" pinfunction="OUT_INJ1_(PD3)" pintype="passive"/>
-      <node ref="Q13" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="IN1" pintype="input"/>
     </net>
     <net code="32" name="/INJ2">
       <node ref="M6" pin="E16" pinfunction="OUT_INJ2_(PA9)" pintype="passive"/>
-      <node ref="Q14" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="IN2" pintype="input"/>
     </net>
     <net code="33" name="/INJ3">
       <node ref="M6" pin="E15" pinfunction="OUT_INJ3_(PD11)" pintype="passive"/>
-      <node ref="Q15" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="IN1" pintype="input"/>
     </net>
     <net code="34" name="/INJ4">
       <node ref="M6" pin="E14" pinfunction="OUT_INJ4_(PD10)" pintype="passive"/>
-      <node ref="Q16" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="IN2" pintype="input"/>
     </net>
     <net code="35" name="/INJ5">
       <node ref="M6" pin="E13" pinfunction="OUT_INJ5_(PD2)" pintype="passive"/>
-      <node ref="Q17" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U11" pin="1" pinfunction="IN1" pintype="input"/>
     </net>
     <net code="36" name="/INJ6">
       <node ref="M6" pin="E12" pinfunction="OUT_INJ6_(PA8)" pintype="passive"/>
-      <node ref="Q18" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="IN2" pintype="input"/>
     </net>
     <net code="37" name="/INTERNAL_MAP">
       <node ref="M6" pin="S12" pinfunction="IN_MAP2_(PC1)" pintype="passive"/>
@@ -3614,33 +3439,33 @@
     </net>
     <net code="59" name="/LS1">
       <node ref="M6" pin="E11" pinfunction="OUT_INJ7_(PD15)" pintype="passive"/>
-      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="IN1" pintype="input"/>
     </net>
     <net code="60" name="/LS2">
       <node ref="M6" pin="E10" pinfunction="OUT_INJ8_(PD12)" pintype="passive"/>
-      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="IN2" pintype="input"/>
     </net>
     <net code="61" name="/LS3">
       <node ref="M6" pin="E18" pinfunction="OUT_PWM1_(PD13)" pintype="passive"/>
-      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="IN1" pintype="input"/>
     </net>
     <net code="62" name="/LS4">
       <node ref="M6" pin="E19" pinfunction="OUT_PWM2_(PC6)" pintype="passive"/>
-      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="IN2" pintype="input"/>
     </net>
-    <net code="63" name="/LS_WEAK1">
+    <net code="63" name="/LS_HOT1">
       <node ref="M6" pin="W4" pinfunction="IGN7_(PB9)" pintype="passive"/>
-      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R15" pin="1" pintype="passive"/>
-    </net>
-    <net code="64" name="/LS_WEAK2">
-      <node ref="M6" pin="W3" pinfunction="IGN8_(PE6)" pintype="passive"/>
-      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="IN2" pintype="input"/>
+    </net>
+    <net code="64" name="/LS_HOT2">
+      <node ref="M6" pin="W3" pinfunction="IGN8_(PE6)" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="IN1" pintype="input"/>
     </net>
     <net code="65" name="/OUT_DC1+">
       <node ref="C13" pin="2" pintype="passive"/>
@@ -3700,67 +3525,65 @@
     <net code="75" name="/OUT_INJ1">
       <node ref="J19" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="Q13" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U9" pin="8" pinfunction="D1" pintype="power_out"/>
     </net>
     <net code="76" name="/OUT_INJ2">
       <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="Q14" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="D2" pintype="power_out"/>
     </net>
     <net code="77" name="/OUT_INJ3">
       <node ref="J20" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="Q15" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U10" pin="8" pinfunction="D1" pintype="power_out"/>
     </net>
     <net code="78" name="/OUT_INJ4">
       <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="Q16" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="D2" pintype="power_out"/>
     </net>
     <net code="79" name="/OUT_INJ5">
       <node ref="J21" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="Q17" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U11" pin="8" pinfunction="D1" pintype="power_out"/>
     </net>
     <net code="80" name="/OUT_INJ6">
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="Q18" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="D2" pintype="power_out"/>
     </net>
     <net code="81" name="/OUT_LS1">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="D1" pintype="power_out"/>
     </net>
     <net code="82" name="/OUT_LS2">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J5" pin="18" pinfunction="Pin_18" pintype="passive"/>
-      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="D2" pintype="power_out"/>
     </net>
     <net code="83" name="/OUT_LS3">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J18" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J5" pin="17" pinfunction="Pin_17" pintype="passive"/>
-      <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U8" pin="8" pinfunction="D1" pintype="power_out"/>
     </net>
     <net code="84" name="/OUT_LS4">
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J5" pin="16" pinfunction="Pin_16" pintype="passive"/>
-      <node ref="Q4" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="D2" pintype="power_out"/>
     </net>
-    <net code="85" name="/OUT_LS_WEAK1">
-      <node ref="D6" pin="1" pintype="passive"/>
+    <net code="85" name="/OUT_LS_HOT1">
       <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="D2" pintype="power_out"/>
     </net>
-    <net code="86" name="/OUT_LS_WEAK2">
-      <node ref="D7" pin="1" pintype="passive"/>
+    <net code="86" name="/OUT_LS_HOT2">
       <node ref="J18" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="Q6" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="D1" pintype="power_out"/>
     </net>
     <net code="87" name="/PG_5VP">
       <node ref="M6" pin="N12" pinfunction="SPI3_MOSI_(PC12)" pintype="passive"/>
@@ -3899,8 +3722,6 @@
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="D6" pin="2" pintype="passive"/>
-      <node ref="D7" pin="2" pintype="passive"/>
       <node ref="D8" pin="3" pinfunction="A" pintype="passive"/>
       <node ref="G3" pin="1" pintype="passive"/>
       <node ref="G3" pin="11" pintype="passive"/>
@@ -3932,21 +3753,9 @@
       <node ref="M5" pin="G" pinfunction="GND" pintype="passive"/>
       <node ref="M6" pin="G" pinfunction="GND" pintype="passive"/>
       <node ref="M7" pin="E1" pinfunction="GND" pintype="passive"/>
-      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="Q10" pin="3" pinfunction="E" pintype="passive"/>
       <node ref="Q11" pin="3" pinfunction="E" pintype="passive"/>
       <node ref="Q12" pin="3" pinfunction="E" pintype="passive"/>
-      <node ref="Q13" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q14" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q15" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q16" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q17" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q18" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="Q7" pin="3" pinfunction="E" pintype="passive"/>
       <node ref="Q8" pin="3" pinfunction="E" pintype="passive"/>
       <node ref="Q9" pin="3" pinfunction="E" pintype="passive"/>
@@ -3970,6 +3779,10 @@
       <node ref="U1" pin="6" pinfunction="GND" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="SI" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="CSN" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="S2" pintype="power_in"/>
+      <node ref="U10" pin="7" pinfunction="S1" pintype="power_in"/>
+      <node ref="U11" pin="5" pinfunction="S2" pintype="power_in"/>
+      <node ref="U11" pin="7" pinfunction="S1" pintype="power_in"/>
       <node ref="U2" pin="10" pinfunction="SCK" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="GND" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="GND" pintype="passive"/>
@@ -3978,6 +3791,14 @@
       <node ref="U3" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U5" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="S2" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="S1" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="S2" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="S1" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="S2" pintype="power_in"/>
+      <node ref="U8" pin="7" pinfunction="S1" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="S2" pintype="power_in"/>
+      <node ref="U9" pin="7" pinfunction="S1" pintype="power_in"/>
     </net>
     <net code="109" name="GNDA">
       <node ref="J10" pin="11" pinfunction="Pin_11" pintype="passive"/>
@@ -4158,116 +3979,146 @@
       <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="T-" pintype="passive"/>
     </net>
-    <net code="146" name="unconnected-(D6-Pad3)">
-      <node ref="D6" pin="3" pintype="passive+no_connect"/>
-    </net>
-    <net code="147" name="unconnected-(D7-Pad3)">
-      <node ref="D7" pin="3" pintype="passive+no_connect"/>
-    </net>
-    <net code="148" name="unconnected-(J6-Pin_6-Pad6)">
+    <net code="146" name="unconnected-(J6-Pin_6-Pad6)">
       <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
     </net>
-    <net code="149" name="unconnected-(J8-ID-Pad4)">
+    <net code="147" name="unconnected-(J8-ID-Pad4)">
       <node ref="J8" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
     </net>
-    <net code="150" name="unconnected-(J9-SBU1-PadA8)">
+    <net code="148" name="unconnected-(J9-SBU1-PadA8)">
       <node ref="J9" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="151" name="unconnected-(J9-SBU2-PadB8)">
+    <net code="149" name="unconnected-(J9-SBU2-PadB8)">
       <node ref="J9" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="152" name="unconnected-(M1-V12-PadE2)">
+    <net code="150" name="unconnected-(M1-V12-PadE2)">
       <node ref="M1" pin="E2" pinfunction="V12" pintype="passive+no_connect"/>
     </net>
-    <net code="153" name="unconnected-(M4-NC-PadE1)">
+    <net code="151" name="unconnected-(M4-NC-PadE1)">
       <node ref="M4" pin="E1" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="154" name="unconnected-(M4-NC-PadE2)">
+    <net code="152" name="unconnected-(M4-NC-PadE2)">
       <node ref="M4" pin="E2" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="155" name="unconnected-(M5-CAN_VIO-PadW2)">
+    <net code="153" name="unconnected-(M5-CAN_VIO-PadW2)">
       <node ref="M5" pin="W2" pinfunction="CAN_VIO" pintype="passive+no_connect"/>
     </net>
-    <net code="156" name="unconnected-(M5-PULL_DOWN2-PadJ_GND2)">
+    <net code="154" name="unconnected-(M5-PULL_DOWN2-PadJ_GND2)">
       <node ref="M5" pin="J_GND2" pinfunction="PULL_DOWN2" pintype="passive+no_connect"/>
     </net>
-    <net code="157" name="unconnected-(M5-PULL_UP1-PadJ_VCC1)">
+    <net code="155" name="unconnected-(M5-PULL_UP1-PadJ_VCC1)">
       <node ref="M5" pin="J_VCC1" pinfunction="PULL_UP1" pintype="passive+no_connect"/>
     </net>
-    <net code="158" name="unconnected-(M5-PULL_UP2-PadJ_VCC2)">
+    <net code="156" name="unconnected-(M5-PULL_UP2-PadJ_VCC2)">
       <node ref="M5" pin="J_VCC2" pinfunction="PULL_UP2" pintype="passive+no_connect"/>
     </net>
-    <net code="159" name="unconnected-(M5-SEL2-PadJ2)">
+    <net code="157" name="unconnected-(M5-SEL2-PadJ2)">
       <node ref="M5" pin="J2" pinfunction="SEL2" pintype="passive+no_connect"/>
     </net>
-    <net code="160" name="unconnected-(M5-VDDA-PadW9)">
+    <net code="158" name="unconnected-(M5-VDDA-PadW9)">
       <node ref="M5" pin="W9" pinfunction="VDDA" pintype="passive+no_connect"/>
     </net>
-    <net code="161" name="unconnected-(M6-BOOT0-PadN16)">
+    <net code="159" name="unconnected-(M6-BOOT0-PadN16)">
       <node ref="M6" pin="N16" pinfunction="BOOT0" pintype="passive+no_connect"/>
     </net>
-    <net code="162" name="unconnected-(M6-GNDA-PadE2)">
+    <net code="160" name="unconnected-(M6-GNDA-PadE2)">
       <node ref="M6" pin="E2" pinfunction="GNDA" pintype="passive+no_connect"/>
     </net>
-    <net code="163" name="unconnected-(M6-I2C_SCL_(PB10)-PadE3)">
+    <net code="161" name="unconnected-(M6-I2C_SCL_(PB10)-PadE3)">
       <node ref="M6" pin="E3" pinfunction="I2C_SCL_(PB10)" pintype="passive+no_connect"/>
     </net>
-    <net code="164" name="unconnected-(M6-I2C_SDA_(PB11)-PadE4)">
+    <net code="162" name="unconnected-(M6-I2C_SDA_(PB11)-PadE4)">
       <node ref="M6" pin="E4" pinfunction="I2C_SDA_(PB11)" pintype="passive+no_connect"/>
     </net>
-    <net code="165" name="unconnected-(M6-SWCLK_(PA14)-PadN6)">
+    <net code="163" name="unconnected-(M6-SWCLK_(PA14)-PadN6)">
       <node ref="M6" pin="N6" pinfunction="SWCLK_(PA14)" pintype="passive+no_connect"/>
     </net>
-    <net code="166" name="unconnected-(M6-SWDIO_(PA13)-PadN5)">
+    <net code="164" name="unconnected-(M6-SWDIO_(PA13)-PadN5)">
       <node ref="M6" pin="N5" pinfunction="SWDIO_(PA13)" pintype="passive+no_connect"/>
     </net>
-    <net code="167" name="unconnected-(M6-SWO_(PB3)-PadN8)">
+    <net code="165" name="unconnected-(M6-SWO_(PB3)-PadN8)">
       <node ref="M6" pin="N8" pinfunction="SWO_(PB3)" pintype="passive+no_connect"/>
     </net>
-    <net code="168" name="unconnected-(M6-V5A_SWITCHABLE-PadW14)">
+    <net code="166" name="unconnected-(M6-V5A_SWITCHABLE-PadW14)">
       <node ref="M6" pin="W14" pinfunction="V5A_SWITCHABLE" pintype="passive+no_connect"/>
     </net>
-    <net code="169" name="unconnected-(M6-V33-PadN23)">
+    <net code="167" name="unconnected-(M6-V33-PadN23)">
       <node ref="M6" pin="N23" pinfunction="V33" pintype="passive+no_connect"/>
     </net>
-    <net code="170" name="unconnected-(M6-V33_REF-PadW13)">
+    <net code="168" name="unconnected-(M6-V33_REF-PadW13)">
       <node ref="M6" pin="W13" pinfunction="V33_REF" pintype="passive+no_connect"/>
     </net>
-    <net code="171" name="unconnected-(M6-VREF2-PadS5)">
+    <net code="169" name="unconnected-(M6-VREF2-PadS5)">
       <node ref="M6" pin="S5" pinfunction="VREF2" pintype="passive+no_connect"/>
     </net>
-    <net code="172" name="unconnected-(M6-nReset-PadN7)">
+    <net code="170" name="unconnected-(M6-nReset-PadN7)">
       <node ref="M6" pin="N7" pinfunction="nReset" pintype="passive+no_connect"/>
     </net>
-    <net code="173" name="unconnected-(U1-SO-Pad3)">
+    <net code="171" name="unconnected-(U1-SO-Pad3)">
       <node ref="U1" pin="3" pinfunction="SO" pintype="passive+no_connect"/>
     </net>
-    <net code="174" name="unconnected-(U2-SO-Pad3)">
+    <net code="172" name="unconnected-(U2-SO-Pad3)">
       <node ref="U2" pin="3" pinfunction="SO" pintype="passive+no_connect"/>
     </net>
-    <net code="175" name="unconnected-(U3-V1-Pad4)">
+    <net code="173" name="unconnected-(U3-V1-Pad4)">
       <node ref="U3" pin="4" pinfunction="V1" pintype="passive+no_connect"/>
     </net>
-    <net code="176" name="unconnected-(U3-V2-Pad5)">
+    <net code="174" name="unconnected-(U3-V2-Pad5)">
       <node ref="U3" pin="5" pinfunction="V2" pintype="passive+no_connect"/>
     </net>
-    <net code="177" name="unconnected-(U3-V_EX-Pad6)">
+    <net code="175" name="unconnected-(U3-V_EX-Pad6)">
       <node ref="U3" pin="6" pinfunction="V_EX" pintype="passive+no_connect"/>
     </net>
-    <net code="178" name="unconnected-(U5-ALED-Pad16)">
+    <net code="176" name="unconnected-(U5-ALED-Pad16)">
       <node ref="U5" pin="16" pinfunction="ALED" pintype="output+no_connect"/>
     </net>
-    <net code="179" name="unconnected-(U5-EN-Pad15)">
+    <net code="177" name="unconnected-(U5-EN-Pad15)">
       <node ref="U5" pin="15" pinfunction="EN" pintype="output+no_connect"/>
     </net>
-    <net code="180" name="unconnected-(U5-IO1-Pad5)">
+    <net code="178" name="unconnected-(U5-IO1-Pad5)">
       <node ref="U5" pin="5" pinfunction="IO1" pintype="passive+no_connect"/>
     </net>
-    <net code="181" name="unconnected-(U5-IO2-Pad6)">
+    <net code="179" name="unconnected-(U5-IO2-Pad6)">
       <node ref="U5" pin="6" pinfunction="IO2" pintype="passive+no_connect"/>
     </net>
-    <net code="182" name="unconnected-(U5-STAT-Pad17)">
+    <net code="180" name="unconnected-(U5-STAT-Pad17)">
       <node ref="U5" pin="17" pinfunction="STAT" pintype="output+no_connect"/>
+    </net>
+    <net code="181" name="unconnected-(U6-STATUS1-Pad2)">
+      <node ref="U6" pin="2" pinfunction="STATUS1" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="182" name="unconnected-(U6-STATUS2-Pad4)">
+      <node ref="U6" pin="4" pinfunction="STATUS2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="183" name="unconnected-(U7-STATUS1-Pad2)">
+      <node ref="U7" pin="2" pinfunction="STATUS1" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="184" name="unconnected-(U7-STATUS2-Pad4)">
+      <node ref="U7" pin="4" pinfunction="STATUS2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="185" name="unconnected-(U8-STATUS1-Pad2)">
+      <node ref="U8" pin="2" pinfunction="STATUS1" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="186" name="unconnected-(U8-STATUS2-Pad4)">
+      <node ref="U8" pin="4" pinfunction="STATUS2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="187" name="unconnected-(U9-STATUS1-Pad2)">
+      <node ref="U9" pin="2" pinfunction="STATUS1" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="188" name="unconnected-(U9-STATUS2-Pad4)">
+      <node ref="U9" pin="4" pinfunction="STATUS2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="189" name="unconnected-(U10-STATUS1-Pad2)">
+      <node ref="U10" pin="2" pinfunction="STATUS1" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="190" name="unconnected-(U10-STATUS2-Pad4)">
+      <node ref="U10" pin="4" pinfunction="STATUS2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="191" name="unconnected-(U11-STATUS1-Pad2)">
+      <node ref="U11" pin="2" pinfunction="STATUS1" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="192" name="unconnected-(U11-STATUS2-Pad4)">
+      <node ref="U11" pin="4" pinfunction="STATUS2" pintype="open_collector+no_connect"/>
     </net>
   </nets>
 </export>
