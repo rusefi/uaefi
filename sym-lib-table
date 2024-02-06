@@ -24,4 +24,5 @@
   (lib (name "hellen-one-vr-discrete-0.4")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-discrete/0.4/vr-discrete.kicad_sym")(options "")(descr "Hellen-One VR discrete Module"))
   (lib (name "MPX-4_MAP")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/MPX-4_MAP.kicad_sym")(options "")(descr ""))
   (lib (name "JDY-33")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/JDY-33.kicad_sym")(options "")(descr ""))
+  (lib (name "misc")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries/misc.kicad_sym")(options "")(descr ""))
 )
