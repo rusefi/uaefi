@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>Thu Feb  8 14:33:45 2024</date>
-    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
+    <date>Tue Feb 27 00:07:46 2024</date>
+    <tool>Eeschema 7.0.11-7.0.11~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>UAEFI</title>
