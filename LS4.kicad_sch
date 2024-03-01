@@ -650,14 +650,14 @@
     (property "LCSC" "C377942" (at 144.78 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 6bbae90f-4e66-4fde-8d2e-17ac594451a7))
+    (pin "2" (uuid 553f1104-0899-430a-9e5a-d09619a9a93f))
     (pin "3" (uuid 9a9d82a2-0449-46dd-a03f-1652620594c1))
     (pin "4" (uuid 3e4ab630-5d2f-4e89-bf13-3b6574052460))
-    (pin "6" (uuid 86d97fb1-df73-45e6-976f-d66bf78f5fab))
     (pin "5" (uuid ddbe1db4-fb07-4ece-a17e-b41b87014cf5))
-    (pin "2" (uuid 553f1104-0899-430a-9e5a-d09619a9a93f))
-    (pin "8" (uuid 0c46f8bb-a0be-48dd-b10f-054d14d26a73))
-    (pin "1" (uuid 6bbae90f-4e66-4fde-8d2e-17ac594451a7))
+    (pin "6" (uuid 86d97fb1-df73-45e6-976f-d66bf78f5fab))
     (pin "7" (uuid ec490346-62ea-4997-a3c0-591300bd233b))
+    (pin "8" (uuid 0c46f8bb-a0be-48dd-b10f-054d14d26a73))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
@@ -931,14 +931,14 @@
     (property "LCSC" "C377942" (at 144.78 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 7f7b2a81-ab6e-4d74-b21d-ad1e10112146))
+    (pin "2" (uuid 535bd7e5-0885-4521-8e4f-39217095a27b))
     (pin "3" (uuid b28a6ead-e390-49eb-a521-746c936c1af8))
     (pin "4" (uuid 52818b63-8e2f-46b0-83e7-92cb5f09be54))
-    (pin "6" (uuid d2fb345c-729d-4ce2-b53e-144f50eb2f0a))
     (pin "5" (uuid 2ce8d49a-4f8a-48be-bdd4-56553ce7ed77))
-    (pin "2" (uuid 535bd7e5-0885-4521-8e4f-39217095a27b))
-    (pin "8" (uuid 11b78b04-8614-48b8-b379-514aacdcd910))
-    (pin "1" (uuid 7f7b2a81-ab6e-4d74-b21d-ad1e10112146))
+    (pin "6" (uuid d2fb345c-729d-4ce2-b53e-144f50eb2f0a))
     (pin "7" (uuid 07411ab0-2ca7-4e62-bace-0b3e81217d88))
+    (pin "8" (uuid 11b78b04-8614-48b8-b379-514aacdcd910))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"

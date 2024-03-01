@@ -7474,10 +7474,10 @@
     (property "Datasheet" "~" (at 64.77 355.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a9699ea4-1ecd-4c8e-bc57-6ac2040f6d5b))
     (pin "1" (uuid f210e8d1-bf7a-4de5-875e-c1be57319440))
-    (pin "4" (uuid 86c9314a-ddd5-4207-a6ce-00177c9df277))
+    (pin "2" (uuid a9699ea4-1ecd-4c8e-bc57-6ac2040f6d5b))
     (pin "3" (uuid 28b1fc43-c367-4737-a139-54d8918e5973))
+    (pin "4" (uuid 86c9314a-ddd5-4207-a6ce-00177c9df277))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -7526,10 +7526,10 @@
     (property "Datasheet" "~" (at 91.44 347.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b2e4fe21-d28a-45d4-9f75-64d26c75dfc1))
     (pin "1" (uuid 0c151d2f-4e13-4732-98dc-87eca5969f56))
-    (pin "4" (uuid db86f621-4376-4281-88aa-9fe232287d4b))
+    (pin "2" (uuid b2e4fe21-d28a-45d4-9f75-64d26c75dfc1))
     (pin "3" (uuid a58c1d65-ee9d-4365-9dc3-860fbeb4d2c9))
+    (pin "4" (uuid db86f621-4376-4281-88aa-9fe232287d4b))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -7643,10 +7643,10 @@
     (property "Datasheet" "~" (at 123.19 347.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 67ad6224-a9e5-4a64-96b6-80e38198c7ae))
     (pin "1" (uuid 7640e0e7-6612-4d64-8e35-2d3638601dd7))
-    (pin "4" (uuid 113e16f2-f6dd-4c37-b66d-c5abb96b108a))
+    (pin "2" (uuid 67ad6224-a9e5-4a64-96b6-80e38198c7ae))
     (pin "3" (uuid 7e201062-1fd2-471c-a290-14944dd82a87))
+    (pin "4" (uuid 113e16f2-f6dd-4c37-b66d-c5abb96b108a))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -7793,10 +7793,10 @@
     (property "Datasheet" "~" (at 96.52 355.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 8ce6136e-dd8d-4399-a39f-5728d21fb080))
     (pin "1" (uuid 8e27179b-0648-4672-a172-ee4fef845f19))
-    (pin "4" (uuid 24025ef9-77a8-422b-bee1-9c08ca9e121e))
+    (pin "2" (uuid 8ce6136e-dd8d-4399-a39f-5728d21fb080))
     (pin "3" (uuid ab08d774-1219-4f33-9641-ed7a6cc8dd26))
+    (pin "4" (uuid 24025ef9-77a8-422b-bee1-9c08ca9e121e))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -8230,10 +8230,10 @@
     (property "Datasheet" "~" (at 128.27 355.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 8018d37f-9fc5-439d-b07e-f59bd37f37f7))
     (pin "1" (uuid ff460c23-0c40-48b0-a80e-ce989bb4ec54))
-    (pin "4" (uuid 8f2df015-6102-4677-b7b9-bdef8c93d852))
+    (pin "2" (uuid 8018d37f-9fc5-439d-b07e-f59bd37f37f7))
     (pin "3" (uuid d9099134-0983-482e-b84e-b098e8a9826e))
+    (pin "4" (uuid 8f2df015-6102-4677-b7b9-bdef8c93d852))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -8405,10 +8405,10 @@
     (property "Datasheet" "~" (at 123.19 339.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0e2dc300-2b9c-4dce-84c2-ce3a7e178e7e))
     (pin "1" (uuid 7a571bf4-3848-45fd-aec6-28633abb1fef))
-    (pin "4" (uuid b24c8577-b6f3-4cbc-bb3d-1f4940f2ac0f))
+    (pin "2" (uuid 0e2dc300-2b9c-4dce-84c2-ce3a7e178e7e))
     (pin "3" (uuid 4577c6fe-144c-4f75-9981-f97ad7c2e553))
+    (pin "4" (uuid b24c8577-b6f3-4cbc-bb3d-1f4940f2ac0f))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -8756,10 +8756,10 @@
     (property "Datasheet" "~" (at 29.21 339.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5c431b76-af45-4998-a96b-33fca2d95014))
     (pin "1" (uuid 3743c40b-6d23-4309-85a6-8b0c328fe016))
-    (pin "4" (uuid d8b68b37-01f9-4bbe-9a6d-9dd50b160b25))
+    (pin "2" (uuid 5c431b76-af45-4998-a96b-33fca2d95014))
     (pin "3" (uuid 1faa91ad-615d-4be0-80d9-07e7fe265c39))
+    (pin "4" (uuid d8b68b37-01f9-4bbe-9a6d-9dd50b160b25))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -8963,10 +8963,10 @@
     (property "Datasheet" "~" (at 27.94 363.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 73ec4118-a90f-458c-b0bf-ac3cc06e980c))
     (pin "1" (uuid 9c4d3a48-4fbd-417a-bd86-0f8782fc24b9))
-    (pin "4" (uuid a15e748e-b991-4221-a8d2-e3efc35d4a2e))
+    (pin "2" (uuid 73ec4118-a90f-458c-b0bf-ac3cc06e980c))
     (pin "3" (uuid a4f3b4fd-3779-4b77-b7ba-e81294704422))
+    (pin "4" (uuid a15e748e-b991-4221-a8d2-e3efc35d4a2e))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -9606,10 +9606,10 @@
     (property "Datasheet" "~" (at 90.17 339.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ca45e563-1091-4494-b56d-110dc79d24e6))
     (pin "1" (uuid 96dd778f-bc64-475d-a59d-05bdbe5ea288))
-    (pin "4" (uuid c8724a15-2662-4e4c-804b-ae5220a16bfb))
+    (pin "2" (uuid ca45e563-1091-4494-b56d-110dc79d24e6))
     (pin "3" (uuid ba1a937c-e7e3-4316-9c95-cf5816ac34a0))
+    (pin "4" (uuid c8724a15-2662-4e4c-804b-ae5220a16bfb))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -10167,10 +10167,10 @@
     (property "Datasheet" "~" (at 93.98 363.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a8a488e5-72c0-44d8-837a-723c07ed87e6))
     (pin "1" (uuid bdb690af-bc64-4bd9-b64f-621ea7c17613))
-    (pin "4" (uuid 712b92cf-2aad-47af-b3c6-4cb6edb4f3ba))
+    (pin "2" (uuid a8a488e5-72c0-44d8-837a-723c07ed87e6))
     (pin "3" (uuid a89cd926-5d97-416f-a9cc-2b70995bc271))
+    (pin "4" (uuid 712b92cf-2aad-47af-b3c6-4cb6edb4f3ba))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -10368,10 +10368,10 @@
     (property "Datasheet" "~" (at 60.96 347.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid cd8f9a8f-a650-414b-a03f-cb2d4c35d8f8))
     (pin "1" (uuid 556fde6f-b357-4338-a1b8-db692ad47583))
-    (pin "4" (uuid dcd52cfb-e445-4fa7-bf70-1e8f0b13cea5))
+    (pin "2" (uuid cd8f9a8f-a650-414b-a03f-cb2d4c35d8f8))
     (pin "3" (uuid e3d2e958-69c4-45a2-91cb-4653ecf471ef))
+    (pin "4" (uuid dcd52cfb-e445-4fa7-bf70-1e8f0b13cea5))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -10832,10 +10832,10 @@
     (property "Datasheet" "~" (at 29.21 346.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 291104e0-fc26-4ae2-a55a-265980b98190))
     (pin "1" (uuid 3aa2b89b-7fb8-4b6f-b689-ffcdf5600ba8))
-    (pin "4" (uuid ae5b38e0-d782-4064-a6ef-79633c54147e))
+    (pin "2" (uuid 291104e0-fc26-4ae2-a55a-265980b98190))
     (pin "3" (uuid 16de382b-9969-4be1-a7a8-648978e1c8d9))
+    (pin "4" (uuid ae5b38e0-d782-4064-a6ef-79633c54147e))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -11166,10 +11166,10 @@
     (property "Datasheet" "~" (at 60.96 339.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9a2a9bda-70f5-4f9b-9816-82b2a7d0f97b))
     (pin "1" (uuid 8dba6fe1-9477-4c04-8f91-13af6316e15c))
-    (pin "4" (uuid 7993cc92-ff8c-4276-be65-6820c764eb70))
+    (pin "2" (uuid 9a2a9bda-70f5-4f9b-9816-82b2a7d0f97b))
     (pin "3" (uuid f9ab77e8-75de-42d4-8bf7-6317585f43a0))
+    (pin "4" (uuid 7993cc92-ff8c-4276-be65-6820c764eb70))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
@@ -11317,10 +11317,10 @@
     (property "Datasheet" "~" (at 34.29 355.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 50e9e8fb-98b2-48c0-8956-4a87d4391ec3))
     (pin "1" (uuid c0d285a4-f5c7-4a7c-ba8c-7c26fec8385c))
-    (pin "4" (uuid ccf6d670-7112-40f9-9a73-2d505379e623))
+    (pin "2" (uuid 50e9e8fb-98b2-48c0-8956-4a87d4391ec3))
     (pin "3" (uuid b3f1aa10-4fbf-481b-8629-800891816835))
+    (pin "4" (uuid ccf6d670-7112-40f9-9a73-2d505379e623))
     (instances
       (project "uaefi"
         (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
