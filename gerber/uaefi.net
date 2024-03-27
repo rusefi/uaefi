@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>Tue Mar  5 22:36:41 2024</date>
+    <date>Wed Mar 27 05:20:35 2024</date>
     <tool>Eeschema 7.0.11-7.0.11~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>B</rev>
-        <date>2024-01-28</date>
+        <rev>C</rev>
+        <date>2024-03-27</date>
         <source>uaefi.kicad_sch</source>
         <comment number="1" value="https://rusefi.com/s/uaefi"/>
         <comment number="2" value=""/>
@@ -654,13 +654,13 @@
       <tstamps>3b79a16e-5552-4c71-b880-ab92f2ee80d5</tstamps>
     </comp>
     <comp ref="M3">
-      <value>Module-vr-discrete-0.4</value>
-      <footprint>hellen-one-vr-discrete-0.4:vr-discrete</footprint>
-      <libsource lib="hellen-one-vr-discrete-0.4" part="Module-vr-discrete-0.4" description=""/>
+      <value>Module-vr-discrete-0.5</value>
+      <footprint>hellen-one-vr-discrete-0.5:vr-discrete</footprint>
+      <libsource lib="hellen-one-vr-discrete-0.5" part="Module-vr-discrete-0.5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c8bbdbbe-d987-43f8-b218-12357c8846d9</tstamps>
+      <tstamps>731a0a61-da34-4323-985d-e9d0afd49655</tstamps>
     </comp>
     <comp ref="M4">
       <value>Module-vr-max9924-0.1</value>
@@ -2012,11 +2012,10 @@
       <value>10n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="MyComment">DNP</field>
+        <field name="LCSC">C57112</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="LCSC" value="C57112"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -2027,11 +2026,10 @@
       <value>100n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="MyComment">DNP</field>
+        <field name="LCSC">C14663</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -2042,11 +2040,10 @@
       <value>10n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="MyComment">DNP</field>
+        <field name="LCSC">C57112</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="LCSC" value="C57112"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -2057,11 +2054,10 @@
       <value>100n</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="MyComment">DNP</field>
+        <field name="LCSC">C14663</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -2072,11 +2068,10 @@
       <value>1u</value>
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
-        <field name="MyComment">DNP</field>
+        <field name="LCSC">C15849</field>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
-      <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="LCSC" value="C15849"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
       <property name="ki_description" value="Capacitor"/>
@@ -2088,11 +2083,10 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF</datasheet>
       <fields>
-        <field name="MyComment">DNP</field>
+        <field name="LCSC">C284104</field>
       </fields>
       <libsource lib="Power_Protection" part="NUP2105L" description="Dual Line CAN Bus Protector, 24Vrwm"/>
-      <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="LCSC" value="C284104"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
       <property name="ki_description" value="Dual Line CAN Bus Protector, 24Vrwm"/>
@@ -2104,11 +2098,10 @@
       <value>470R@100MHz</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
-        <field name="MyComment">DNP</field>
+        <field name="LCSC">C97853</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="LCSC" value="C97853"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -2120,11 +2113,10 @@
       <value>470R@100MHz</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
-        <field name="MyComment">DNP</field>
+        <field name="LCSC">C97853</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="LCSC" value="C97853"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -2137,11 +2129,10 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
       <fields>
-        <field name="MyComment">DNP</field>
+        <field name="LCSC">C52028</field>
       </fields>
       <libsource lib="" part="MAX31855KASA_1" description="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
-      <property name="LCSC" value=""/>
-      <property name="MyComment" value="DNP"/>
+      <property name="LCSC" value="C52028"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
       <property name="ki_description" value="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
@@ -2951,11 +2942,11 @@
         <pin num="V4" name="5VP" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="hellen-one-vr-discrete-0.4" part="Module-vr-discrete-0.4">
+    <libpart lib="hellen-one-vr-discrete-0.5" part="Module-vr-discrete-0.5">
       <fields>
         <field name="Reference">M</field>
-        <field name="Value">Module-vr-discrete-0.4</field>
-        <field name="Footprint">hellen-one-vr-discrete-0.4:vr-discrete</field>
+        <field name="Value">Module-vr-discrete-0.5</field>
+        <field name="Footprint">hellen-one-vr-discrete-0.5:vr-discrete</field>
       </fields>
       <pins>
         <pin num="E1" name="Thresh_IN" type="passive"/>
@@ -3078,8 +3069,8 @@
     <library logical="hellen-one-power_12and5V">
       <uri>/home/runner/work/uaefi/uaefi/hellen-one/modules/power_12and5V/0.2/power_12and5V.kicad_sym</uri>
     </library>
-    <library logical="hellen-one-vr-discrete-0.4">
-      <uri>/home/runner/work/uaefi/uaefi/hellen-one/modules/vr-discrete/0.4/vr-discrete.kicad_sym</uri>
+    <library logical="hellen-one-vr-discrete-0.5">
+      <uri>/home/runner/work/uaefi/uaefi/hellen-one/modules/vr-discrete/0.5/vr-discrete.kicad_sym</uri>
     </library>
     <library logical="hellen-one-wbo-0.5">
       <uri>/home/runner/work/uaefi/uaefi/hellen-one/modules/wbo/0.5/wbo.kicad_sym</uri>
@@ -3625,45 +3616,45 @@
       <node ref="M1" pin="E3" pinfunction="VIGN" pintype="passive"/>
       <node ref="M6" pin="E5" pinfunction="IN_VIGN_(PA5)" pintype="passive"/>
     </net>
-    <net code="94" name="/VR1">
+    <net code="94" name="/VREF1">
+      <node ref="M2" pin="W2" pinfunction="VREF" pintype="passive"/>
+      <node ref="M6" pin="S22" pinfunction="VREF1" pintype="passive"/>
+    </net>
+    <net code="95" name="/VR_DISCRETE">
       <node ref="M3" pin="E3" pinfunction="OUT" pintype="passive"/>
       <node ref="M6" pin="N18" pinfunction="UART8_RX_(PE0)" pintype="passive"/>
     </net>
-    <net code="95" name="/VR1+">
+    <net code="96" name="/VR_DISCRETE+">
       <node ref="J17" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J2" pin="18" pinfunction="Pin_18" pintype="passive"/>
       <node ref="M3" pin="W2" pinfunction="VR+" pintype="passive"/>
     </net>
-    <net code="96" name="/VR1-">
+    <net code="97" name="/VR_DISCRETE-">
       <node ref="J2" pin="19" pinfunction="Pin_19" pintype="passive"/>
       <node ref="M3" pin="W1" pinfunction="VR-" pintype="passive"/>
     </net>
-    <net code="97" name="/VR1_A">
+    <net code="98" name="/VR_DISCRETE_A">
       <node ref="M3" pin="E2" pinfunction="OUT_A" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="98" name="/VR1_THRESHOLD">
+    <net code="99" name="/VR_DISCRETE_THR">
       <node ref="M3" pin="E1" pinfunction="Thresh_IN" pintype="passive"/>
       <node ref="M6" pin="E23" pinfunction="OUT_PWM6_(PD14)" pintype="passive"/>
     </net>
-    <net code="99" name="/VR2">
+    <net code="100" name="/VR_MAX9924">
       <node ref="M4" pin="E3" pinfunction="OUT" pintype="passive"/>
       <node ref="M6" pin="N19" pinfunction="UART8_TX_(PE1)" pintype="passive"/>
     </net>
-    <net code="100" name="/VR2+">
+    <net code="101" name="/VR_MAX9924+">
       <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="M4" pin="W2" pinfunction="VR+" pintype="passive"/>
     </net>
-    <net code="101" name="/VR2-">
+    <net code="102" name="/VR_MAX9924-">
       <node ref="J17" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J2" pin="17" pinfunction="Pin_17" pintype="passive"/>
       <node ref="M4" pin="W1" pinfunction="VR-" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
-    </net>
-    <net code="102" name="/VREF1">
-      <node ref="M2" pin="W2" pinfunction="VREF" pintype="passive"/>
-      <node ref="M6" pin="S22" pinfunction="VREF1" pintype="passive"/>
     </net>
     <net code="103" name="/WBO_Heater">
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
