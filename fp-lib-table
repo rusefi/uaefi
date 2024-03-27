@@ -19,5 +19,5 @@
   (lib (name "hellen-one-power_12and5V-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/power_12and5V/0.2")(options "")(descr ""))
   (lib (name "hellen-one-mega-mcu100-0.3")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mega-mcu100/0.3")(options "")(descr ""))
   (lib (name "0.5")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.5")(options "")(descr ""))
-  (lib (name "hellen-one-vr-discrete-0.4")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-discrete/0.4")(options "")(descr ""))
+  (lib (name "hellen-one-vr-discrete-0.5")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-discrete/0.5")(options "")(descr ""))
 )
