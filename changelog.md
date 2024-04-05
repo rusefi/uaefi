@@ -1,3 +1,8 @@
+# rev C
+* pad for resistor between VR lines
+* a few silkscreen corrections
+* full list https://github.com/rusefi/uaefi/issues?q=label%3Arev-C+is%3Aclosed
+
 # rev B
 
 * [over-current protection on all low side outputs](https://github.com/rusefi/uaefi/issues/44)
