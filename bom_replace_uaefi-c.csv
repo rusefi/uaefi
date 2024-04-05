@@ -27,6 +27,9 @@ U754,"TLV3202AIDR","SO8","C129325"
 # cost reduction
 U106,
 
+# DNP BLUETOOTH JDY
+U5,
+
 # DNP EGT
 D8,
 U4,
