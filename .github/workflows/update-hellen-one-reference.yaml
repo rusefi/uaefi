@@ -1,6 +1,8 @@
 name: Update hellen-one Reference
 
 on:
+  schedule:
+    - cron: '2 15 * * *' # update reference daily at 2:15 pm
   workflow_dispatch:
 
 jobs:
