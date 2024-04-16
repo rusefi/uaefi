@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>Tue Apr  9 14:43:35 2024</date>
-    <tool>Eeschema 7.0.11-7.0.11~ubuntu22.04.1</tool>
+    <date>2024-04-16T17:38:12+0000</date>
+    <tool>Eeschema 8.0.1-8.0.1-1~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>UAEFI</title>
@@ -173,12 +173,14 @@
       <footprint>kicad6-libraries:CR1220-2</footprint>
       <fields>
         <field name="LCSC">C70381</field>
+        <field name="Footprint">kicad6-libraries:CR1220-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
       <property name="LCSC" value="C70381"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Single-cell battery"/>
       <property name="ki_keywords" value="battery cell"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>86849f55-930f-45f2-b6b9-87cc6f281902</tstamps>
@@ -188,12 +190,14 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C14663</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00205241-ffbf-4f66-bd75-bb0b700b5abe</tstamps>
     </comp>
@@ -202,6 +206,9 @@
       <footprint>hellen-one-common:SOD-323</footprint>
       <fields>
         <field name="LCSC">C2128</field>
+        <field name="Footprint">hellen-one-common:SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
       <property name="LCSC" value="C2128"/>
@@ -215,12 +222,14 @@
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
         <field name="LCSC">C182446</field>
+        <field name="Footprint">hellen-one-common:PAD-1206-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
       <property name="LCSC" value="C182446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="12H1500D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>21bac282-060d-41b3-8302-c88e5e1e92fa</tstamps>
     </comp>
@@ -229,12 +238,14 @@
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
         <field name="LCSC">C182446</field>
+        <field name="Footprint">hellen-one-common:PAD-1206-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
       <property name="LCSC" value="C182446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="12H1500D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>63098b8c-34dd-41dd-88f1-d36392860750</tstamps>
     </comp>
@@ -243,12 +254,14 @@
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
         <field name="LCSC">C182446</field>
+        <field name="Footprint">hellen-one-common:PAD-1206-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
       <property name="LCSC" value="C182446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="12H1500D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>14dd76f6-a548-4452-bc3d-75c7acd25f2a</tstamps>
     </comp>
@@ -257,18 +270,25 @@
       <footprint>hellen-one-common:PAD-1206-PAD</footprint>
       <fields>
         <field name="LCSC">C182446</field>
+        <field name="Footprint">hellen-one-common:PAD-1206-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Fuse-Pad-Pad" description="12H1500D"/>
       <property name="LCSC" value="C182446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="12H1500D"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4014f889-f7f7-4f3f-86fe-51a46b440971</tstamps>
     </comp>
     <comp ref="G1">
       <value>RUSEFI_LOGO</value>
       <footprint>kicad6-libraries:rusefi_logo</footprint>
+      <fields>
+        <field name="Footprint">kicad6-libraries:rusefi_logo</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="rusefi_logo" part="RUSEFI_LOGO" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
@@ -278,6 +298,11 @@
     <comp ref="G2">
       <value>LOGO</value>
       <footprint>hellen-one-common:LOGO</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:LOGO</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="LOGO" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
@@ -287,6 +312,11 @@
     <comp ref="G3">
       <value>PROTO_AREA</value>
       <footprint>hellen-one-common:PROTO_AREA</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PROTO_AREA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="PROTO_AREA" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
@@ -296,6 +326,11 @@
     <comp ref="G4">
       <value>PROTO_AREA</value>
       <footprint>hellen-one-common:PROTO_AREA</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PROTO_AREA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="PROTO_AREA" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
@@ -305,55 +340,80 @@
     <comp ref="H1">
       <value>M3</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_Pad_Via</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
       <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a91ce1d8-04b7-42c0-ad63-eefe4bd2b8b3</tstamps>
     </comp>
     <comp ref="H2">
       <value>M3</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_Pad_Via</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
       <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e87bca73-2cb0-485b-820f-736fbaceab0a</tstamps>
     </comp>
     <comp ref="H3">
       <value>M3</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_Pad_Via</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
       <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>76fecbe3-9bb3-4bf6-92a2-335a5c41f6b4</tstamps>
     </comp>
     <comp ref="H4">
       <value>M3</value>
       <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_Pad_Via</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Mounting Hole without connection"/>
       <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0d7906bb-a615-4e34-901c-5e3c41661553</tstamps>
     </comp>
     <comp ref="J1">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3d0bd9ef-7f64-44e5-a16b-79b9cc289aab</tstamps>
     </comp>
@@ -362,13 +422,16 @@
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5569-20A2_2x10_P4.20mm_Horizontal</footprint>
       <fields>
         <field name="LCSC">C485578</field>
+        <field name="Footprint">Connector_Molex:Molex_Mini-Fit_Jr_5569-20A2_2x10_P4.20mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x10_Top_Bottom" description="Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C485578"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9e3e08eb-5777-4804-b272-9ea072eec8d7</tstamps>
     </comp>
@@ -377,13 +440,16 @@
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal</footprint>
       <fields>
         <field name="LCSC">C293509</field>
+        <field name="Footprint">Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x03_Top_Bottom" description="Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C293509"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>085387ef-4c88-46a9-a9ab-c92f307f2668</tstamps>
     </comp>
@@ -392,13 +458,16 @@
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal</footprint>
       <fields>
         <field name="LCSC">C490533</field>
+        <field name="Footprint">Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C490533"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>690ebad6-8eac-472a-9f68-8c8ad6df2610</tstamps>
     </comp>
@@ -407,13 +476,16 @@
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5569-18A2_2x09_P4.20mm_Horizontal</footprint>
       <fields>
         <field name="LCSC">C240834</field>
+        <field name="Footprint">Connector_Molex:Molex_Mini-Fit_Jr_5569-18A2_2x09_P4.20mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x09_Top_Bottom" description="Generic connector, double row, 02x09, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C240834"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x09, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1ee2e068-bfdb-440d-999e-10aa40cdc45c</tstamps>
     </comp>
@@ -422,24 +494,32 @@
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
       <fields>
         <field name="LCSC">C37208</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C37208"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ef7ac8e9-1a09-476c-92de-e287dc81f503</tstamps>
     </comp>
     <comp ref="J7">
       <value>Conn_01x05_Male</value>
       <footprint>Connector_Molex:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_Molex:Molex_SPOX_5267-05A_1x05_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7b653397-8c01-42f7-8f38-f8a4b52ff9d9</tstamps>
     </comp>
@@ -447,15 +527,19 @@
       <value>USB_B_Mini</value>
       <footprint>hellen-one-common:USB-MINI-B-VERTICAL</footprint>
       <fields>
+        <field name="LCSC"/>
         <field name="MyComment">DNP</field>
+        <field name="Footprint">hellen-one-common:USB-MINI-B-VERTICAL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="USB_B_Mini" description="USB Mini Type B connector"/>
       <property name="LCSC" value=""/>
       <property name="MyComment" value="DNP"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="USB Mini Type B connector"/>
       <property name="ki_keywords" value="connector USB mini"/>
+      <property name="ki_fp_filters" value="USB*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2d33a534-432c-486d-9dc7-a214bd1ec959</tstamps>
     </comp>
@@ -465,13 +549,16 @@
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
       <fields>
         <field name="LCSC">C2927038</field>
+        <field name="Footprint">kicad6-libraries:USB_C</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="misc" part="USB_C" description="USB 2.0-only Type-C Receptacle connector"/>
       <property name="LCSC" value="C2927038"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
       <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0a77c1e9-e579-4082-bfa3-f8c06cdbabd2</tstamps>
     </comp>
@@ -480,182 +567,263 @@
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5569-16A2_2x08_P4.20mm_Horizontal</footprint>
       <fields>
         <field name="LCSC">C485577</field>
+        <field name="Footprint">Connector_Molex:Molex_Mini-Fit_Jr_5569-16A2_2x08_P4.20mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x08_Top_Bottom" description="Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C485577"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1ca73273-e6bf-44d3-be87-9b3df49f7933</tstamps>
     </comp>
     <comp ref="J11">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7f80a7e8-557f-4098-b285-9024ab66e09b</tstamps>
     </comp>
     <comp ref="J12">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eb30d438-9b06-44dd-9f55-0c8b1601e9d7</tstamps>
     </comp>
     <comp ref="J13">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5214c390-22cb-4330-bfc6-028f4b969c8f</tstamps>
     </comp>
     <comp ref="J14">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d7a4d0f7-81fa-4a2d-8856-cbae904d86d1</tstamps>
     </comp>
     <comp ref="J15">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c4e4df86-4c5d-45ba-b028-5e05f1181b94</tstamps>
     </comp>
     <comp ref="J16">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>10365ff8-e80c-4af8-a231-ed5c253a2e69</tstamps>
     </comp>
     <comp ref="J17">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1969bc04-849b-4273-9ec7-2bd0fa12f11c</tstamps>
     </comp>
     <comp ref="J18">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f231fcb7-277d-4c39-9a73-e488f4652778</tstamps>
     </comp>
     <comp ref="J19">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0c522ce3-638c-41e9-b54b-9b5f1b6eba77</tstamps>
     </comp>
     <comp ref="J20">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1eb9a28f-2435-47bd-8e30-8616e586fb32</tstamps>
     </comp>
     <comp ref="J21">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2de5462c-76f8-428d-8673-cc0ddb496a7e</tstamps>
     </comp>
     <comp ref="J22">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>58349050-e297-4ee8-85eb-0217981900af</tstamps>
     </comp>
     <comp ref="J24">
       <value>Conn_02x02_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b0f86030-26c8-4195-8813-912051779c1d</tstamps>
     </comp>
     <comp ref="M1">
       <value>Module-power_12and5V-0.2</value>
       <footprint>hellen-one-power_12and5V-0.2:power_12and5V</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-power_12and5V-0.2:power_12and5V</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-power_12and5V" part="Module-power_12and5V-0.2" description="Hellen-One Power_12and5V Module"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Hellen-One Power_12and5V Module"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fc171e8d-961b-4499-baee-dd5ea13a9968</tstamps>
     </comp>
     <comp ref="M2">
       <value>Module-knock-0.2</value>
       <footprint>hellen-one-knock-0.2:knock</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-knock-0.2:knock</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-knock-0.2" part="Module-knock-0.2" description="Hellen-One Knock Pre-amplifier Module"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Hellen-One Knock Pre-amplifier Module"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3b79a16e-5552-4c71-b880-ab92f2ee80d5</tstamps>
     </comp>
     <comp ref="M3">
       <value>Module-vr-discrete-0.5</value>
       <footprint>hellen-one-vr-discrete-0.5:vr-discrete</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-vr-discrete-0.5:vr-discrete</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-vr-discrete-0.5" part="Module-vr-discrete-0.5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
@@ -665,6 +833,11 @@
     <comp ref="M4">
       <value>Module-vr-max9924-0.1</value>
       <footprint>hellen-one-vr-max9924-0.1:vr-max9924</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-vr-max9924-0.1:vr-max9924</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="vr-max9924" part="Module-vr-max9924-0.1" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
@@ -674,6 +847,11 @@
     <comp ref="M5">
       <value>Module-wbo-0.5</value>
       <footprint>hellen-one-wbo-0.5:wbo</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-wbo-0.5:wbo</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-wbo-0.5" part="Module-wbo-0.5" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
@@ -684,14 +862,19 @@
       <value>Module:mega-mcu100/0.3</value>
       <footprint>hellen-one-mega-mcu100-0.3:mega-mcu100</footprint>
       <fields>
-        <field name="FITTED">False</field>
         <field name="PUBLISHER">qwerty-off</field>
-        <field name="SUPPLIER 1">Mouser</field>
-        <field name="SUPPLIER 2">Digi-Key</field>
-        <field name="SUPPLIER 3">LCSC</field>
         <field name="SUPPLIER PART NUMBER 1">*</field>
         <field name="SUPPLIER PART NUMBER 2">*</field>
+        <field name="SUPPLIER 1">Mouser</field>
+        <field name="SUPPLIER 2">Digi-Key</field>
+        <field name="FITTED">False</field>
+        <field name="PACKAGEREFERENCE"/>
+        <field name="SUPPLIER 3">LCSC</field>
+        <field name="SUPPLIER PART NUMBER 3"/>
         <field name="TYPE">Module</field>
+        <field name="Footprint">hellen-one-mega-mcu100-0.3:mega-mcu100</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-mega-mcu100-0.3" part="Module{colon}mega-mcu100/0.3" description="Hellen One MEGA-MCU100 Module"/>
       <property name="PUBLISHER" value="qwerty-off"/>
@@ -706,83 +889,117 @@
       <property name="TYPE" value="Module"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Hellen One MEGA-MCU100 Module"/>
+      <property name="ki_fp_filters" value="MOD_Hellen_MEGA_MCU100_0.1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4a3a80c0-5ff2-431a-af30-5d326e11bdc6</tstamps>
     </comp>
     <comp ref="M7">
       <value>Module-can-0.1</value>
       <footprint>hellen-one-can-0.1:can</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-can-0.1:can</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-can-0.1" part="Module-can-0.1" description="Hellen-One CAN Module"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Hellen-One CAN Module"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9217789a-2280-4fd8-bd3a-46478a9cc961</tstamps>
     </comp>
     <comp ref="P1">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8f6af518-581f-4c21-adf1-ee35c841f616</tstamps>
     </comp>
     <comp ref="P2">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c6abd12a-34e0-4f76-ac6d-cf511805458b</tstamps>
     </comp>
     <comp ref="P3">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>94ab989b-48b4-4335-bcf4-3438b3866d3d</tstamps>
     </comp>
     <comp ref="P4">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>df020caf-5e9e-4b69-a553-8212cdd0ab35</tstamps>
     </comp>
     <comp ref="P7">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>da129c40-0637-4293-bd95-77728e598c76</tstamps>
     </comp>
     <comp ref="P8">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2109366e-1742-401b-abc8-92b063de393e</tstamps>
     </comp>
@@ -790,14 +1007,17 @@
       <value>4.7k</value>
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
+        <field name="LCSC"/>
         <field name="MyComment">DNP</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value=""/>
       <property name="MyComment" value="DNP"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cf5e44dc-f2f2-420a-a344-a39b21d6ffb4</tstamps>
     </comp>
@@ -806,12 +1026,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C4216</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C4216"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4b32aa94-5411-45c5-9514-cc120e323151</tstamps>
     </comp>
@@ -820,12 +1042,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23212</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23212"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>894cce04-1359-4801-8cdf-da23aeed7250</tstamps>
     </comp>
@@ -834,6 +1058,9 @@
       <footprint>hellen-one-common:PAD-0805-PAD</footprint>
       <fields>
         <field name="LCSC">C17477</field>
+        <field name="Footprint">hellen-one-common:PAD-0805-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Jumper-Pad-Pad" description=""/>
       <property name="LCSC" value="C17477"/>
@@ -846,14 +1073,17 @@
       <value>0</value>
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
+        <field name="LCSC"/>
         <field name="MyComment">DNP</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value=""/>
       <property name="MyComment" value="DNP"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8220251e-60b3-45ef-9d1e-f484711a91f3</tstamps>
     </comp>
@@ -862,12 +1092,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C21189</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C21189"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>55c70c59-b360-4ac6-84b8-034f63dee807</tstamps>
     </comp>
@@ -876,12 +1108,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23189</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23189"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>27c44518-6719-4e5a-b586-d3d57e38ca89</tstamps>
     </comp>
@@ -890,12 +1124,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23189</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23189"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b6315cb8-4e19-4b1e-bc04-c50f5c8a7966</tstamps>
     </comp>
@@ -904,12 +1140,14 @@
       <footprint>hellen-one-common:R0805</footprint>
       <fields>
         <field name="LCSC">C17414</field>
+        <field name="Footprint">hellen-one-common:R0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C17414"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>45753884-ffca-4882-83aa-f19d1993d996</tstamps>
     </comp>
@@ -918,12 +1156,14 @@
       <footprint>hellen-one-common:R0805</footprint>
       <fields>
         <field name="LCSC">C17414</field>
+        <field name="Footprint">hellen-one-common:R0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C17414"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f58c3361-5b5b-43f8-a2ff-5dd0c7a3343f</tstamps>
     </comp>
@@ -932,45 +1172,62 @@
       <footprint>hellen-one-common:R0805</footprint>
       <fields>
         <field name="LCSC">C17414</field>
+        <field name="Footprint">hellen-one-common:R0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C17414"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2bf03350-ae97-4dad-ab2e-783ee3977d4c</tstamps>
     </comp>
     <comp ref="R38">
       <value>DNP</value>
       <footprint>hellen-one-common:R0805</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">hellen-one-common:R0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fad9d3b2-2680-49a5-a37c-068e70812097</tstamps>
     </comp>
     <comp ref="R39">
       <value>DNP</value>
       <footprint>hellen-one-common:R0805</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">hellen-one-common:R0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f7769ca0-70ab-4293-9f54-745ada1ffaf8</tstamps>
     </comp>
     <comp ref="R40">
       <value>DNP</value>
       <footprint>hellen-one-common:R0805</footprint>
+      <fields>
+        <field name="LCSC"/>
+        <field name="Footprint">hellen-one-common:R0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ea318b7e-3858-47d1-a628-a4bdddb5052f</tstamps>
     </comp>
@@ -980,9 +1237,12 @@
       <datasheet>https://datasheet.lcsc.com/lcsc/2106070033_QIACHIP-WL9981TC_C2689544.pdf</datasheet>
       <fields>
         <field name="LCSC">C9900001612</field>
-        <field name="MF">HuiCheng</field>
         <field name="PARTREV">v1.0</field>
+        <field name="MF">HuiCheng</field>
         <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Footprint">kicad6-libraries:JDY-33</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2106070033_QIACHIP-WL9981TC_C2689544.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="JDY-33" part="JDY-33" description=""/>
       <property name="LCSC" value="C9900001612"/>
@@ -999,12 +1259,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>8c6fd1fe-9fd4-4403-830a-a8fc4f432631</tstamps>
     </comp>
@@ -1013,12 +1275,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>f382b631-1024-45bb-b0c5-28c8ba64e33b</tstamps>
     </comp>
@@ -1027,12 +1291,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>628a9813-7de7-4d2a-8f60-2a80dd49b9bc</tstamps>
     </comp>
@@ -1041,12 +1307,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>8272e2e9-113d-4a3e-af8d-b341be341085</tstamps>
     </comp>
@@ -1055,12 +1323,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>528d0d04-5d91-4eb5-abcf-96f927f78f5a</tstamps>
     </comp>
@@ -1069,12 +1339,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>4373ba54-d792-4bd2-a06f-327a8366ec8f</tstamps>
     </comp>
@@ -1083,12 +1355,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>b8958550-ab0e-4ff1-9ac3-15075a9550cf</tstamps>
     </comp>
@@ -1097,12 +1371,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>96f9948a-e6e1-4357-a71b-200968a3d3fd</tstamps>
     </comp>
@@ -1111,12 +1387,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>01caac17-0a5c-4c65-bb3e-764db1be9e63</tstamps>
     </comp>
@@ -1125,12 +1403,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>93efdc3b-a12d-4978-a503-c4ae6fecb9f8</tstamps>
     </comp>
@@ -1139,12 +1419,14 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C14663</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>8deea5f7-2262-4b2c-9f4c-6bffb9cffe54</tstamps>
     </comp>
@@ -1153,12 +1435,14 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C57112</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C57112"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>f9874692-5756-42b7-bf9c-dd605db2d14f</tstamps>
     </comp>
@@ -1167,34 +1451,46 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C57112</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C57112"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>fa6d36d6-89fc-4f6a-af0b-221e8f53b977</tstamps>
     </comp>
     <comp ref="P15">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>9faec45c-6d01-4dd8-b73d-cd669a0f016d</tstamps>
     </comp>
     <comp ref="P17">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>fb810003-c1bf-498b-9e16-7834ff8b980a</tstamps>
     </comp>
@@ -1203,12 +1499,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="DC Driver 1"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>5a40d07f-95b9-4cdf-aa98-82a8968f1700</tstamps>
     </comp>
@@ -1217,6 +1515,9 @@
       <footprint>Package_SO:Infineon_PG-DSO-12-11</footprint>
       <fields>
         <field name="LCSC">C112633</field>
+        <field name="Footprint">Package_SO:Infineon_PG-DSO-12-11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="chips" part="TLE9201SG" description=""/>
       <property name="LCSC" value="C112633"/>
@@ -1230,6 +1531,9 @@
       <footprint>hellen-one-common:SOD-123</footprint>
       <fields>
         <field name="LCSC">C8598</field>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
       <property name="LCSC" value="C8598"/>
@@ -1243,6 +1547,9 @@
       <footprint>hellen-one-common:SOD-123</footprint>
       <fields>
         <field name="LCSC">C8598</field>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
       <property name="LCSC" value="C8598"/>
@@ -1256,6 +1563,9 @@
       <footprint>hellen-one-common:SOD-123</footprint>
       <fields>
         <field name="LCSC">C8598</field>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
       <property name="LCSC" value="C8598"/>
@@ -1269,6 +1579,9 @@
       <footprint>hellen-one-common:SOD-123</footprint>
       <fields>
         <field name="LCSC">C8598</field>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
       <property name="LCSC" value="C8598"/>
@@ -1282,12 +1595,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>20067a66-836b-402a-89d1-4b65b1e4d190</tstamps>
     </comp>
@@ -1296,12 +1611,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>f992e9c9-4492-40b8-823b-f6fa15d06892</tstamps>
     </comp>
@@ -1310,12 +1627,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>2e374842-b6e3-496f-a78a-2e5dbd03287d</tstamps>
     </comp>
@@ -1324,12 +1643,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="LS"/>
       <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
       <tstamps>eec87eff-5471-42c8-aaa0-ff5c0793a9cf</tstamps>
     </comp>
@@ -1338,6 +1659,9 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="LCSC">C377942</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="chips" part="VNLD5160" description=""/>
       <property name="LCSC" value="C377942"/>
@@ -1351,6 +1675,9 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="LCSC">C377942</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="chips" part="VNLD5160" description=""/>
       <property name="LCSC" value="C377942"/>
@@ -1364,12 +1691,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>8c6fd1fe-9fd4-4403-830a-a8fc4f432631</tstamps>
     </comp>
@@ -1378,12 +1707,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>f382b631-1024-45bb-b0c5-28c8ba64e33b</tstamps>
     </comp>
@@ -1392,12 +1723,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>628a9813-7de7-4d2a-8f60-2a80dd49b9bc</tstamps>
     </comp>
@@ -1406,12 +1739,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>8272e2e9-113d-4a3e-af8d-b341be341085</tstamps>
     </comp>
@@ -1420,12 +1755,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>528d0d04-5d91-4eb5-abcf-96f927f78f5a</tstamps>
     </comp>
@@ -1434,12 +1771,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>4373ba54-d792-4bd2-a06f-327a8366ec8f</tstamps>
     </comp>
@@ -1448,12 +1787,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>b8958550-ab0e-4ff1-9ac3-15075a9550cf</tstamps>
     </comp>
@@ -1462,12 +1803,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>96f9948a-e6e1-4357-a71b-200968a3d3fd</tstamps>
     </comp>
@@ -1476,12 +1819,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>01caac17-0a5c-4c65-bb3e-764db1be9e63</tstamps>
     </comp>
@@ -1490,12 +1835,14 @@
       <footprint>hellen-one-common:C0805</footprint>
       <fields>
         <field name="LCSC">C15850</field>
+        <field name="Footprint">hellen-one-common:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15850"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>93efdc3b-a12d-4978-a503-c4ae6fecb9f8</tstamps>
     </comp>
@@ -1504,12 +1851,14 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C14663</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>8deea5f7-2262-4b2c-9f4c-6bffb9cffe54</tstamps>
     </comp>
@@ -1518,12 +1867,14 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C57112</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C57112"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>f9874692-5756-42b7-bf9c-dd605db2d14f</tstamps>
     </comp>
@@ -1532,34 +1883,46 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C57112</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C57112"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>fa6d36d6-89fc-4f6a-af0b-221e8f53b977</tstamps>
     </comp>
     <comp ref="P16">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>9faec45c-6d01-4dd8-b73d-cd669a0f016d</tstamps>
     </comp>
     <comp ref="P18">
       <value>Pad</value>
       <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>fb810003-c1bf-498b-9e16-7834ff8b980a</tstamps>
     </comp>
@@ -1568,12 +1931,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="DC Driver 2"/>
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/"/>
       <tstamps>5a40d07f-95b9-4cdf-aa98-82a8968f1700</tstamps>
     </comp>
@@ -1582,6 +1947,9 @@
       <footprint>Package_SO:Infineon_PG-DSO-12-11</footprint>
       <fields>
         <field name="LCSC">C112633</field>
+        <field name="Footprint">Package_SO:Infineon_PG-DSO-12-11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="chips" part="TLE9201SG" description=""/>
       <property name="LCSC" value="C112633"/>
@@ -1595,12 +1963,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="LS HOT"/>
       <property name="Sheetfile" value="LS_HOT.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/LS HOT/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
       <tstamps>94472053-6dde-4e9a-9a4a-1dcfa880e1a8</tstamps>
     </comp>
@@ -1609,12 +1979,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="LS HOT"/>
       <property name="Sheetfile" value="LS_HOT.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/LS HOT/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/"/>
       <tstamps>a284569b-b861-48e2-88ac-fb31172ac17f</tstamps>
     </comp>
@@ -1623,6 +1995,9 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="LCSC">C377942</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="chips" part="VNLD5160" description=""/>
       <property name="LCSC" value="C377942"/>
@@ -1636,18 +2011,25 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C14663</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value="MAP"/>
       <property name="Sheetfile" value="MAP.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/MAP/" tstamps="/7f618b1f-fe11-49db-a473-d0b521b1fa4f/"/>
       <tstamps>d1e99562-e6a6-4a55-97b6-342c86e3a62a</tstamps>
     </comp>
     <comp ref="U3">
       <value>MPX4/MPXH6400_MAP</value>
       <footprint>kicad6-libraries:MPX-4_MAP</footprint>
+      <fields>
+        <field name="Footprint">kicad6-libraries:MPX-4_MAP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MPX-4_MAP" part="MPX4/MPXH6400_MAP" description=""/>
       <property name="Sheetname" value="MAP"/>
       <property name="Sheetfile" value="MAP.kicad_sch"/>
@@ -1659,13 +2041,16 @@
       <footprint>Fuse:Fuse_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C369141</field>
+        <field name="Footprint">Fuse:Fuse_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="LCSC" value="C369141"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>8f419c94-9c21-46bc-a9d6-d31ff121b1fe</tstamps>
     </comp>
@@ -1674,13 +2059,16 @@
       <footprint>Fuse:Fuse_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C369141</field>
+        <field name="Footprint">Fuse:Fuse_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="LCSC" value="C369141"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>74582e7f-aae7-4bd5-8922-bd4012b3feb1</tstamps>
     </comp>
@@ -1689,13 +2077,16 @@
       <footprint>Fuse:Fuse_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C369141</field>
+        <field name="Footprint">Fuse:Fuse_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="LCSC" value="C369141"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>fd4d96da-ebf7-471c-a7b1-6d6c11aa07ad</tstamps>
     </comp>
@@ -1704,13 +2095,16 @@
       <footprint>Fuse:Fuse_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C369141</field>
+        <field name="Footprint">Fuse:Fuse_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="LCSC" value="C369141"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>e394cc70-d8a7-4040-a9fe-6c15b0bbe8b0</tstamps>
     </comp>
@@ -1719,13 +2113,16 @@
       <footprint>Fuse:Fuse_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C369141</field>
+        <field name="Footprint">Fuse:Fuse_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="LCSC" value="C369141"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>539da5c1-e20c-4d0b-9eb0-ee7a9ad6ec64</tstamps>
     </comp>
@@ -1734,13 +2131,16 @@
       <footprint>Fuse:Fuse_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C369141</field>
+        <field name="Footprint">Fuse:Fuse_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="LCSC" value="C369141"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
       <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>02e392c0-f907-4220-80f8-b5f2c7dbb6e6</tstamps>
     </comp>
@@ -1748,14 +2148,17 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
+        <field name="LCSC"/>
         <field name="MyComment">DNP</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="LCSC" value=""/>
       <property name="MyComment" value="DNP"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="N-IGBT transistor, gate/collector/emitter"/>
       <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>5a21e231-a92c-4570-b132-2decd3096709</tstamps>
@@ -1764,14 +2167,17 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
+        <field name="LCSC"/>
         <field name="MyComment">DNP</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="LCSC" value=""/>
       <property name="MyComment" value="DNP"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="N-IGBT transistor, gate/collector/emitter"/>
       <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>6b800909-d074-4dbe-a04b-e4cb2b67c2b1</tstamps>
@@ -1780,14 +2186,17 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
+        <field name="LCSC"/>
         <field name="MyComment">DNP</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="LCSC" value=""/>
       <property name="MyComment" value="DNP"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="N-IGBT transistor, gate/collector/emitter"/>
       <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>007e3d0d-aa46-4fe8-b808-b02941d83161</tstamps>
@@ -1796,14 +2205,17 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
+        <field name="LCSC"/>
         <field name="MyComment">DNP</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="LCSC" value=""/>
       <property name="MyComment" value="DNP"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="N-IGBT transistor, gate/collector/emitter"/>
       <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>75753624-419d-4d0d-b38b-3a92704c17d2</tstamps>
@@ -1812,14 +2224,17 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
+        <field name="LCSC"/>
         <field name="MyComment">DNP</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="LCSC" value=""/>
       <property name="MyComment" value="DNP"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="N-IGBT transistor, gate/collector/emitter"/>
       <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>d93bae62-4072-470d-a6c2-cbcf56e3951b</tstamps>
@@ -1828,14 +2243,17 @@
       <value>ISL9V3040D3ST</value>
       <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
       <fields>
+        <field name="LCSC"/>
         <field name="MyComment">DNP</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Q_NIGBT_GCE" description="N-IGBT transistor, gate/collector/emitter"/>
       <property name="LCSC" value=""/>
       <property name="MyComment" value="DNP"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="N-IGBT transistor, gate/collector/emitter"/>
       <property name="ki_keywords" value="transistor IGBT N-IGBT"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>a952d20c-a9f6-4ed1-9ed0-50db5783e8d7</tstamps>
@@ -1845,12 +2263,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23345</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23345"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>1bd6c59b-c724-40d8-9957-1a1118b8183e</tstamps>
     </comp>
@@ -1859,12 +2279,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23345</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23345"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>3ef5d410-c3f1-40b5-98d4-2c5ac5352f44</tstamps>
     </comp>
@@ -1873,12 +2295,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23345</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23345"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>64ea45bb-1850-4eff-b028-1ecfa78307ac</tstamps>
     </comp>
@@ -1887,12 +2311,14 @@
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
         <field name="LCSC">C25469</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C25469"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>4d8fcbb1-83ee-47b7-beeb-af6bdb5cc54b</tstamps>
     </comp>
@@ -1901,12 +2327,14 @@
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
         <field name="LCSC">C25469</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C25469"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>b64c2954-40ec-410c-967b-bb767c9d2d61</tstamps>
     </comp>
@@ -1915,12 +2343,14 @@
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
         <field name="LCSC">C25469</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C25469"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>d71fc2d7-dd8f-4925-852c-43d62c8995bf</tstamps>
     </comp>
@@ -1929,12 +2359,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23345</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23345"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>c5a5376d-be1d-4fd6-91d7-ba7f2b320160</tstamps>
     </comp>
@@ -1943,12 +2375,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23345</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23345"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>82c3502f-2841-4542-bc0e-d08d257f5d17</tstamps>
     </comp>
@@ -1957,12 +2391,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23345</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23345"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>36d4b873-ee22-4eb5-a86d-30ebf41bfdb2</tstamps>
     </comp>
@@ -1971,12 +2407,14 @@
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
         <field name="LCSC">C25469</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C25469"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>1d29929e-b36b-4b64-a56a-89b017c4f1d8</tstamps>
     </comp>
@@ -1985,12 +2423,14 @@
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
         <field name="LCSC">C25469</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C25469"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>028c9778-3f5d-48d2-8232-969b84ce0fe7</tstamps>
     </comp>
@@ -1999,12 +2439,14 @@
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
         <field name="LCSC">C25469</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C25469"/>
       <property name="Sheetname" value="Ignition"/>
       <property name="Sheetfile" value="IGN6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/"/>
       <tstamps>ab9afe23-91d4-41b5-a028-863e1e09e407</tstamps>
     </comp>
@@ -2013,12 +2455,14 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C57112</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C57112"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/"/>
       <tstamps>0427b7f6-094d-4360-bfde-585777e5e23f</tstamps>
     </comp>
@@ -2027,12 +2471,14 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C14663</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/"/>
       <tstamps>fa29a014-29d8-4bdb-92ad-8ffcd6644ac0</tstamps>
     </comp>
@@ -2041,12 +2487,14 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C57112</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C57112"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/"/>
       <tstamps>12218d10-0028-40b3-908d-826c75147794</tstamps>
     </comp>
@@ -2055,12 +2503,14 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C14663</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/"/>
       <tstamps>392f94da-ca03-44df-a92f-7d7b7a3f83bd</tstamps>
     </comp>
@@ -2069,12 +2519,14 @@
       <footprint>hellen-one-common:C0603</footprint>
       <fields>
         <field name="LCSC">C15849</field>
+        <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Cap" description="Capacitor"/>
       <property name="LCSC" value="C15849"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
-      <property name="ki_description" value="Capacitor"/>
       <sheetpath names="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/"/>
       <tstamps>11445d06-6f82-4505-aa73-7cde4c889b81</tstamps>
     </comp>
@@ -2084,13 +2536,16 @@
       <datasheet>http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF</datasheet>
       <fields>
         <field name="LCSC">C284104</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Power_Protection" part="NUP2105L" description="Dual Line CAN Bus Protector, 24Vrwm"/>
       <property name="LCSC" value="C284104"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
-      <property name="ki_description" value="Dual Line CAN Bus Protector, 24Vrwm"/>
       <property name="ki_keywords" value="can esd protection suppression transient"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/"/>
       <tstamps>22710496-30c0-4ecc-83ad-37b55f89c448</tstamps>
     </comp>
@@ -2099,13 +2554,16 @@
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C97853</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="LCSC" value="C97853"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/"/>
       <tstamps>fb71f690-3cb8-4338-b729-e52e76d84ece</tstamps>
     </comp>
@@ -2114,13 +2572,16 @@
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C97853</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="LCSC" value="C97853"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/"/>
       <tstamps>6fdc6513-85fa-4ac4-9fba-94c952fa0cb6</tstamps>
     </comp>
@@ -2130,13 +2591,16 @@
       <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
       <fields>
         <field name="LCSC">C52028</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="" part="MAX31855KASA_1" description="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
       <property name="LCSC" value="C52028"/>
       <property name="Sheetname" value="EGT"/>
       <property name="Sheetfile" value="egt.kicad_sch"/>
-      <property name="ki_description" value="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
       <property name="ki_keywords" value="Cold Junction Termocouple Interface SPI"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
       <sheetpath names="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/"/>
       <tstamps>04a7e2ba-939e-46ce-8acf-be15c18c0aff</tstamps>
     </comp>
@@ -2145,12 +2609,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="Injector"/>
       <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
       <tstamps>fee924b2-b87d-42d0-8f20-6b32849ef346</tstamps>
     </comp>
@@ -2159,12 +2625,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="Injector"/>
       <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
       <tstamps>e9b0ec26-9f8a-49ad-a817-6cd97b1c6ffb</tstamps>
     </comp>
@@ -2173,12 +2641,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="Injector"/>
       <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
       <tstamps>5d740bcd-5fd7-444b-8ec5-3c30da76c0ae</tstamps>
     </comp>
@@ -2187,12 +2657,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="Injector"/>
       <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
       <tstamps>edafa818-a97e-4ab0-bb64-cb605c6c049d</tstamps>
     </comp>
@@ -2201,12 +2673,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="Injector"/>
       <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
       <tstamps>ea85bf6f-1ebe-4871-bf3e-b0074a36a02e</tstamps>
     </comp>
@@ -2215,12 +2689,14 @@
       <footprint>hellen-one-common:R0603</footprint>
       <fields>
         <field name="LCSC">C23162</field>
+        <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="hellen-one-common" part="Res" description="Resistor"/>
       <property name="LCSC" value="C23162"/>
       <property name="Sheetname" value="Injector"/>
       <property name="Sheetfile" value="INJ6.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <sheetpath names="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/"/>
       <tstamps>b8d7625b-ab7d-42ef-ac67-f281327e1e91</tstamps>
     </comp>
@@ -2229,6 +2705,9 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="LCSC">C377942</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="chips" part="VNLD5160" description=""/>
       <property name="LCSC" value="C377942"/>
@@ -2242,6 +2721,9 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="LCSC">C377942</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="chips" part="VNLD5160" description=""/>
       <property name="LCSC" value="C377942"/>
@@ -2255,6 +2737,9 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="LCSC">C377942</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="chips" part="VNLD5160" description=""/>
       <property name="LCSC" value="C377942"/>
@@ -2276,6 +2761,7 @@
         <field name="Value">MAX31855KASA</field>
         <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</field>
+        <field name="Description">Cold Junction K-type Termocouple Interface, SPI, SO8</field>
       </fields>
       <pins>
         <pin num="1" name="GND" type="power_in"/>
@@ -2296,7 +2782,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x05_Pin</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2315,7 +2803,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2335,7 +2825,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_02x02_Odd_Even</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2353,7 +2845,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_02x03_Top_Bottom</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2373,7 +2867,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_02x04_Top_Bottom</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2395,7 +2891,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_02x08_Top_Bottom</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x08, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2425,7 +2923,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_02x09_Top_Bottom</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x09, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2457,7 +2957,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_02x10_Top_Bottom</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2488,7 +2990,9 @@
       <fields>
         <field name="Reference">BT</field>
         <field name="Value">Battery_Cell</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
       </fields>
       <pins>
         <pin num="1" name="+" type="passive"/>
@@ -2507,7 +3011,9 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">L</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -2524,7 +3030,9 @@
       <fields>
         <field name="Reference">F</field>
         <field name="Value">Polyfuse</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Resettable fuse, polymeric positive temperature coefficient</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -2537,7 +3045,9 @@
       <fields>
         <field name="Reference">Q</field>
         <field name="Value">Q_NIGBT_GCE</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">N-IGBT transistor, gate/collector/emitter</field>
       </fields>
       <pins>
         <pin num="1" name="G" type="input"/>
@@ -2550,6 +3060,8 @@
         <field name="Reference">U18</field>
         <field name="Value">JDY-33</field>
         <field name="Footprint">kicad6-libraries:JDY-33</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
         <field name="PARTREV">v1.0</field>
         <field name="MF">HuiCheng</field>
         <field name="STANDARD">Manufacturer Recommendations</field>
@@ -2572,6 +3084,8 @@
         <field name="Reference">U</field>
         <field name="Value">MPX4{slash}MPXH6400_MAP</field>
         <field name="Footprint">kicad6-libraries:MPX-4_MAP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="VOUT" type="passive"/>
@@ -2591,7 +3105,9 @@
       <fields>
         <field name="Reference">H</field>
         <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
       </fields>
     </libpart>
     <libpart lib="Power_Protection" part="NUP2105L">
@@ -2605,6 +3121,7 @@
         <field name="Value">NUP2105L</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF</field>
+        <field name="Description">Dual Line CAN Bus Protector, 24Vrwm</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -2617,6 +3134,8 @@
         <field name="Reference">U</field>
         <field name="Value">TLE9201SG</field>
         <field name="Footprint">Package_SO:Infineon_PG-DSO-12-11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
         <field name="LCSC">C2653438</field>
       </fields>
       <pins>
@@ -2640,6 +3159,8 @@
         <field name="Reference">U</field>
         <field name="Value">VNLD5160TR-E</field>
         <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
         <field name="LCSC">C377942</field>
       </fields>
       <pins>
@@ -2659,6 +3180,8 @@
         <field name="Reference">M</field>
         <field name="Value">Module-can-0.1</field>
         <field name="Footprint">hellen-one-can-0.1:can</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One CAN Module</field>
       </fields>
       <pins>
         <pin num="E1" name="GND" type="passive"/>
@@ -2675,6 +3198,8 @@
         <field name="Reference">D</field>
         <field name="Value">1N4148WS</field>
         <field name="Footprint">hellen-one-common:SOD-323</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
         <field name="LCSC">C2128</field>
       </fields>
       <pins>
@@ -2688,6 +3213,9 @@
         <field name="Reference">C</field>
         <field name="Value">Cap</field>
         <field name="Footprint">hellen-one-common:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description">Capacitor</field>
+        <field name="LCSC"/>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -2700,6 +3228,8 @@
         <field name="Reference">F</field>
         <field name="Value">Fuse-Pad-Pad</field>
         <field name="Footprint">hellen-one-common:PAD-1206-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description">12H1500D</field>
         <field name="LCSC">C182446</field>
       </fields>
       <pins>
@@ -2712,6 +3242,8 @@
         <field name="Reference">R</field>
         <field name="Value">Jumper-Pad-Pad</field>
         <field name="Footprint">hellen-one-common:PAD-0805-PAD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
         <field name="LCSC">C17477</field>
       </fields>
       <pins>
@@ -2724,6 +3256,8 @@
         <field name="Reference">G</field>
         <field name="Value">LOGO</field>
         <field name="Footprint">hellen-one-common:LOGO</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
     </libpart>
     <libpart lib="hellen-one-common" part="PROTO_AREA">
@@ -2731,6 +3265,8 @@
         <field name="Reference">G</field>
         <field name="Value">PROTO_AREA</field>
         <field name="Footprint">hellen-one-common:PROTO_AREA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -2761,6 +3297,7 @@
         <field name="Value">Pad</field>
         <field name="Footprint">hellen-one-common:PAD-TH</field>
         <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2772,6 +3309,9 @@
         <field name="Reference">R</field>
         <field name="Value">Res</field>
         <field name="Footprint">hellen-one-common:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+        <field name="LCSC"/>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -2789,6 +3329,7 @@
         <field name="Value">USB_B_Mini</field>
         <field name="Footprint">hellen-one-common:USB-MINI-B-VERTICAL</field>
         <field name="Datasheet">~</field>
+        <field name="Description">USB Mini Type B connector</field>
         <field name="LCSC">C13453</field>
       </fields>
       <pins>
@@ -2806,6 +3347,8 @@
         <field name="Reference">M</field>
         <field name="Value">Module-knock-0.2</field>
         <field name="Footprint">hellen-one-knock-0.2:knock</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One Knock Pre-amplifier Module</field>
       </fields>
       <pins>
         <pin num="E1" name="V5A" type="passive"/>
@@ -2824,13 +3367,17 @@
         <field name="Reference">M100</field>
         <field name="Value">Module:mega-mcu100/0.3</field>
         <field name="Footprint">hellen-one-mega-mcu100-0.3:mega-mcu100</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen One MEGA-MCU100 Module</field>
         <field name="PUBLISHER">qwerty-off</field>
         <field name="SUPPLIER PART NUMBER 1">*</field>
         <field name="SUPPLIER PART NUMBER 2">*</field>
         <field name="SUPPLIER 1">Mouser</field>
         <field name="SUPPLIER 2">Digi-Key</field>
         <field name="FITTED">False</field>
+        <field name="PACKAGEREFERENCE"/>
         <field name="SUPPLIER 3">LCSC</field>
+        <field name="SUPPLIER PART NUMBER 3"/>
         <field name="TYPE">Module</field>
       </fields>
       <pins>
@@ -2927,6 +3474,8 @@
         <field name="Reference">M</field>
         <field name="Value">Module-power_12and5V-0.2</field>
         <field name="Footprint">hellen-one-power_12and5V-0.2:power_12and5V</field>
+        <field name="Datasheet"/>
+        <field name="Description">Hellen-One Power_12and5V Module</field>
       </fields>
       <pins>
         <pin num="E1" name="VBAT" type="passive"/>
@@ -2947,6 +3496,8 @@
         <field name="Reference">M</field>
         <field name="Value">Module-vr-discrete-0.5</field>
         <field name="Footprint">hellen-one-vr-discrete-0.5:vr-discrete</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="E1" name="Thresh_IN" type="passive"/>
@@ -2963,6 +3514,8 @@
         <field name="Reference">M</field>
         <field name="Value">Module-wbo-0.5</field>
         <field name="Footprint">hellen-one-wbo-0.5:wbo</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="E1" name="LSU_Un" type="passive"/>
@@ -2998,6 +3551,8 @@
         <field name="Reference">J</field>
         <field name="Value">USB_C</field>
         <field name="Footprint">kicad6-libraries:USB_C</field>
+        <field name="Datasheet"/>
+        <field name="Description">USB 2.0-only Type-C Receptacle connector</field>
         <field name="LCSC">C2927038</field>
       </fields>
       <pins>
@@ -3025,6 +3580,8 @@
         <field name="Reference">G</field>
         <field name="Value">RUSEFI_LOGO</field>
         <field name="Footprint">kicad6-libraries:rusefi_logo</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
     </libpart>
     <libpart lib="vr-max9924" part="Module-vr-max9924-0.1">
@@ -3032,6 +3589,8 @@
         <field name="Reference">M</field>
         <field name="Value">Module-vr-max9924-0.1</field>
         <field name="Footprint">hellen-one-vr-max9924-0.1:vr-max9924</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="E1" name="NC" type="passive"/>
