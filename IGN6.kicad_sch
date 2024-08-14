@@ -1,1599 +1,3720 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 6d4075fa-bb19-41ce-9124-2ed2848750ae)
-
-  (paper "A4")
-
-  (title_block
-    (title "UAEFI Ignition")
-    (date "2023-11-01")
-    (rev "B")
-    (company "rusefi.com")
-  )
-
-  (lib_symbols
-    (symbol "Device:Polyfuse" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "F" (at -2.54 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Polyfuse" (at 2.54 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 1.27 -5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resettable fuse, polymeric positive temperature coefficient" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*polyfuse* *PTC*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Polyfuse_0_1"
-        (rectangle (start -0.762 2.54) (end 0.762 -2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 2.54)
-            (xy -1.524 1.524)
-            (xy 1.524 -1.524)
-            (xy 1.524 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Polyfuse_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:Q_NIGBT_GCE" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 5.08 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Q_NIGBT_GCE" (at 5.08 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 5.08 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "transistor IGBT N-IGBT" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "N-IGBT transistor, gate/collector/emitter" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Q_NIGBT_GCE_0_1"
-        (polyline
-          (pts
-            (xy 0.762 -1.016)
-            (xy 0.762 -2.032)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 0.508)
-            (xy 0.762 -0.508)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 2.032)
-            (xy 0.762 1.016)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.413)
-            (xy 0.762 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -0.889)
-            (xy 0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.413)
-            (xy 0.762 1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.397 -2.159)
-            (xy 1.651 -1.651)
-            (xy 2.54 -2.413)
-            (xy 1.397 -2.159)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.159 1.905)
-            (xy 1.905 2.413)
-            (xy 1.016 1.651)
-            (xy 2.159 1.905)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 1.27 0) (radius 2.8194)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Q_NIGBT_GCE_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
-          (name "G" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "E" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "hellen-one-common:Res" (pin_numbers hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 3.81 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Res" (at 5.08 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "hellen-one-common:R0603" (at 3.81 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Res_1_0"
-        (rectangle (start 2.54 -1.27) (end 7.62 1.27)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at 0 0 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 10.16 0 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 118.11 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid 142114c3-51ad-4bd3-b14a-e6713048a7ff)
-  )
-  (junction (at 118.11 120.65) (diameter 0) (color 0 0 0 0)
-    (uuid 234abe17-ea08-4e59-b53e-cd52d056e3fa)
-  )
-  (junction (at 135.89 69.85) (diameter 0) (color 0 0 0 0)
-    (uuid 3e83fc6e-754d-457e-a33c-9272b0f994df)
-  )
-  (junction (at 118.11 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid 4f0d27a7-ccae-4a60-89b5-45c5e77cb0e4)
-  )
-  (junction (at 135.89 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 76b92482-a8f3-4092-9d34-a6d368619af1)
-  )
-  (junction (at 182.88 125.73) (diameter 0) (color 0 0 0 0)
-    (uuid 98b10b63-cc30-4f42-9155-bfe5de690af3)
-  )
-  (junction (at 182.88 97.79) (diameter 0) (color 0 0 0 0)
-    (uuid 9ca9849f-c445-479b-a506-968da582108f)
-  )
-  (junction (at 165.1 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid aefed68f-078c-49d5-a0a7-e96dd97b011c)
-  )
-  (junction (at 182.88 69.85) (diameter 0) (color 0 0 0 0)
-    (uuid d93f28bc-473f-41a1-a2c8-e964fc2325dd)
-  )
-  (junction (at 165.1 120.65) (diameter 0) (color 0 0 0 0)
-    (uuid e41984cf-d701-44c4-9309-7b8d49fb68fe)
-  )
-  (junction (at 165.1 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid e96695ea-aa82-4129-b20e-c42b4a233e38)
-  )
-  (junction (at 135.89 125.73) (diameter 0) (color 0 0 0 0)
-    (uuid f973ea4a-72a3-4005-bcce-697fa62278c5)
-  )
-
-  (wire (pts (xy 182.88 64.77) (xy 182.88 69.85))
-    (stroke (width 0) (type default))
-    (uuid 007807cd-2990-455b-8b06-939bffe212ae)
-  )
-  (wire (pts (xy 160.02 64.77) (xy 165.1 64.77))
-    (stroke (width 0) (type default))
-    (uuid 0c9630b0-908e-438c-8b22-c2078ba906f1)
-  )
-  (wire (pts (xy 118.11 102.87) (xy 118.11 107.95))
-    (stroke (width 0) (type default))
-    (uuid 109ac876-60a2-42eb-befb-54fc5989ec51)
-  )
-  (wire (pts (xy 113.03 120.65) (xy 118.11 120.65))
-    (stroke (width 0) (type default))
-    (uuid 2221f2d6-c893-4365-b027-16067a3de746)
-  )
-  (wire (pts (xy 118.11 74.93) (xy 118.11 80.01))
-    (stroke (width 0) (type default))
-    (uuid 262ccb62-dcda-4e63-9cb4-47ef7307e71f)
-  )
-  (wire (pts (xy 165.1 130.81) (xy 165.1 137.16))
-    (stroke (width 0) (type default))
-    (uuid 2dc93f12-802f-457f-9390-87748bcf8cdf)
-  )
-  (wire (pts (xy 160.02 92.71) (xy 165.1 92.71))
-    (stroke (width 0) (type default))
-    (uuid 319b3d97-f0d7-4c44-860a-245e6369aebc)
-  )
-  (wire (pts (xy 165.1 74.93) (xy 165.1 81.28))
-    (stroke (width 0) (type default))
-    (uuid 321ef7ef-895e-4c0f-9399-7279d60efc26)
-  )
-  (wire (pts (xy 165.1 102.87) (xy 165.1 107.95))
-    (stroke (width 0) (type default))
-    (uuid 38044df2-aa91-4347-a20c-b20977ecb7eb)
-  )
-  (wire (pts (xy 135.89 92.71) (xy 135.89 97.79))
-    (stroke (width 0) (type default))
-    (uuid 3a00cf48-4ed2-40c0-b5f8-612f38dd48be)
-  )
-  (wire (pts (xy 165.1 64.77) (xy 172.72 64.77))
-    (stroke (width 0) (type default))
-    (uuid 3d143fcf-6d76-4451-8763-1243e727606a)
-  )
-  (wire (pts (xy 135.89 120.65) (xy 135.89 125.73))
-    (stroke (width 0) (type default))
-    (uuid 4cf399a2-889c-466c-8c2e-c05ebd909721)
-  )
-  (wire (pts (xy 165.1 120.65) (xy 172.72 120.65))
-    (stroke (width 0) (type default))
-    (uuid 508325a7-b2fa-426b-9b1f-416b12dec4a9)
-  )
-  (wire (pts (xy 118.11 120.65) (xy 125.73 120.65))
-    (stroke (width 0) (type default))
-    (uuid 51a53165-7641-434a-b1c2-7ab60ba4fa34)
-  )
-  (wire (pts (xy 113.03 64.77) (xy 118.11 64.77))
-    (stroke (width 0) (type default))
-    (uuid 5fe10db9-a921-4655-a019-1090e176795b)
-  )
-  (wire (pts (xy 118.11 92.71) (xy 125.73 92.71))
-    (stroke (width 0) (type default))
-    (uuid 63516abe-bb3f-4c71-a8be-811bd15f6a35)
-  )
-  (wire (pts (xy 165.1 92.71) (xy 172.72 92.71))
-    (stroke (width 0) (type default))
-    (uuid 67093fdc-a19b-49cc-95a3-685a81600959)
-  )
-  (wire (pts (xy 160.02 120.65) (xy 165.1 120.65))
-    (stroke (width 0) (type default))
-    (uuid 6d6b05b1-f47d-4050-8766-b786fc8cb9e9)
-  )
-  (wire (pts (xy 182.88 92.71) (xy 182.88 97.79))
-    (stroke (width 0) (type default))
-    (uuid 75100292-398a-4df3-b139-d568660384eb)
-  )
-  (wire (pts (xy 182.88 120.65) (xy 182.88 125.73))
-    (stroke (width 0) (type default))
-    (uuid abc784c2-8804-4c89-964e-9b9c2ab97d63)
-  )
-  (wire (pts (xy 118.11 130.81) (xy 118.11 135.89))
-    (stroke (width 0) (type default))
-    (uuid be55bc65-7e5b-40d4-8f09-b11919aed8a0)
-  )
-  (wire (pts (xy 118.11 64.77) (xy 125.73 64.77))
-    (stroke (width 0) (type default))
-    (uuid ca0b034f-196a-4f8d-8761-bda01bc9a6ef)
-  )
-  (wire (pts (xy 113.03 92.71) (xy 118.11 92.71))
-    (stroke (width 0) (type default))
-    (uuid dd8c3125-7854-456b-8d71-67c2c4e53bcc)
-  )
-  (wire (pts (xy 135.89 64.77) (xy 135.89 69.85))
-    (stroke (width 0) (type default))
-    (uuid f72acfa4-d7bb-4339-a51e-63e5b7a5da37)
-  )
-
-  (text "Remove R20-R22, R26-R28, and install Q7-Q12 for use with dumb coils"
-    (at 106.68 58.42 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 94f1ae4f-7f0e-4242-92e7-cc42eec85819)
-  )
-
-  (hierarchical_label "IN5" (shape input) (at 190.5 97.79 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 160bc99e-f908-4dcb-becd-865f5bcbc482)
-  )
-  (hierarchical_label "OUT1" (shape output) (at 113.03 64.77 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 23fdb466-9530-4ca7-8c58-0c2d6a75ccb7)
-  )
-  (hierarchical_label "OUT3" (shape output) (at 113.03 120.65 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 4a4e953c-4f6c-40b7-8220-85f3aedbc5e9)
-  )
-  (hierarchical_label "IN2" (shape input) (at 143.51 97.79 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 543149c3-2e93-4084-a771-2b3d5cb83826)
-  )
-  (hierarchical_label "IN6" (shape input) (at 190.5 125.73 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 658a6c56-b61f-46d9-88be-288c826b8ac3)
-  )
-  (hierarchical_label "OUT6" (shape output) (at 160.02 120.65 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 709f31e8-2627-4f42-85c2-aefc992e3296)
-  )
-  (hierarchical_label "OUT5" (shape output) (at 160.02 92.71 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 823ca836-fda1-4486-b1ff-96abe0a9b650)
-  )
-  (hierarchical_label "OUT2" (shape output) (at 113.03 92.71 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 925ba267-6288-40ef-9266-98915f60e417)
-  )
-  (hierarchical_label "IN3" (shape input) (at 143.51 125.73 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 94b9e1c7-e614-4b03-a442-7767647b1fc1)
-  )
-  (hierarchical_label "IN1" (shape input) (at 143.51 69.85 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d38144a4-fbf5-4f59-a486-a1e0b900a2d1)
-  )
-  (hierarchical_label "OUT4" (shape output) (at 160.02 64.77 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid d6003afb-95af-4633-b8ee-68fa33a9e86b)
-  )
-  (hierarchical_label "IN4" (shape input) (at 190.5 69.85 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid db7dbaec-b01c-462d-b8d7-3ab29eb9e199)
-  )
-
-  (symbol (lib_id "Device:Q_NIGBT_GCE") (at 120.65 125.73 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 007e3d0d-aa46-4fe8-b808-b02941d83161)
-    (property "Reference" "Q?" (at 115.7986 124.5616 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ISL9V3040D3ST" (at 115.7986 126.873 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (at 115.57 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 120.65 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 120.65 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MyComment" "DNP" (at 114.3 129.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid ab1084d2-37c6-49d0-8100-a3444e446569))
-    (pin "2" (uuid 9095ad18-9aac-4300-8b8e-d912a5cafb60))
-    (pin "3" (uuid cad1c319-ef6e-4d85-9366-08c68cde2477))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "Q?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "Q9") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "Q?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 182.88 92.71 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 028c9778-3f5d-48d2-8232-969b84ce0fe7)
-    (property "Reference" "R14" (at 177.4796 90.0653 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 177.8 92.71 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 179.07 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 182.88 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25469" (at 182.88 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d37f5a03-1763-4498-979c-b34c225f63b2))
-    (pin "2" (uuid 611a03e4-eafd-4173-9a61-61a255b864ad))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R14") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Polyfuse") (at 186.69 125.73 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 02e392c0-f907-4220-80f8-b5f2c7dbb6e6)
-    (property "Reference" "F10" (at 186.69 123.19 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "50mA" (at 186.69 128.27 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 191.77 124.46 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 186.69 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C369141" (at 186.69 125.73 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a084700d-d248-46cd-bf8f-1705319db551))
-    (pin "2" (uuid d8b63c92-acc8-4d0f-bb7d-8046ad64516d))
-    (instances
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "F10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 125.73 69.85 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1bd6c59b-c724-40d8-9957-1a1118b8183e)
-    (property "Reference" "R7" (at 131.052 67.5018 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22" (at 130.81 69.85 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "hellen-one-common:R0603" (at 129.54 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 125.73 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C23345" (at 125.73 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aae86d46-4591-422e-b43c-45168756a5c2))
-    (pin "2" (uuid 39c632b1-2c4f-482b-939b-1fe6c743afba))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R7") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 182.88 64.77 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1d29929e-b36b-4b64-a56a-89b017c4f1d8)
-    (property "Reference" "R14" (at 177.4796 62.1253 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 177.8 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 179.07 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 182.88 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25469" (at 182.88 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 237aeea2-4343-45cc-a42b-336f8ebcfac0))
-    (pin "2" (uuid 2c45bbf2-ac65-450e-844a-a6a5616bcd90))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R14") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R26") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 172.72 125.73 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 36d4b873-ee22-4eb5-a86d-30ebf41bfdb2)
-    (property "Reference" "R7" (at 178.042 123.3818 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22" (at 177.8 125.73 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "hellen-one-common:R0603" (at 176.53 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 172.72 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C23345" (at 172.72 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9410baa8-49ce-46aa-8db0-c16f0e5324b4))
-    (pin "2" (uuid e39b10c2-da71-47c6-87f1-b21d167723ea))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R7") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R25") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 125.73 97.79 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3ef5d410-c3f1-40b5-98d4-2c5ac5352f44)
-    (property "Reference" "R7" (at 131.052 95.4418 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22" (at 130.81 97.79 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "hellen-one-common:R0603" (at 129.54 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 125.73 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C23345" (at 125.73 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 76cfd95c-aa08-48f2-b83f-4db91356a46e))
-    (pin "2" (uuid c17c6e7f-490f-4f04-b585-e4fce49a0833))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R7") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 118.11 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 427728ee-06e2-4de6-afcf-18633b0b8496)
-    (property "Reference" "#PWR?" (at 118.11 142.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 118.11 139.7 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 118.11 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 118.11 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ccc678b4-df36-44ca-b3e2-d60286df3f8e))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR0101") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 135.89 64.77 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4d8fcbb1-83ee-47b7-beeb-af6bdb5cc54b)
-    (property "Reference" "R14" (at 130.4896 62.1253 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 130.81 64.77 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 132.08 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 135.89 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25469" (at 135.89 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f7c8df4b-c23e-46ed-9d96-9a7a7d330e9a))
-    (pin "2" (uuid 40c2d410-cb2d-4506-9f03-f1e7695c5a9a))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R14") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R20") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Polyfuse") (at 186.69 97.79 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 539da5c1-e20c-4d0b-9eb0-ee7a9ad6ec64)
-    (property "Reference" "F9" (at 186.69 95.25 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "50mA" (at 186.69 100.33 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 191.77 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 186.69 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C369141" (at 186.69 97.79 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e7b7f04c-28ca-4f55-8623-9afb1ddfe216))
-    (pin "2" (uuid daa01cff-7d06-40f2-8f94-4e31d97a2bed))
-    (instances
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "F9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Q_NIGBT_GCE") (at 120.65 69.85 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5a21e231-a92c-4570-b132-2decd3096709)
-    (property "Reference" "Q?" (at 115.7986 68.6816 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ISL9V3040D3ST" (at 115.7986 70.993 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (at 115.57 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 120.65 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 120.65 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MyComment" "DNP" (at 114.3 73.66 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 77d17876-16d6-4dba-8e54-e93f9f5b3939))
-    (pin "2" (uuid 5d7aab90-2af4-444d-9490-d1ff35b77ff7))
-    (pin "3" (uuid 10458603-2727-4b39-8dec-964d2164ca74))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "Q?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "Q7") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "Q?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 165.1 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5e45aea1-2305-4f11-a01f-e6c53573b496)
-    (property "Reference" "#PWR?" (at 165.1 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 165.1 140.97 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c61280e2-903e-474b-9498-0260e79a4247))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR0104") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 125.73 125.73 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 64ea45bb-1850-4eff-b028-1ecfa78307ac)
-    (property "Reference" "R7" (at 131.052 123.3818 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22" (at 130.81 125.73 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "hellen-one-common:R0603" (at 129.54 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 125.73 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C23345" (at 125.73 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8dcb465a-4116-45bc-bc53-49fd1f2c303a))
-    (pin "2" (uuid eb343343-f358-40fe-afea-68d89dd01431))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R7") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R19") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Q_NIGBT_GCE") (at 120.65 97.79 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6b800909-d074-4dbe-a04b-e4cb2b67c2b1)
-    (property "Reference" "Q?" (at 115.7986 96.6216 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ISL9V3040D3ST" (at 115.7986 98.933 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (at 115.57 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 120.65 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 120.65 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MyComment" "DNP" (at 114.3 101.6 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid a77e1876-949f-4f99-a275-d884fcdb9543))
-    (pin "2" (uuid db2c1fc9-3b1d-4a86-b22f-9a0494575aee))
-    (pin "3" (uuid 9f402014-c0af-40f3-9b2e-f14055e62de1))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "Q?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "Q8") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "Q?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 118.11 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7252f413-2c52-44cd-8b56-4d5887f95d93)
-    (property "Reference" "#PWR?" (at 118.11 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 118.11 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 118.11 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 118.11 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e708ed2e-5a15-4373-bc08-4b0dc96759db))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR099") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Polyfuse") (at 139.7 69.85 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 74582e7f-aae7-4bd5-8922-bd4012b3feb1)
-    (property "Reference" "F6" (at 139.7 67.31 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "50mA" (at 139.7 72.39 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 144.78 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 139.7 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C369141" (at 139.7 69.85 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eb105802-6d4a-412e-b934-6ab57ebf29f4))
-    (pin "2" (uuid 58775a3c-73e6-477d-b90b-db13ceaeec10))
-    (instances
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "F6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Q_NIGBT_GCE") (at 167.64 69.85 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 75753624-419d-4d0d-b38b-3a92704c17d2)
-    (property "Reference" "Q?" (at 162.7886 68.6816 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ISL9V3040D3ST" (at 162.7886 70.993 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (at 162.56 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.64 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 167.64 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MyComment" "DNP" (at 161.29 73.66 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid ae9a6a69-5b04-4300-ae5e-941c1cd0a230))
-    (pin "2" (uuid 7e276215-2d92-405d-b562-20ea5bf724ed))
-    (pin "3" (uuid 354632be-82b6-4d7c-92ab-0e304c0e2e54))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "Q?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "Q10") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "Q?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 172.72 97.79 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 82c3502f-2841-4542-bc0e-d08d257f5d17)
-    (property "Reference" "R7" (at 178.042 95.4418 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22" (at 177.8 97.79 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "hellen-one-common:R0603" (at 176.53 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 172.72 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C23345" (at 172.72 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 54979ef6-fcf2-47d5-ba37-4f5981a6c727))
-    (pin "2" (uuid 02ef6a1e-7f85-443d-9c57-6644e5a7e062))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R7") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Polyfuse") (at 139.7 97.79 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8f419c94-9c21-46bc-a9d6-d31ff121b1fe)
-    (property "Reference" "F5" (at 139.7 95.25 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "50mA" (at 139.7 100.33 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 144.78 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 139.7 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C369141" (at 139.7 97.79 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a2e05eb9-4555-4cb9-830b-766402befc6d))
-    (pin "2" (uuid 31647673-1137-4b73-92f9-37c1f91ae521))
-    (instances
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "F5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Q_NIGBT_GCE") (at 167.64 125.73 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a952d20c-a9f6-4ed1-9ed0-50db5783e8d7)
-    (property "Reference" "Q?" (at 162.7886 124.5616 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ISL9V3040D3ST" (at 162.7886 126.873 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (at 162.56 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.64 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 167.64 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MyComment" "DNP" (at 161.29 129.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 9677bfe5-70d9-4699-a980-03064ccebb86))
-    (pin "2" (uuid a2efaa0e-1ff2-4819-b867-08816eb376cf))
-    (pin "3" (uuid 27d35dd5-bb34-4cdf-ab1a-11421218fa40))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "Q?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "Q12") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "Q?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 182.88 120.65 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ab9afe23-91d4-41b5-a028-863e1e09e407)
-    (property "Reference" "R14" (at 177.4796 118.0053 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 177.8 120.65 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 179.07 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 182.88 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25469" (at 182.88 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 59e0ed43-05ff-43ca-99f2-a88a990dcbc7))
-    (pin "2" (uuid 5dc69a31-7ffb-4e03-afab-85ca4ef3ec0b))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R14") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R28") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 165.1 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b580cf2d-7b27-43e7-8eb6-f7488e8b9802)
-    (property "Reference" "#PWR?" (at 165.1 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 165.1 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid facc38b5-cd20-430b-8194-f39dba4c984e))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR0102") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 135.89 92.71 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b64c2954-40ec-410c-967b-bb767c9d2d61)
-    (property "Reference" "R14" (at 130.4896 90.0653 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 130.81 92.71 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 132.08 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 135.89 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25469" (at 135.89 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 088835d9-ca5c-417c-9f0b-b57b199d81c7))
-    (pin "2" (uuid 242151d4-eb90-45c9-aa4b-13cfc11e6fa6))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R14") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 172.72 69.85 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c5a5376d-be1d-4fd6-91d7-ba7f2b320160)
-    (property "Reference" "R7" (at 178.042 67.5018 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22" (at 177.8 69.85 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "hellen-one-common:R0603" (at 176.53 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 172.72 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C23345" (at 172.72 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e81d2f49-4113-4067-a5d5-cef41dcef7ca))
-    (pin "2" (uuid 89a651ba-3e8b-4786-855c-7a64c522cbfe))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R7") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 165.1 107.95 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d2548b32-fa8a-4b12-9317-e7a93fd91498)
-    (property "Reference" "#PWR?" (at 165.1 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 165.1 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid af6365ab-3133-4b4f-b9f2-9db6c8fcd34c))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR0103") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 118.11 107.95 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d5452d5c-560b-45de-b454-5594482bd88e)
-    (property "Reference" "#PWR?" (at 118.11 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 118.2594 112.121 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 118.11 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 118.11 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b03d7f10-840f-4bc1-8a59-0d358538916d))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "#PWR0100") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "hellen-one-common:Res") (at 135.89 120.65 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d71fc2d7-dd8f-4925-852c-43d62c8995bf)
-    (property "Reference" "R14" (at 130.4896 118.0053 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0" (at 130.81 120.65 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 132.08 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 135.89 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25469" (at 135.89 120.65 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 12a970ce-b08a-46ef-9be3-86481194fc09))
-    (pin "2" (uuid 16aea383-c131-4d12-a395-0a6549533476))
-    (instances
-      (project "proteus81harley"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "R14") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "R22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Q_NIGBT_GCE") (at 167.64 97.79 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d93bae62-4072-470d-a6c2-cbcf56e3951b)
-    (property "Reference" "Q?" (at 162.7886 96.6216 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "ISL9V3040D3ST" (at 162.7886 98.933 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:TO-252-2" (at 162.56 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.64 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 167.64 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MyComment" "DNP" (at 161.29 101.6 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 7481f93b-37e1-4281-a647-c93c64a4f16b))
-    (pin "2" (uuid 38b9616a-09f5-496f-bdcb-e910622d6b66))
-    (pin "3" (uuid 0f33d922-cc88-40e7-854c-f35419c4cc50))
-    (instances
-      (project "hellen-hyundai-pb-154"
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-          (reference "Q?") (unit 1)
-        )
-        (path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "DUMB_COILS4"
-        (path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
-          (reference "Q?") (unit 1)
-        )
-      )
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "Q11") (unit 1)
-        )
-      )
-      (project "ign_quad"
-        (path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
-          (reference "Q?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Polyfuse") (at 186.69 69.85 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e394cc70-d8a7-4040-a9fe-6c15b0bbe8b0)
-    (property "Reference" "F8" (at 186.69 67.31 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "50mA" (at 186.69 72.39 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 191.77 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 186.69 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C369141" (at 186.69 69.85 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 473283e7-201a-4c31-b922-feaf0738a777))
-    (pin "2" (uuid 306fdd3a-d6ac-45b1-947a-1219436b4526))
-    (instances
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "F8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Polyfuse") (at 139.7 125.73 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fd4d96da-ebf7-471c-a7b1-6d6c11aa07ad)
-    (property "Reference" "F7" (at 139.7 123.19 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "50mA" (at 139.7 128.27 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 144.78 124.46 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "~" (at 139.7 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C369141" (at 139.7 125.73 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f2fdee93-4d04-4048-b506-6142e7beb1a5))
-    (pin "2" (uuid 80cc267a-0b35-4f5f-aeda-c15ea03d52a7))
-    (instances
-      (project "uaefi"
-        (path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
-          (reference "F7") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6d4075fa-bb19-41ce-9124-2ed2848750ae")
+	(paper "A4")
+	(title_block
+		(title "UAEFI")
+		(date "2024-08-14")
+		(rev "D")
+		(company "rusEFI.com")
+	)
+	(lib_symbols
+		(symbol "Device:Polyfuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Q_NIGBT_GCE"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NIGBT_GCE"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-IGBT transistor, gate/collector/emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor IGBT N-IGBT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NIGBT_GCE_0_1"
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.032) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.413) (xy 0.762 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.413) (xy 0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.159) (xy 1.651 -1.651) (xy 2.54 -2.413) (xy 1.397 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 1.905) (xy 1.905 2.413) (xy 1.016 1.651) (xy 2.159 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NIGBT_GCE_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.334)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "hellen-one-common:Res"
+			(pin_numbers hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Res"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "hellen-one-common:R0603"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Res_1_0"
+				(rectangle
+					(start 2.54 -1.27)
+					(end 7.62 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 118.11 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "142114c3-51ad-4bd3-b14a-e6713048a7ff")
+	)
+	(junction
+		(at 118.11 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "234abe17-ea08-4e59-b53e-cd52d056e3fa")
+	)
+	(junction
+		(at 135.89 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e83fc6e-754d-457e-a33c-9272b0f994df")
+	)
+	(junction
+		(at 118.11 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f0d27a7-ccae-4a60-89b5-45c5e77cb0e4")
+	)
+	(junction
+		(at 135.89 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76b92482-a8f3-4092-9d34-a6d368619af1")
+	)
+	(junction
+		(at 182.88 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98b10b63-cc30-4f42-9155-bfe5de690af3")
+	)
+	(junction
+		(at 182.88 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ca9849f-c445-479b-a506-968da582108f")
+	)
+	(junction
+		(at 165.1 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aefed68f-078c-49d5-a0a7-e96dd97b011c")
+	)
+	(junction
+		(at 182.88 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d93f28bc-473f-41a1-a2c8-e964fc2325dd")
+	)
+	(junction
+		(at 165.1 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e41984cf-d701-44c4-9309-7b8d49fb68fe")
+	)
+	(junction
+		(at 165.1 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e96695ea-aa82-4129-b20e-c42b4a233e38")
+	)
+	(junction
+		(at 135.89 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f973ea4a-72a3-4005-bcce-697fa62278c5")
+	)
+	(wire
+		(pts
+			(xy 182.88 64.77) (xy 182.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007807cd-2990-455b-8b06-939bffe212ae")
+	)
+	(wire
+		(pts
+			(xy 160.02 64.77) (xy 165.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9630b0-908e-438c-8b22-c2078ba906f1")
+	)
+	(wire
+		(pts
+			(xy 118.11 102.87) (xy 118.11 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109ac876-60a2-42eb-befb-54fc5989ec51")
+	)
+	(wire
+		(pts
+			(xy 113.03 120.65) (xy 118.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2221f2d6-c893-4365-b027-16067a3de746")
+	)
+	(wire
+		(pts
+			(xy 118.11 74.93) (xy 118.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262ccb62-dcda-4e63-9cb4-47ef7307e71f")
+	)
+	(wire
+		(pts
+			(xy 165.1 130.81) (xy 165.1 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc93f12-802f-457f-9390-87748bcf8cdf")
+	)
+	(wire
+		(pts
+			(xy 160.02 92.71) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319b3d97-f0d7-4c44-860a-245e6369aebc")
+	)
+	(wire
+		(pts
+			(xy 165.1 74.93) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321ef7ef-895e-4c0f-9399-7279d60efc26")
+	)
+	(wire
+		(pts
+			(xy 165.1 102.87) (xy 165.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38044df2-aa91-4347-a20c-b20977ecb7eb")
+	)
+	(wire
+		(pts
+			(xy 135.89 92.71) (xy 135.89 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a00cf48-4ed2-40c0-b5f8-612f38dd48be")
+	)
+	(wire
+		(pts
+			(xy 165.1 64.77) (xy 172.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d143fcf-6d76-4451-8763-1243e727606a")
+	)
+	(wire
+		(pts
+			(xy 135.89 120.65) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf399a2-889c-466c-8c2e-c05ebd909721")
+	)
+	(wire
+		(pts
+			(xy 165.1 120.65) (xy 172.72 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508325a7-b2fa-426b-9b1f-416b12dec4a9")
+	)
+	(wire
+		(pts
+			(xy 118.11 120.65) (xy 125.73 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a53165-7641-434a-b1c2-7ab60ba4fa34")
+	)
+	(wire
+		(pts
+			(xy 113.03 64.77) (xy 118.11 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe10db9-a921-4655-a019-1090e176795b")
+	)
+	(wire
+		(pts
+			(xy 118.11 92.71) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63516abe-bb3f-4c71-a8be-811bd15f6a35")
+	)
+	(wire
+		(pts
+			(xy 165.1 92.71) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67093fdc-a19b-49cc-95a3-685a81600959")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 165.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6b05b1-f47d-4050-8766-b786fc8cb9e9")
+	)
+	(wire
+		(pts
+			(xy 182.88 92.71) (xy 182.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75100292-398a-4df3-b139-d568660384eb")
+	)
+	(wire
+		(pts
+			(xy 182.88 120.65) (xy 182.88 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc784c2-8804-4c89-964e-9b9c2ab97d63")
+	)
+	(wire
+		(pts
+			(xy 118.11 130.81) (xy 118.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be55bc65-7e5b-40d4-8f09-b11919aed8a0")
+	)
+	(wire
+		(pts
+			(xy 118.11 64.77) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0b034f-196a-4f8d-8761-bda01bc9a6ef")
+	)
+	(wire
+		(pts
+			(xy 113.03 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8c3125-7854-456b-8d71-67c2c4e53bcc")
+	)
+	(wire
+		(pts
+			(xy 135.89 64.77) (xy 135.89 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72acfa4-d7bb-4339-a51e-63e5b7a5da37")
+	)
+	(text "Remove R20-R22, R26-R28, and install Q7-Q12 for use with dumb coils"
+		(exclude_from_sim no)
+		(at 106.68 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94f1ae4f-7f0e-4242-92e7-cc42eec85819")
+	)
+	(hierarchical_label "IN5"
+		(shape input)
+		(at 190.5 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "160bc99e-f908-4dcb-becd-865f5bcbc482")
+	)
+	(hierarchical_label "OUT1"
+		(shape output)
+		(at 113.03 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23fdb466-9530-4ca7-8c58-0c2d6a75ccb7")
+	)
+	(hierarchical_label "OUT3"
+		(shape output)
+		(at 113.03 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a4e953c-4f6c-40b7-8220-85f3aedbc5e9")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 143.51 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "543149c3-2e93-4084-a771-2b3d5cb83826")
+	)
+	(hierarchical_label "IN6"
+		(shape input)
+		(at 190.5 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "658a6c56-b61f-46d9-88be-288c826b8ac3")
+	)
+	(hierarchical_label "OUT6"
+		(shape output)
+		(at 160.02 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "709f31e8-2627-4f42-85c2-aefc992e3296")
+	)
+	(hierarchical_label "OUT5"
+		(shape output)
+		(at 160.02 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "823ca836-fda1-4486-b1ff-96abe0a9b650")
+	)
+	(hierarchical_label "OUT2"
+		(shape output)
+		(at 113.03 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "925ba267-6288-40ef-9266-98915f60e417")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 143.51 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94b9e1c7-e614-4b03-a442-7767647b1fc1")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 143.51 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d38144a4-fbf5-4f59-a486-a1e0b900a2d1")
+	)
+	(hierarchical_label "OUT4"
+		(shape output)
+		(at 160.02 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6003afb-95af-4633-b8ee-68fa33a9e86b")
+	)
+	(hierarchical_label "IN4"
+		(shape input)
+		(at 190.5 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db7dbaec-b01c-462d-b8d7-3ab29eb9e199")
+	)
+	(symbol
+		(lib_id "Device:Q_NIGBT_GCE")
+		(at 120.65 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "007e3d0d-aa46-4fe8-b808-b02941d83161")
+		(property "Reference" "Q?"
+			(at 115.7986 124.5616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISL9V3040D3ST"
+			(at 115.7986 126.873 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" "DNP"
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab1084d2-37c6-49d0-8100-a3444e446569")
+		)
+		(pin "2"
+			(uuid "9095ad18-9aac-4300-8b8e-d912a5cafb60")
+		)
+		(pin "3"
+			(uuid "cad1c319-ef6e-4d85-9366-08c68cde2477")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 182.88 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "028c9778-3f5d-48d2-8232-969b84ce0fe7")
+		(property "Reference" "R14"
+			(at 177.4796 90.0653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 177.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25469"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d37f5a03-1763-4498-979c-b34c225f63b2")
+		)
+		(pin "2"
+			(uuid "611a03e4-eafd-4173-9a61-61a255b864ad")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 186.69 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02e392c0-f907-4220-80f8-b5f2c7dbb6e6")
+		(property "Reference" "F10"
+			(at 186.69 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mA"
+			(at 186.69 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 191.77 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C369141"
+			(at 186.69 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a084700d-d248-46cd-bf8f-1705319db551")
+		)
+		(pin "2"
+			(uuid "d8b63c92-acc8-4d0f-bb7d-8046ad64516d")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "F10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 125.73 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bd6c59b-c724-40d8-9957-1a1118b8183e")
+		(property "Reference" "R7"
+			(at 131.052 67.5018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 130.81 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen-one-common:R0603"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23345"
+			(at 125.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aae86d46-4591-422e-b43c-45168756a5c2")
+		)
+		(pin "2"
+			(uuid "39c632b1-2c4f-482b-939b-1fe6c743afba")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 182.88 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d29929e-b36b-4b64-a56a-89b017c4f1d8")
+		(property "Reference" "R14"
+			(at 177.4796 62.1253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 179.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25469"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "237aeea2-4343-45cc-a42b-336f8ebcfac0")
+		)
+		(pin "2"
+			(uuid "2c45bbf2-ac65-450e-844a-a6a5616bcd90")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 172.72 125.73 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36d4b873-ee22-4eb5-a86d-30ebf41bfdb2")
+		(property "Reference" "R7"
+			(at 178.042 123.3818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 177.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen-one-common:R0603"
+			(at 176.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23345"
+			(at 172.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9410baa8-49ce-46aa-8db0-c16f0e5324b4")
+		)
+		(pin "2"
+			(uuid "e39b10c2-da71-47c6-87f1-b21d167723ea")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 125.73 97.79 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ef5d410-c3f1-40b5-98d4-2c5ac5352f44")
+		(property "Reference" "R7"
+			(at 131.052 95.4418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen-one-common:R0603"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23345"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76cfd95c-aa08-48f2-b83f-4db91356a46e")
+		)
+		(pin "2"
+			(uuid "c17c6e7f-490f-4f04-b585-e4fce49a0833")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "427728ee-06e2-4de6-afcf-18633b0b8496")
+		(property "Reference" "#PWR?"
+			(at 118.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccc678b4-df36-44ca-b3e2-d60286df3f8e")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 135.89 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d8fcbb1-83ee-47b7-beeb-af6bdb5cc54b")
+		(property "Reference" "R14"
+			(at 130.4896 62.1253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25469"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7c8df4b-c23e-46ed-9d96-9a7a7d330e9a")
+		)
+		(pin "2"
+			(uuid "40c2d410-cb2d-4506-9f03-f1e7695c5a9a")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 186.69 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "539da5c1-e20c-4d0b-9eb0-ee7a9ad6ec64")
+		(property "Reference" "F9"
+			(at 186.69 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mA"
+			(at 186.69 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C369141"
+			(at 186.69 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7b7f04c-28ca-4f55-8623-9afb1ddfe216")
+		)
+		(pin "2"
+			(uuid "daa01cff-7d06-40f2-8f94-4e31d97a2bed")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "F9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NIGBT_GCE")
+		(at 120.65 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a21e231-a92c-4570-b132-2decd3096709")
+		(property "Reference" "Q?"
+			(at 115.7986 68.6816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISL9V3040D3ST"
+			(at 115.7986 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" "DNP"
+			(at 114.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77d17876-16d6-4dba-8e54-e93f9f5b3939")
+		)
+		(pin "2"
+			(uuid "5d7aab90-2af4-444d-9490-d1ff35b77ff7")
+		)
+		(pin "3"
+			(uuid "10458603-2727-4b39-8dec-964d2164ca74")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e45aea1-2305-4f11-a01f-e6c53573b496")
+		(property "Reference" "#PWR?"
+			(at 165.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c61280e2-903e-474b-9498-0260e79a4247")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 125.73 125.73 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64ea45bb-1850-4eff-b028-1ecfa78307ac")
+		(property "Reference" "R7"
+			(at 131.052 123.3818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 130.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen-one-common:R0603"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23345"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dcb465a-4116-45bc-bc53-49fd1f2c303a")
+		)
+		(pin "2"
+			(uuid "eb343343-f358-40fe-afea-68d89dd01431")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NIGBT_GCE")
+		(at 120.65 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b800909-d074-4dbe-a04b-e4cb2b67c2b1")
+		(property "Reference" "Q?"
+			(at 115.7986 96.6216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISL9V3040D3ST"
+			(at 115.7986 98.933 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 115.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" "DNP"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a77e1876-949f-4f99-a275-d884fcdb9543")
+		)
+		(pin "2"
+			(uuid "db2c1fc9-3b1d-4a86-b22f-9a0494575aee")
+		)
+		(pin "3"
+			(uuid "9f402014-c0af-40f3-9b2e-f14055e62de1")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7252f413-2c52-44cd-8b56-4d5887f95d93")
+		(property "Reference" "#PWR?"
+			(at 118.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e708ed2e-5a15-4373-bc08-4b0dc96759db")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 139.7 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74582e7f-aae7-4bd5-8922-bd4012b3feb1")
+		(property "Reference" "F6"
+			(at 139.7 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mA"
+			(at 139.7 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 144.78 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C369141"
+			(at 139.7 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb105802-6d4a-412e-b934-6ab57ebf29f4")
+		)
+		(pin "2"
+			(uuid "58775a3c-73e6-477d-b90b-db13ceaeec10")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NIGBT_GCE")
+		(at 167.64 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75753624-419d-4d0d-b38b-3a92704c17d2")
+		(property "Reference" "Q?"
+			(at 162.7886 68.6816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISL9V3040D3ST"
+			(at 162.7886 70.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" "DNP"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae9a6a69-5b04-4300-ae5e-941c1cd0a230")
+		)
+		(pin "2"
+			(uuid "7e276215-2d92-405d-b562-20ea5bf724ed")
+		)
+		(pin "3"
+			(uuid "354632be-82b6-4d7c-92ab-0e304c0e2e54")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 172.72 97.79 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82c3502f-2841-4542-bc0e-d08d257f5d17")
+		(property "Reference" "R7"
+			(at 178.042 95.4418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen-one-common:R0603"
+			(at 176.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23345"
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54979ef6-fcf2-47d5-ba37-4f5981a6c727")
+		)
+		(pin "2"
+			(uuid "02ef6a1e-7f85-443d-9c57-6644e5a7e062")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 139.7 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f419c94-9c21-46bc-a9d6-d31ff121b1fe")
+		(property "Reference" "F5"
+			(at 139.7 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mA"
+			(at 139.7 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C369141"
+			(at 139.7 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2e05eb9-4555-4cb9-830b-766402befc6d")
+		)
+		(pin "2"
+			(uuid "31647673-1137-4b73-92f9-37c1f91ae521")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NIGBT_GCE")
+		(at 167.64 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a952d20c-a9f6-4ed1-9ed0-50db5783e8d7")
+		(property "Reference" "Q?"
+			(at 162.7886 124.5616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISL9V3040D3ST"
+			(at 162.7886 126.873 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 162.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 167.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" "DNP"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9677bfe5-70d9-4699-a980-03064ccebb86")
+		)
+		(pin "2"
+			(uuid "a2efaa0e-1ff2-4819-b867-08816eb376cf")
+		)
+		(pin "3"
+			(uuid "27d35dd5-bb34-4cdf-ab1a-11421218fa40")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 182.88 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab9afe23-91d4-41b5-a028-863e1e09e407")
+		(property "Reference" "R14"
+			(at 177.4796 118.0053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 179.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25469"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59e0ed43-05ff-43ca-99f2-a88a990dcbc7")
+		)
+		(pin "2"
+			(uuid "5dc69a31-7ffb-4e03-afab-85ca4ef3ec0b")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b580cf2d-7b27-43e7-8eb6-f7488e8b9802")
+		(property "Reference" "#PWR?"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "facc38b5-cd20-430b-8194-f39dba4c984e")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 135.89 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b64c2954-40ec-410c-967b-bb767c9d2d61")
+		(property "Reference" "R14"
+			(at 130.4896 90.0653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25469"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "088835d9-ca5c-417c-9f0b-b57b199d81c7")
+		)
+		(pin "2"
+			(uuid "242151d4-eb90-45c9-aa4b-13cfc11e6fa6")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 172.72 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5a5376d-be1d-4fd6-91d7-ba7f2b320160")
+		(property "Reference" "R7"
+			(at 178.042 67.5018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen-one-common:R0603"
+			(at 176.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23345"
+			(at 172.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e81d2f49-4113-4067-a5d5-cef41dcef7ca")
+		)
+		(pin "2"
+			(uuid "89a651ba-3e8b-4786-855c-7a64c522cbfe")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2548b32-fa8a-4b12-9317-e7a93fd91498")
+		(property "Reference" "#PWR?"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af6365ab-3133-4b4f-b9f2-9db6c8fcd34c")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5452d5c-560b-45de-b454-5594482bd88e")
+		(property "Reference" "#PWR?"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.2594 112.121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b03d7f10-840f-4bc1-8a59-0d358538916d")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 135.89 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d71fc2d7-dd8f-4925-852c-43d62c8995bf")
+		(property "Reference" "R14"
+			(at 130.4896 118.0053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 132.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25469"
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12a970ce-b08a-46ef-9be3-86481194fc09")
+		)
+		(pin "2"
+			(uuid "16aea383-c131-4d12-a395-0a6549533476")
+		)
+		(instances
+			(project "proteus81harley"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NIGBT_GCE")
+		(at 167.64 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d93bae62-4072-470d-a6c2-cbcf56e3951b")
+		(property "Reference" "Q?"
+			(at 162.7886 96.6216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISL9V3040D3ST"
+			(at 162.7886 98.933 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MyComment" "DNP"
+			(at 161.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7481f93b-37e1-4281-a647-c93c64a4f16b")
+		)
+		(pin "2"
+			(uuid "38b9616a-09f5-496f-bdcb-e910622d6b66")
+		)
+		(pin "3"
+			(uuid "0f33d922-cc88-40e7-854c-f35419c4cc50")
+		)
+		(instances
+			(project "hellen-hyundai-pb-154"
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/c9243343-f56b-49d3-82f5-dfe50b9f59a0"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "DUMB_COILS4"
+				(path "/673ceef2-a824-4aeb-8c7e-ce9fe0eb349d"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+			(project "ign_quad"
+				(path "/feee693e-e752-43b6-82de-bf1e990fd6ba"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 186.69 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e394cc70-d8a7-4040-a9fe-6c15b0bbe8b0")
+		(property "Reference" "F8"
+			(at 186.69 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mA"
+			(at 186.69 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 191.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C369141"
+			(at 186.69 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "473283e7-201a-4c31-b922-feaf0738a777")
+		)
+		(pin "2"
+			(uuid "306fdd3a-d6ac-45b1-947a-1219436b4526")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 139.7 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd4d96da-ebf7-471c-a7b1-6d6c11aa07ad")
+		(property "Reference" "F7"
+			(at 139.7 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mA"
+			(at 139.7 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C369141"
+			(at 139.7 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2fdee93-4d04-4048-b506-6142e7beb1a5")
+		)
+		(pin "2"
+			(uuid "80cc267a-0b35-4f5f-aeda-c15ea03d52a7")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/92c4206f-a69e-4d4d-9308-206d3518e11e"
+					(reference "F7")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
