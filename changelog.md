@@ -1,3 +1,10 @@
+# rev D
+
+August 2024
+
+* logic analyzer hookup points for both VRs #66
+* minor silkscreen improvements https://github.com/rusefi/uaefi/issues?q=label%3Arev-D+is%3Aclosed
+
 # rev C
 
 Apr 2024
