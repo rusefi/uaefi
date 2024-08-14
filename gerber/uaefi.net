@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>2024-06-20T22:28:21+0000</date>
-    <tool>Eeschema 8.0.3-8.0.3-0~ubuntu22.04.1</tool>
+    <date>2024-08-14T00:41:43+0000</date>
+    <tool>Eeschema 8.0.4-8.0.4-0~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>C</rev>
-        <date>2024-03-27</date>
+        <rev>D</rev>
+        <date>2024-08-14</date>
         <source>uaefi.kicad_sch</source>
         <comment number="1" value="https://rusefi.com/s/uaefi"/>
         <comment number="2" value=""/>
@@ -24,10 +24,10 @@
     </sheet>
     <sheet number="2" name="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/">
       <title_block>
-        <title>UAEFI DC motor driver</title>
-        <company>rusefi.com</company>
-        <rev>B</rev>
-        <date>2023-11-01</date>
+        <title>UAEFI</title>
+        <company>rusEFI.com</company>
+        <rev>D</rev>
+        <date>2024-08-14</date>
         <source>DC_MOTOR_0.1.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -42,10 +42,10 @@
     </sheet>
     <sheet number="3" name="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/">
       <title_block>
-        <title>UAEFI Low Side</title>
-        <company>rusefi.com</company>
-        <rev>B</rev>
-        <date>2023-11-01</date>
+        <title>UAEFI</title>
+        <company>rusEFI.com</company>
+        <rev>D</rev>
+        <date>2024-08-14</date>
         <source>LS4.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -60,10 +60,10 @@
     </sheet>
     <sheet number="4" name="/DC Driver 2/" tstamps="/b2716558-3a44-4e63-a5d7-5409c167071f/">
       <title_block>
-        <title>UAEFI DC motor driver</title>
-        <company>rusefi.com</company>
-        <rev>B</rev>
-        <date>2023-11-01</date>
+        <title>UAEFI</title>
+        <company>rusEFI.com</company>
+        <rev>D</rev>
+        <date>2024-08-14</date>
         <source>DC_MOTOR_0.1.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -78,10 +78,10 @@
     </sheet>
     <sheet number="5" name="/LS HOT/" tstamps="/c1e0fc38-44a5-4f4c-8a40-7ced112340c0/">
       <title_block>
-        <title>UAEF Low Side always hot</title>
-        <company>rusefi.com</company>
-        <rev>B</rev>
-        <date>2023-11-01</date>
+        <title>UAEFI</title>
+        <company>rusEFI.com</company>
+        <rev>D</rev>
+        <date>2024-08-14</date>
         <source>LS_HOT.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -96,10 +96,10 @@
     </sheet>
     <sheet number="6" name="/MAP/" tstamps="/7f618b1f-fe11-49db-a473-d0b521b1fa4f/">
       <title_block>
-        <title/>
-        <company/>
-        <rev>B</rev>
-        <date/>
+        <title>UAEFI</title>
+        <company>rusEFI.com</company>
+        <rev>D</rev>
+        <date>2024-08-14</date>
         <source>MAP.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -114,10 +114,10 @@
     </sheet>
     <sheet number="7" name="/Ignition/" tstamps="/92c4206f-a69e-4d4d-9308-206d3518e11e/">
       <title_block>
-        <title>UAEFI Ignition</title>
-        <company>rusefi.com</company>
-        <rev>B</rev>
-        <date>2023-11-01</date>
+        <title>UAEFI</title>
+        <company>rusEFI.com</company>
+        <rev>D</rev>
+        <date>2024-08-14</date>
         <source>IGN6.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -132,10 +132,10 @@
     </sheet>
     <sheet number="8" name="/EGT/" tstamps="/ced20183-e5c8-42b4-80bd-35fc70d9313a/">
       <title_block>
-        <title/>
-        <company/>
-        <rev>B</rev>
-        <date/>
+        <title>UAEFI</title>
+        <company>rusEFI.com</company>
+        <rev>D</rev>
+        <date>2024-08-14</date>
         <source>egt.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -150,10 +150,10 @@
     </sheet>
     <sheet number="9" name="/Injector/" tstamps="/45207479-6ae5-486c-ab42-805dda4ce511/">
       <title_block>
-        <title>UAEFI Injector</title>
-        <company>rusefi.com</company>
-        <rev>B</rev>
-        <date>2023-11-01</date>
+        <title>UAEFI</title>
+        <company>rusEFI.com</company>
+        <rev>D</rev>
+        <date>2024-08-14</date>
         <source>INJ6.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -970,6 +970,38 @@
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>df020caf-5e9e-4b69-a553-8212cdd0ab35</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d7600ea-b95f-40c7-a7af-4d0209a19d98</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>Pad</value>
+      <footprint>hellen-one-common:PAD-TH</footprint>
+      <fields>
+        <field name="Footprint">hellen-one-common:PAD-TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="Pad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b59e811-3981-46db-b21c-8cf87643fa1f</tstamps>
     </comp>
     <comp ref="P7">
       <value>Pad</value>
@@ -4182,6 +4214,7 @@
     <net code="95" name="/VR_DISCRETE">
       <node ref="M3" pin="E3" pinfunction="OUT" pintype="passive"/>
       <node ref="M6" pin="N18" pinfunction="UART8_RX_(PE0)" pintype="passive"/>
+      <node ref="P5" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="96" name="/VR_DISCRETE+">
       <node ref="J17" pin="3" pinfunction="Pin_3" pintype="passive"/>
@@ -4203,6 +4236,7 @@
     <net code="100" name="/VR_MAX9924">
       <node ref="M4" pin="E3" pinfunction="OUT" pintype="passive"/>
       <node ref="M6" pin="N19" pinfunction="UART8_TX_(PE1)" pintype="passive"/>
+      <node ref="P6" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="101" name="/VR_MAX9924+">
       <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
