@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "UAEFI")
-		(date "2024-08-14")
+		(date "2024-08-15")
 		(rev "D")
 		(company "rusEFI.com")
 	)

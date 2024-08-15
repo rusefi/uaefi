@@ -6,7 +6,7 @@
 	(paper "A3" portrait)
 	(title_block
 		(title "UAEFI")
-		(date "2024-08-14")
+		(date "2024-08-15")
 		(rev "D")
 		(company "rusEFI.com")
 		(comment 1 "https://rusefi.com/s/uaefi")
@@ -17079,14 +17079,14 @@
 		)
 		(uuid "820dde38-6ce0-4ff9-b3d2-64fc5edae943")
 	)
-	(text "Pin	Name			Recommended function\nB8	OUT_LS_HOT2		Fan Relay\nB9	OUT_LS_HOT1		Main Relay\nB16	OUT_LS4			Fuel Pump Replay\nB18	OUT_LS2			Idle Air Valve\nC8  GND  			VR Shield\nC16	IN_AUX3			Fuel Pressure\nD10	IN_BUTTON2		A/C Request"
+	(text "Pin	Name			Recommended function\nB8	OUT_LS_HOT2		Fan Relay\nB9	OUT_LS_HOT1		Main Relay\nB16	OUT_LS4			Fuel Pump Replay\nB18	OUT_LS2			Idle Air Valve\nC8  GND  			VR Shield\nC16	IN_AUX3			Fuel Pressure\nD10	IN_BUTTON2		A/C Request\n\nAll inputs are 12V-tolerant"
 		(exclude_from_sim no)
-		(at 63.5 109.22 0)
+		(at 62.484 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "8e869a4e-7b69-464e-b4d7-6172ad7f1189")
 	)

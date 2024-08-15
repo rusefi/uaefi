@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "UAEFI")
-		(date "2024-08-14")
+		(date "2024-08-15")
 		(rev "D")
 		(company "rusEFI.com")
 	)
@@ -1207,6 +1207,16 @@
 			(type default)
 		)
 		(uuid "e7adf8c8-a780-4083-8914-d4d6cd538506")
+	)
+	(text "NUP2105L is optional, used for protection"
+		(exclude_from_sim no)
+		(at 121.412 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e70ed4c-1d74-48fb-9fb2-4ec0d4ef59d3")
 	)
 	(hierarchical_label "Vcc"
 		(shape input)
