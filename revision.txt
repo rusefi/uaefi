@@ -2,7 +2,7 @@
 
 BOARD_PREFIX=ua
 BOARD_SUFFIX=efi
-BOARD_REVISION=d
+BOARD_REVISION=e
 
 # does not affect fab files, only needed to have nice rendered preview
 BOARD_PCB_OFFSET=0,0
