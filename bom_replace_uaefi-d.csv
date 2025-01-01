@@ -36,6 +36,8 @@ D8,
 U4,
 
 "C603","33n","C0402","C106862"
+#Knock capacitor
+"C471","3.3n","C0402","C107028"
 
 # max9924
 U771,"MAX9924UAUB+T","MSOP10","C5145181"
@@ -60,7 +62,7 @@ C133,"1u","C0603","C519559"
 
 # availability and cost reduction
 J2,"5569-20A2","2x10P 2 4.2mm Female pin 4.2mm","C2845795"
-J3,"5569-06A2","2x3P 2 4.2mm 4.2mm 3 Brass Push-Pull","C190915"
+J3,"5569-06A2","2x3P 2 4.2mm 4.2mm 3 Brass Push-Pull","C19188572"
 J4,"5569-08A2","2x4P 2 Tin 4.2mm Female 4.2mm","C388760"
 J5,"5569-18A2","2x9P 2 4.2mm Female 4.2mm 9 Right-Angle","C725776"
 J10,"39301160","02x08_4.2mm","C5355564"
