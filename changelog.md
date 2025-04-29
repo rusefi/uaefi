@@ -1,5 +1,8 @@
 # rev E
 
+* power supply fix for RTC
+* https://github.com/rusefi/uaefi/issues?q=state%3Aopen%20label%3A%22rev-E%22
+
 # rev D
 
 August 2024
