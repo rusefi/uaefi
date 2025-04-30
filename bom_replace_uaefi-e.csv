@@ -31,6 +31,10 @@ U106,
 # DNP BLUETOOTH JDY
 U5,
 
+# more proper part and shelf
+"U1,U2","TLE9201SG","Infineon_PG-DSO-12-11","C2653438"
+
+
 # DNP EGT
 D8,
 U4,
