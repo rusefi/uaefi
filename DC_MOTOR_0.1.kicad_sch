@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UAEFI")
-		(date "2024-08-15")
-		(rev "D")
+		(date "2025-04-30")
+		(rev "E")
 		(company "rusEFI.com")
 	)
 	(lib_symbols
@@ -684,9 +684,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -760,8 +760,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -792,7 +792,7 @@
 		(uuid "0857b673-a7d3-4ac7-861b-404d6ee3164c")
 	)
 	(junction
-		(at 219.71 91.44)
+		(at 219.71 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c85a88c-a4aa-42c1-9740-33c4227f642e")
@@ -825,13 +825,19 @@
 		(at 203.2 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48502946-4dfe-4f32-b834-e188ae770477")
+		(uuid "70f4ceb7-2bce-4c09-aeef-3799197570dc")
 	)
 	(junction
 		(at 175.26 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78386303-acf8-4ce3-abfb-69cdab74045f")
+	)
+	(junction
+		(at 203.2 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82efa9c2-22e4-419a-a376-03fe338b3d05")
 	)
 	(junction
 		(at 175.26 106.68)
@@ -862,12 +868,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc939662-8761-4b13-9026-635aba845208")
-	)
-	(junction
-		(at 203.2 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c53de93a-bc88-4d36-825f-1a1a7ffd1b0e")
 	)
 	(junction
 		(at 162.56 80.01)
@@ -901,7 +901,7 @@
 	)
 	(no_connect
 		(at 203.2 119.38)
-		(uuid "5db34580-bf4a-4483-b4fb-73bf5046edd2")
+		(uuid "0c9cb2f1-40cb-4918-bf12-2cfb3655a4ba")
 	)
 	(wire
 		(pts
@@ -912,26 +912,6 @@
 			(type solid)
 		)
 		(uuid "086f8322-efde-44f8-8e63-c7122360acae")
-	)
-	(wire
-		(pts
-			(xy 203.2 96.52) (xy 213.36 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb0ced0-1f1b-40cd-bd65-8eae3ade6913")
-	)
-	(wire
-		(pts
-			(xy 203.2 111.76) (xy 203.2 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "125c6400-441b-4444-bec3-d975bddd2f11")
 	)
 	(wire
 		(pts
@@ -965,13 +945,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 114.3) (xy 203.2 116.84)
+			(xy 203.2 114.3) (xy 203.2 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f704a91-0ae3-4bf7-8ed3-867876be21c0")
+		(uuid "2c960a84-0a61-4c15-9660-51fa2c4eb226")
 	)
 	(wire
 		(pts
@@ -1065,7 +1045,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 91.44) (xy 227.33 91.44)
+			(xy 219.71 88.9) (xy 227.33 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 96.52) (xy 213.36 91.44)
+			(xy 203.2 96.52) (xy 203.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1112,6 +1092,16 @@
 			(type default)
 		)
 		(uuid "a261985d-d635-4a78-b3c6-c5b208610ec9")
+	)
+	(wire
+		(pts
+			(xy 219.71 99.06) (xy 219.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33d38be-0757-45ca-8a22-f57b68fede31")
 	)
 	(wire
 		(pts
@@ -1175,6 +1165,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 116.84) (xy 203.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62bcbf6-b30f-4456-9763-e73d936bbfa6")
+	)
+	(wire
+		(pts
 			(xy 135.89 80.01) (xy 144.78 80.01)
 		)
 		(stroke
@@ -1185,7 +1185,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 91.44) (xy 219.71 91.44)
+			(xy 203.2 88.9) (xy 219.71 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1255,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape passive)
-		(at 227.33 91.44 0)
+		(at 227.33 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1470,7 +1470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 87.63 0)
 			(effects
 				(font
@@ -1500,6 +1500,78 @@
 				)
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/b2716558-3a44-4e63-a5d7-5409c167071f"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 116.84 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d6e5c2a-a7a4-4d32-8546-f9b99b5fa924")
+		(property "Reference" "#PWR066"
+			(at 209.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c470a16d-39c1-4f77-8bd2-34a2b3789e04")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/0c617583-4e3e-4059-8607-2ed650d520f4"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/b2716558-3a44-4e63-a5d7-5409c167071f"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -1726,7 +1798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -1805,7 +1877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 87.63 0)
 			(effects
 				(font
@@ -1842,7 +1914,7 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 219.71 101.6 90)
+		(at 219.71 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1850,7 +1922,7 @@
 		(dnp no)
 		(uuid "5a40d07f-95b9-4cdf-aa98-82a8968f1700")
 		(property "Reference" "R?"
-			(at 222.25 96.52 0)
+			(at 222.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1930,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 219.71 96.52 0)
+			(at 219.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1938,7 @@
 			)
 		)
 		(property "Footprint" "hellen-one-common:R0603"
-			(at 223.52 97.79 0)
+			(at 223.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 101.6 0)
+			(at 219.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 101.6 0)
+			(at 219.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1965,7 @@
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 219.71 101.6 0)
+			(at 219.71 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +2047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 87.63 0)
 			(effects
 				(font
@@ -2100,87 +2172,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 116.84 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68a76b30-ffc9-4ef7-9aa1-c3ce3dc7e84f")
-		(property "Reference" "#PWR?"
-			(at 209.55 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d47df2f-78b8-44ef-bff4-34bc709f086f")
-		)
-		(instances
-			(project "hellen-112-17"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/61fdb358-02a6-4f6d-a5c3-cab9f97fc6da"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/0c617583-4e3e-4059-8607-2ed650d520f4"
-					(reference "#PWR066")
-					(unit 1)
-				)
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/b2716558-3a44-4e63-a5d7-5409c167071f"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 100.33 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2223,7 +2214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 87.63 0)
 			(effects
 				(font
@@ -2303,7 +2294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 87.63 0)
 			(effects
 				(font
@@ -2470,7 +2461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -2550,7 +2541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 73.66 87.63 0)
 			(effects
 				(font
@@ -3015,7 +3006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 175.26 115.57 0)
 			(effects
 				(font
@@ -3341,7 +3332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 175.26 88.9 0)
 			(effects
 				(font
@@ -3422,7 +3413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 182.88 121.92 0)
 			(effects
 				(font
@@ -3502,7 +3493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 162.56 87.63 0)
 			(effects
 				(font
@@ -3670,7 +3661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82.55 87.63 0)
 			(effects
 				(font
@@ -4005,7 +3996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 135.89 87.63 0)
 			(effects
 				(font

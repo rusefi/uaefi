@@ -60,20 +60,6 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|109350001|68975001|1406bab8-1162-4db9-8d6b-a0d28384709d|c9d91a57-ac5f-469d-8d87-b0e6032ee2e4",
-        "courtyards_overlap|117750001|68975001|1406bab8-1162-4db9-8d6b-a0d28384709d|ef65eee0-63b2-4db1-9597-e5519086da5c",
-        "courtyards_overlap|129786743|68975001|1406bab8-1162-4db9-8d6b-a0d28384709d|8c6b7ab3-a740-45f0-80c3-8fb5f40580ea",
-        "courtyards_overlap|134550001|68975001|1406bab8-1162-4db9-8d6b-a0d28384709d|95f27e52-5bbd-40ab-8e0f-586da7dcd31c",
-        "courtyards_overlap|136257603|79850001|99e6ad6e-6441-4146-90d6-7cb840ca38a0|b06eb6b0-1343-4780-950e-b466ef65095b",
-        "courtyards_overlap|58975001|120650001|b42599ef-5b79-4e4f-982b-f117de897da4|eaba4f4e-be7d-4147-932d-4d3a4be156ad",
-        "courtyards_overlap|58975001|80250001|8da9deb2-26d8-4e14-bcdd-927a3c5083c3|d84bdfaf-bcf6-4cd9-995a-8aef3f7c5a91",
-        "courtyards_overlap|58975001|88650001|8da9deb2-26d8-4e14-bcdd-927a3c5083c3|e47ea9cc-8da1-41b0-b907-8ffb5f8caadd",
-        "courtyards_overlap|58975001|97050001|1d75a571-52f5-47d4-9296-e5376b1f9362|8da9deb2-26d8-4e14-bcdd-927a3c5083c3",
-        "courtyards_overlap|59650001|68975001|23b7a75a-884e-4c5e-924d-475e7232fa7a|d6e7b1ad-e85a-44d8-ba17-04e1acde7879",
-        "courtyards_overlap|60144063|105450001|0e29efbc-fef5-44f3-865b-88acbb6b6a60|8da9deb2-26d8-4e14-bcdd-927a3c5083c3",
-        "courtyards_overlap|68050001|68975001|23b7a75a-884e-4c5e-924d-475e7232fa7a|dc5f581f-f0e1-4a39-9c5c-3e009a7474d9",
-        "courtyards_overlap|76450001|68975001|23b7a75a-884e-4c5e-924d-475e7232fa7a|9d80d383-2c3b-4643-ac6f-0d1f6e0949d0",
-        "courtyards_overlap|85409890|68975001|23b7a75a-884e-4c5e-924d-475e7232fa7a|267f7df2-df1f-4e50-bfb6-fdea0722bca6",
         "silk_edge_clearance|101210000|60000000|7a07e497-20ab-4253-bcaa-adfb9d3d2715|7130a717-7f18-48d1-bc5a-5c50677ebd09",
         "silk_edge_clearance|107490000|60000000|7a07e497-20ab-4253-bcaa-adfb9d3d2715|778aeb34-a06a-4585-be67-caf3ef060a62",
         "silk_edge_clearance|142510000|60000000|7a07e497-20ab-4253-bcaa-adfb9d3d2715|21d01516-970b-4e37-9671-f7f352346017",
@@ -117,16 +103,9 @@
         "silk_overlap|114800000|72045000|beb688b9-c761-4151-9f86-24027eb7110a|af98b58e-165b-4c3f-a2f2-54a27ceab935",
         "silk_overlap|127074999|87075000|eabebc43-6e84-40eb-a78a-0b978308633a|1522dadb-6596-45b4-b062-d28965532de8",
         "silk_overlap|131600000|72045000|0bd45598-15ca-4bd5-84aa-1db2ccd4e3b2|bdb93c9c-b20a-4aa7-ac9a-dd6bd6047184",
-        "silk_overlap|54210000|147170000|5af50c20-da84-4069-8a7c-b5b60e9804a0|6e4dee95-caf6-429b-935f-c5e002610f6b",
-        "silk_overlap|54210000|147170000|6998f739-6b45-43cc-ac39-73c5df1c1d59|6e4dee95-caf6-429b-935f-c5e002610f6b",
         "silk_overlap|54210000|147170000|f33b957e-7b0e-499a-ac42-2d7d2965e723|010bf9ff-b536-4e7c-b7bb-534eeb1bfb8b",
-        "silk_overlap|54210000|149830000|5af50c20-da84-4069-8a7c-b5b60e9804a0|48ce9cc8-2bba-4f3a-9e40-00b837d4105e",
-        "silk_overlap|54210000|149830000|603be1ce-9979-4566-a691-525ffa1e93d2|48ce9cc8-2bba-4f3a-9e40-00b837d4105e",
         "silk_overlap|54210000|149830000|f33b957e-7b0e-499a-ac42-2d7d2965e723|8d33a11f-5d4b-48ec-b9ca-dcd188bfcffe",
-        "silk_overlap|54330000|147170000|6998f739-6b45-43cc-ac39-73c5df1c1d59|28f3a655-4546-465e-af4e-3ba415ac56e5",
-        "silk_overlap|54330000|149830000|603be1ce-9979-4566-a691-525ffa1e93d2|28f3a655-4546-465e-af4e-3ba415ac56e5",
         "silk_overlap|56750000|147170000|02c0569c-6017-41c8-8f2d-cc66afc80f14|496b3b3c-6c34-49dc-984c-bec5bc53fbad",
-        "silk_overlap|56750000|147170000|6fb21ffa-c052-469b-b0cb-50c154a13417|5e5c33e4-d853-4b02-9caf-1ce443f8bd0e",
         "silk_overlap|56870000|147170000|38b5e2c0-763f-40fe-a9fa-fc4ed4cec24c|2926f5e5-9a71-43be-ba9d-7bd71f319574",
         "silk_overlap|56870000|147170000|496b3b3c-6c34-49dc-984c-bec5bc53fbad|2926f5e5-9a71-43be-ba9d-7bd71f319574",
         "silk_overlap|56870000|147170000|6fb21ffa-c052-469b-b0cb-50c154a13417|b014fe02-a49c-47df-81fa-0ca7b8a07fba",
@@ -197,7 +176,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "error",
+        "padstack": "ignore",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -759,7 +738,7 @@
   "sheets": [
     [
       "ac264c30-3e9a-4be2-b97a-9949b68bd497",
-      "Root"
+      "Корневой лист"
     ],
     [
       "0c617583-4e3e-4059-8607-2ed650d520f4",

@@ -16,7 +16,7 @@
  
   (lib (name "hellen-one-vr-max9924-0.1")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-max9924/0.1")(options "")(descr "Hellen-One VR max9924 Module"))
   (lib (name "kicad6-libraries")(type "KiCad")(uri "${KIPRJMOD}/kicad6-libraries")(options "")(descr ""))
-  (lib (name "hellen-one-power_12and5V-0.2")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/power_12and5V/0.2")(options "")(descr ""))
+  (lib (name "hellen-one-power_12and5V-0.3")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/power_12and5V/0.3")(options "")(descr ""))
   (lib (name "hellen-one-mega-mcu100-0.3")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/mega-mcu100/0.3")(options "")(descr ""))
   (lib (name "0.5")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/wbo/0.5")(options "")(descr ""))
   (lib (name "hellen-one-vr-discrete-0.5")(type "KiCad")(uri "${KIPRJMOD}/hellen-one/modules/vr-discrete/0.5")(options "")(descr ""))
