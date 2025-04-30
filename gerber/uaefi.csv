@@ -82,7 +82,7 @@
 "Conn_02x02_Odd_Even","J24","Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical",""
 "470R@100MHz","L1","Inductor_SMD:L_0603_1608Metric","C97853"
 "470R@100MHz","L2","Inductor_SMD:L_0603_1608Metric","C97853"
-"Module-power_12and5V-0.2","M1","hellen-one-power_12and5V-0.2:power_12and5V",""
+"Module-power_12and5V-0.3","M1","hellen-one-power_12and5V-0.3:power_12and5V",""
 "Module-knock-0.2","M2","hellen-one-knock-0.2:knock",""
 "Module-vr-discrete-0.5","M3","hellen-one-vr-discrete-0.5:vr-discrete",""
 "Module-vr-max9924-0.1","M4","hellen-one-vr-max9924-0.1:vr-max9924",""

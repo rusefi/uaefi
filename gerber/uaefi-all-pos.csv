@@ -112,7 +112,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J21","Conn_02x02_Odd_Even","PinSocket_2x02_P2.54mm_Vertical",13.315000,52.750000,0.000000,top
 "J22","Conn_02x02_Odd_Even","PinSocket_2x02_P2.54mm_Vertical",13.315000,37.550000,0.000000,top
 "J24","Conn_02x02_Odd_Even","PinSocket_2x02_P2.54mm_Vertical",89.265000,78.350000,0.000000,top
-"M1","Module-power_12and5V-0.2","power_12and5V",24.624999,1.224999,0.000000,top
+"M1","Module-power_12and5V-0.3","power_12and5V",24.624999,1.224999,0.000000,top
 "M2","Module-knock-0.2","knock",76.974999,82.125000,-90.000000,top
 "M3","Module-vr-discrete-0.5","vr-discrete",42.275000,77.475000,-90.000000,top
 "M4","Module-vr-max9924-0.1","vr-max9924",31.225000,77.475000,-90.000000,top
