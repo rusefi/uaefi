@@ -38,6 +38,10 @@ You would need three files from ``boards/uaefi-a/board`` folder to place your JL
 A: missing modules are closed source. they are filled in by github magic
 github magic combines gerbers and spits out a complete bom/pcl/new gerbers to upload to jlc/friends. See https://github.com/rusefi/hellen-one/tree/master?tab=readme-ov-file#tldr for more info
 
+### Q: Magic modules? How do I see schematics of those?
+
+A: https://github.com/rusefi/hellen-one has full documentation for each module
+
 ### Q: Something wrong with BOM?
 
 A: Nope, that's normal nothing to worry about click 'Continue'.
