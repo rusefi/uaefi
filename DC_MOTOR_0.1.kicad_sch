@@ -1256,7 +1256,6 @@
 	(hierarchical_label "3V3"
 		(shape passive)
 		(at 227.33 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1268,7 +1267,6 @@
 	(hierarchical_label "OUT-"
 		(shape output)
 		(at 171.45 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1280,7 +1278,6 @@
 	(hierarchical_label "DIS"
 		(shape input)
 		(at 227.33 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1292,7 +1289,6 @@
 	(hierarchical_label "DIR"
 		(shape input)
 		(at 227.33 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1304,7 +1300,6 @@
 	(hierarchical_label "PWM"
 		(shape input)
 		(at 227.33 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1316,7 +1311,6 @@
 	(hierarchical_label "PWR"
 		(shape passive)
 		(at 66.04 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1328,7 +1322,6 @@
 	(hierarchical_label "OUT+"
 		(shape output)
 		(at 171.45 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

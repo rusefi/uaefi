@@ -225,245 +225,6 @@
 				)
 			)
 		)
-		(symbol "hellen-one-common:+12V_RAW"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V_RAW"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V_RAW\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_RAW_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_RAW_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+12V_RAW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "hellen-one-common:1N4148WS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148WS"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "hellen-one-common:SOD-323"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2128"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148WS_1_0"
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 2.54 0) (xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "hellen-one-common:Res"
 			(pin_numbers hide)
 			(exclude_from_sim no)
@@ -680,40 +441,16 @@
 		(uuid "70fe0900-d45f-4be6-874b-9b283197971e")
 	)
 	(junction
-		(at 95.25 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fc4df47-cf66-4389-a4e0-fed5f6be2c22")
-	)
-	(junction
 		(at 125.73 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "addb489a-77cc-4de2-beb0-3f37e131f1b9")
 	)
 	(junction
-		(at 95.25 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4cfb273-ea71-4e17-a013-b1a8892fa2a0")
-	)
-	(junction
 		(at 125.73 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4110f5f-aabe-47fd-81c2-246a90e3457a")
-	)
-	(junction
-		(at 95.25 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9952ca1-031c-47d6-9768-182f7f8971dd")
-	)
-	(junction
-		(at 95.25 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dce31481-fa2e-42d1-bfa1-35738fcff7ec")
 	)
 	(junction
 		(at 196.85 85.09)
@@ -742,26 +479,6 @@
 	(no_connect
 		(at 156.21 87.63)
 		(uuid "ea4dcc50-b820-46d5-8862-77381c41de6b")
-	)
-	(wire
-		(pts
-			(xy 95.25 85.09) (xy 128.27 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f21865-bd3c-4e54-af2b-ce348e6a3d00")
-	)
-	(wire
-		(pts
-			(xy 110.49 81.28) (xy 107.95 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b789424-9820-4dcb-bf97-b2306f3a72b8")
 	)
 	(wire
 		(pts
@@ -795,16 +512,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 107.95) (xy 95.25 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "309be51b-4b90-468f-9933-84458fb08c2f")
-	)
-	(wire
-		(pts
 			(xy 196.85 85.09) (xy 209.55 85.09)
 		)
 		(stroke
@@ -812,16 +519,6 @@
 			(type default)
 		)
 		(uuid "344330c2-d144-4bde-9ac5-0c1f9fd135fd")
-	)
-	(wire
-		(pts
-			(xy 110.49 96.52) (xy 107.95 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "357c4357-2b78-4703-b7fc-8be61f976106")
 	)
 	(wire
 		(pts
@@ -865,37 +562,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 123.19) (xy 107.95 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fe84537-0453-4486-9257-a333b2fc66bc")
-	)
-	(wire
-		(pts
-			(xy 95.25 116.84) (xy 95.25 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6886648d-bb94-4d95-8eda-a8f7a94bace5")
-	)
-	(wire
-		(pts
-			(xy 95.25 90.17) (xy 128.27 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "740cfb74-49c1-4adf-a356-7b79196a4505")
-	)
-	(wire
-		(pts
-			(xy 91.44 85.09) (xy 95.25 85.09)
+			(xy 91.44 85.09) (xy 128.27 85.09)
 		)
 		(stroke
 			(width 0)
@@ -925,16 +592,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 95.25 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c4f5cef-6db6-4ba0-ba75-a591d0e6fae5")
-	)
-	(wire
-		(pts
 			(xy 156.21 111.76) (xy 196.85 111.76)
 		)
 		(stroke
@@ -955,26 +612,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 81.28) (xy 95.25 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b95be58b-91bb-4895-bb3c-acd2c82364d3")
-	)
-	(wire
-		(pts
-			(xy 91.44 116.84) (xy 95.25 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb295291-0e12-4194-ba36-455a73f877f1")
-	)
-	(wire
-		(pts
 			(xy 171.45 116.84) (xy 184.15 116.84)
 		)
 		(stroke
@@ -985,7 +622,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 116.84) (xy 128.27 116.84)
+			(xy 91.44 116.84) (xy 128.27 116.84)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 90.17) (xy 95.25 90.17)
+			(xy 91.44 90.17) (xy 128.27 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1005,27 +642,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 111.76) (xy 128.27 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e21587d1-6653-4110-8de5-ba2394402d13")
-	)
-	(wire
-		(pts
-			(xy 110.49 107.95) (xy 107.95 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e390f531-332e-41d1-96b2-d6f39554a109")
-	)
-	(wire
-		(pts
-			(xy 91.44 111.76) (xy 95.25 111.76)
+			(xy 91.44 111.76) (xy 128.27 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +683,6 @@
 	(hierarchical_label "IN1"
 		(shape input)
 		(at 209.55 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1078,7 +694,6 @@
 	(hierarchical_label "OUT4"
 		(shape output)
 		(at 91.44 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1090,7 +705,6 @@
 	(hierarchical_label "OUT3"
 		(shape output)
 		(at 91.44 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1102,7 +716,6 @@
 	(hierarchical_label "OUT2"
 		(shape output)
 		(at 91.44 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1114,7 +727,6 @@
 	(hierarchical_label "IN2"
 		(shape input)
 		(at 184.15 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1126,7 +738,6 @@
 	(hierarchical_label "IN3"
 		(shape input)
 		(at 209.55 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1138,7 +749,6 @@
 	(hierarchical_label "OUT1"
 		(shape output)
 		(at 91.44 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1150,7 +760,6 @@
 	(hierarchical_label "IN4"
 		(shape input)
 		(at 184.15 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1158,85 +767,6 @@
 			(justify left)
 		)
 		(uuid "f72cff0c-8b80-4441-9b5b-b918bb189225")
-	)
-	(symbol
-		(lib_id "hellen-one-common:+12V_RAW")
-		(at 110.49 123.19 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10ccf6a2-03da-4356-962a-75a244f0a49b")
-		(property "Reference" "#PWR03"
-			(at 106.68 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_RAW"
-			(at 114.3 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b18ee95-5e06-4491-8eb6-80f76f2cdc7d")
-		)
-		(instances
-			(project "lowside_quad"
-				(path "/06f1b5f2-8e6a-4a36-8b19-89e5b4415d37"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "alphax_4ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
@@ -1319,85 +849,6 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:+12V_RAW")
-		(at 110.49 96.52 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24d82816-dd58-41aa-89cc-7afab0b4eed6")
-		(property "Reference" "#PWR03"
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_RAW"
-			(at 114.3 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58a842aa-b674-49aa-a7ee-5e352720832c")
-		)
-		(instances
-			(project "lowside_quad"
-				(path "/06f1b5f2-8e6a-4a36-8b19-89e5b4415d37"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "alphax_4ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1849,443 +1300,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hellen-one-common:1N4148WS")
-		(at 100.33 123.19 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6dc333b3-b2d9-4cbe-afc3-11364d961655")
-		(property "Reference" "D27"
-			(at 104.14 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B5819W"
-			(at 106.68 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:SOD-123"
-			(at 102.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8598"
-			(at 100.33 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "368ccf1f-f57e-4d4b-8243-38c5d194bcaa")
-		)
-		(pin "2"
-			(uuid "dfa7dbff-7169-4ccc-812d-b6ad207b58dd")
-		)
-		(instances
-			(project "lowside_quad"
-				(path "/06f1b5f2-8e6a-4a36-8b19-89e5b4415d37"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-			(project "alphax_8ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "D27")
-					(unit 1)
-				)
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/9f286606-17ad-4292-b95a-d7d4de96430a"
-					(reference "D91")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:+12V_RAW")
-		(at 110.49 81.28 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83d808cc-0f0f-4670-b52d-64f35d6f0fde")
-		(property "Reference" "#PWR03"
-			(at 106.68 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_RAW"
-			(at 114.3 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6957b7fe-ad1a-445d-97d7-f899870aacbb")
-		)
-		(instances
-			(project "lowside_quad"
-				(path "/06f1b5f2-8e6a-4a36-8b19-89e5b4415d37"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "alphax_4ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:+12V_RAW")
-		(at 110.49 107.95 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96184650-083b-49c0-94b0-221dde3e662a")
-		(property "Reference" "#PWR03"
-			(at 106.68 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_RAW"
-			(at 114.3 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "466ddc86-2ccf-40cd-91d0-675878d1337a")
-		)
-		(instances
-			(project "lowside_quad"
-				(path "/06f1b5f2-8e6a-4a36-8b19-89e5b4415d37"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "alphax_4ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:1N4148WS")
-		(at 100.33 107.95 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "995ee271-75cf-4035-813e-88dfd0b0289f")
-		(property "Reference" "D27"
-			(at 104.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B5819W"
-			(at 106.68 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:SOD-123"
-			(at 102.87 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8598"
-			(at 100.33 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4633d9e-847a-4add-85d9-dd9ecf17e5c1")
-		)
-		(pin "2"
-			(uuid "4f22e3e7-f7a8-499a-9bc2-99205ba16734")
-		)
-		(instances
-			(project "lowside_quad"
-				(path "/06f1b5f2-8e6a-4a36-8b19-89e5b4415d37"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-			(project "alphax_8ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "D27")
-					(unit 1)
-				)
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/9f286606-17ad-4292-b95a-d7d4de96430a"
-					(reference "D91")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:1N4148WS")
-		(at 100.33 81.28 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a229b1dd-7eef-4384-9219-a9c6742afd2c")
-		(property "Reference" "D27"
-			(at 104.14 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B5819W"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:SOD-123"
-			(at 102.87 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8598"
-			(at 100.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b86596e6-4c21-41be-8854-3c887ff61a13")
-		)
-		(pin "2"
-			(uuid "fa5e688a-3fe3-4433-b80a-ca62613528e7")
-		)
-		(instances
-			(project "lowside_quad"
-				(path "/06f1b5f2-8e6a-4a36-8b19-89e5b4415d37"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-			(project "alphax_8ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "D27")
-					(unit 1)
-				)
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/9f286606-17ad-4292-b95a-d7d4de96430a"
-					(reference "D91")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "chips:VNLD5160")
 		(at 156.21 85.09 0)
 		(mirror y)
@@ -2441,99 +1455,6 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
 					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:1N4148WS")
-		(at 100.33 96.52 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8aac5d0-8e81-4075-a94c-5399bf076ddd")
-		(property "Reference" "D27"
-			(at 104.14 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B5819W"
-			(at 106.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:SOD-123"
-			(at 102.87 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8598"
-			(at 100.33 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24733778-f8c0-42aa-bbbf-71c95814f856")
-		)
-		(pin "2"
-			(uuid "f5f74119-aadc-48ce-bdfa-db08b0627264")
-		)
-		(instances
-			(project "lowside_quad"
-				(path "/06f1b5f2-8e6a-4a36-8b19-89e5b4415d37"
-					(reference "D27")
-					(unit 1)
-				)
-			)
-			(project "alphax_8ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "D27")
-					(unit 1)
-				)
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460/9f286606-17ad-4292-b95a-d7d4de96430a"
-					(reference "D91")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c"
-					(reference "D3")
 					(unit 1)
 				)
 			)

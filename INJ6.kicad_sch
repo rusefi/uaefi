@@ -809,7 +809,6 @@
 	(hierarchical_label "OUT3"
 		(shape output)
 		(at 113.03 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -821,7 +820,6 @@
 	(hierarchical_label "OUT1"
 		(shape output)
 		(at 113.03 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -833,7 +831,6 @@
 	(hierarchical_label "IN4"
 		(shape input)
 		(at 176.53 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -845,7 +842,6 @@
 	(hierarchical_label "IN2"
 		(shape input)
 		(at 176.53 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -857,7 +853,6 @@
 	(hierarchical_label "IN1"
 		(shape input)
 		(at 201.93 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -869,7 +864,6 @@
 	(hierarchical_label "OUT6"
 		(shape output)
 		(at 113.03 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -881,7 +875,6 @@
 	(hierarchical_label "IN6"
 		(shape input)
 		(at 176.53 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -893,7 +886,6 @@
 	(hierarchical_label "IN3"
 		(shape input)
 		(at 201.93 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -905,7 +897,6 @@
 	(hierarchical_label "OUT2"
 		(shape output)
 		(at 113.03 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -917,7 +908,6 @@
 	(hierarchical_label "OUT4"
 		(shape output)
 		(at 113.03 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -929,7 +919,6 @@
 	(hierarchical_label "IN5"
 		(shape input)
 		(at 201.93 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -941,7 +930,6 @@
 	(hierarchical_label "OUT5"
 		(shape output)
 		(at 113.03 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

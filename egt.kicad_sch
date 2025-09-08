@@ -1221,7 +1221,6 @@
 	(hierarchical_label "Vcc"
 		(shape input)
 		(at 201.93 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1233,7 +1232,6 @@
 	(hierarchical_label "SPI_SO"
 		(shape output)
 		(at 194.31 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1245,7 +1243,6 @@
 	(hierarchical_label "SPI_SCK"
 		(shape input)
 		(at 194.31 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1257,7 +1254,6 @@
 	(hierarchical_label "SPI_CS"
 		(shape input)
 		(at 194.31 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1269,7 +1265,6 @@
 	(hierarchical_label "T+"
 		(shape input)
 		(at 101.6 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1281,7 +1276,6 @@
 	(hierarchical_label "T-"
 		(shape input)
 		(at 101.6 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

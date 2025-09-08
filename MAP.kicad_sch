@@ -587,7 +587,6 @@
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 167.64 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

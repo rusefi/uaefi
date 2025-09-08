@@ -557,7 +557,6 @@
 	(hierarchical_label "OUT2"
 		(shape output)
 		(at 125.73 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -569,7 +568,6 @@
 	(hierarchical_label "IN2"
 		(shape input)
 		(at 182.88 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -581,7 +579,6 @@
 	(hierarchical_label "IN1"
 		(shape input)
 		(at 171.45 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -593,7 +590,6 @@
 	(hierarchical_label "OUT1"
 		(shape output)
 		(at 125.73 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
