@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>2025-09-08T01:03:25+0000</date>
+    <date>2025-09-08T15:20:28+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -216,6 +216,70 @@
       <property name="Sheetfile" value="uaefi.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d2d0ddab-394d-4518-842c-8b524c34d922</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>B5819W</value>
+      <footprint>hellen-one-common:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22e534e7-eedb-41b0-88ec-841106f1eaf7</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>B5819W</value>
+      <footprint>hellen-one-common:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d7aa9b8-0e4e-4c09-bd64-f3ed4b42d73d</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>B5819W</value>
+      <footprint>hellen-one-common:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38dc58f7-5634-48b6-92be-ed3be33c7c3d</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>B5819W</value>
+      <footprint>hellen-one-common:SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C8598</field>
+        <field name="Footprint">hellen-one-common:SOD-123</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
+      <property name="LCSC" value="C8598"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="uaefi.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf448c98-0bf8-465b-9819-db18cc8cdf77</tstamps>
     </comp>
     <comp ref="F1">
       <value>12H1500D</value>
@@ -1558,70 +1622,6 @@
       <property name="Sheetfile" value="DC_MOTOR_0.1.kicad_sch"/>
       <sheetpath names="/DC Driver 1/" tstamps="/0c617583-4e3e-4059-8607-2ed650d520f4/"/>
       <tstamps>8a70b5fe-d1f1-4c0a-a49b-2c68c8198cb5</tstamps>
-    </comp>
-    <comp ref="D2">
-      <value>B5819W</value>
-      <footprint>hellen-one-common:SOD-123</footprint>
-      <fields>
-        <field name="LCSC">C8598</field>
-        <field name="Footprint">hellen-one-common:SOD-123</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
-      <property name="LCSC" value="C8598"/>
-      <property name="Sheetname" value="LS"/>
-      <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
-      <tstamps>a229b1dd-7eef-4384-9219-a9c6742afd2c</tstamps>
-    </comp>
-    <comp ref="D3">
-      <value>B5819W</value>
-      <footprint>hellen-one-common:SOD-123</footprint>
-      <fields>
-        <field name="LCSC">C8598</field>
-        <field name="Footprint">hellen-one-common:SOD-123</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
-      <property name="LCSC" value="C8598"/>
-      <property name="Sheetname" value="LS"/>
-      <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
-      <tstamps>d8aac5d0-8e81-4075-a94c-5399bf076ddd</tstamps>
-    </comp>
-    <comp ref="D4">
-      <value>B5819W</value>
-      <footprint>hellen-one-common:SOD-123</footprint>
-      <fields>
-        <field name="LCSC">C8598</field>
-        <field name="Footprint">hellen-one-common:SOD-123</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
-      <property name="LCSC" value="C8598"/>
-      <property name="Sheetname" value="LS"/>
-      <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
-      <tstamps>995ee271-75cf-4035-813e-88dfd0b0289f</tstamps>
-    </comp>
-    <comp ref="D5">
-      <value>B5819W</value>
-      <footprint>hellen-one-common:SOD-123</footprint>
-      <fields>
-        <field name="LCSC">C8598</field>
-        <field name="Footprint">hellen-one-common:SOD-123</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="hellen-one-common" part="1N4148WS" description=""/>
-      <property name="LCSC" value="C8598"/>
-      <property name="Sheetname" value="LS"/>
-      <property name="Sheetfile" value="LS4.kicad_sch"/>
-      <sheetpath names="/LS/" tstamps="/aa4a40ff-b05c-4d24-92a7-fdeac4807f5c/"/>
-      <tstamps>6dc333b3-b2d9-4cbe-afc3-11364d961655</tstamps>
     </comp>
     <comp ref="R10">
       <value>4.7k</value>
