@@ -55,3 +55,17 @@ A: fabricate with STM32F42xVI firmware would defect extra RAM and give you extra
 ### Q: I've place an order with JLCPCB and I see scary looking wrong orientation?
 
 A: that's expected. See [boards/uaefi-c/board](boards/uaefi-c/board) ``Original*.png`` files and ``Produce*.png`` after JLCPCB manual review process.
+
+## HOWTO EGT chip
+
+This board has a placeholder for MAX31855 (or MAX6675) termocouple-to-digital chip. **This chip is not populated by default!**
+
+<img width="1061" height="553" alt="Screenshot from 2025-09-26 11-15-15" src="https://github.com/user-attachments/assets/5a5db5be-c184-4fea-9b31-ffddb2f7b5a9" />
+
+D8 is **optional** ESD protection and also is not populated by default. You need to solder U4 only, D8 is optional. All passive components are already populated.
+
+**MAX31855** works without addtional modification.
+
+For **MAX6675** connect EGT- to GNDA either on J2 "C" connector or just short C28 (replace with 0R).
+
+<img width="588" height="521" alt="Screenshot from 2025-09-26 11-19-41" src="https://github.com/user-attachments/assets/0cf99712-3a90-4c1d-994f-c72283389419" />
