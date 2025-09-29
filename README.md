@@ -8,9 +8,9 @@
 
 ## Technical Details
 
-Open Source KiCAD 7 hardware powered by [Hellen-One](https://github.com/andreika-git/hellen-one)
+Open Source KiCAD hardware powered by [Hellen-One](https://github.com/andreika-git/hellen-one)
 
-powerted by [rusEFI firmware](https://github.com/rusefi/rusefi)
+Powered by [rusEFI firmware](https://github.com/rusefi/rusefi)
 
 [User Documentation](https://github.com/rusefi/rusefi/wiki/uaEFI)
 
