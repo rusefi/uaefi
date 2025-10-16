@@ -89,7 +89,7 @@ J10,"39301160","02x08_4.2mm","C5355564"
 # would VNL5160 work? would VNL5160 be the cheapest option?
 
 # cost
-"D6, D7, D411","PSM712-LF","SOT-23","C5180294"
+"D411","PSM712-LF","SOT-23","C5180294"
 
 #LEDs
 "D106","YELLOW_LED","LED0603","C165983"
