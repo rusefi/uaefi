@@ -56,6 +56,27 @@ A: fabricate with STM32F42xVI firmware would defect extra RAM and give you extra
 
 A: that's expected. See [boards/uaefi-c/board](boards/uaefi-c/board) ``Original*.png`` files and ``Produce*.png`` after JLCPCB manual review process.
 
+## Bluetooth power issue fix
+
+It was found that board with installed BT module may be affected by power issue.
+
+During power on BT module consume too much inrush current on 3.3V line causing 3.3V drop below MCU reset hreshold. This may lead to unstable start or infinity reset loop.
+
+To fix this please install additional capacitors to 5V and 3.3V powerlines.
+
+Polarized electrolytic capacitors with at least 10V rating and extended temperature range are recommended. Tantalum and solid electrolytic capacitors are also suitable.
+
+**Please carefully follow illustrated polarity.**
+
+33..47uF should be added to 5V powerrail.
+
+![photo_2025-10-21_10-22-45](https://github.com/user-attachments/assets/7ddaa8e7-37e0-40ae-88a0-fa5ab64d6386)
+
+And 220..470uF should be added to 3.3V powerrail.
+
+![photo_2025-10-21_10-22-50](https://github.com/user-attachments/assets/d94e34c5-9f30-4abf-9085-91c20cea7fc0)
+
+
 ## HOWTO EGT chip
 
 This board has a placeholder for MAX31855 (or MAX6675) termocouple-to-digital chip. **This chip is not populated by default!**
