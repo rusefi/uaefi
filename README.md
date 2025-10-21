@@ -68,11 +68,11 @@ Polarized electrolytic capacitors with at least 10V rating and extended temperat
 
 **Please carefully follow illustrated polarity.**
 
-33..47uF should be added to 5V powerrail.
+33..47uF should be added to 5V powerrail. [This](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860020372004/5727028) or [this](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860080372001/5727224) or [any of these](https://www.digikey.com/en/products/filter/aluminum-electrolytic-capacitors/58?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJnOoAYQBdAgBwBcoQBldgJwCWAOwDmIAL4FYlBCGSR02fEVIgALGDAAOSgHZmbTpB79hYyeEo7Z8xbgLFIZRkwsM1M6HNSZ7Kp%2Bq6AAQArQBiBiAcXACqQgLsAPIoALI4aFgArnw4EgQMup5IPkoOqnBBAGqR0cZxCclpGdm5FgC01DZQ-JnKjmQArMzibqpqwZkoQXAAbsNAA).
 
 ![photo_2025-10-21_10-22-45](https://github.com/user-attachments/assets/7ddaa8e7-37e0-40ae-88a0-fa5ab64d6386)
 
-And 220..470uF should be added to 3.3V powerrail.
+And 220..470uF should be added to 3.3V powerrail. [This](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860010273011/5726952) or [this](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860020273011/5727148) or [any of these](https://www.digikey.com/en/products/filter/aluminum-electrolytic-capacitors/58?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJnOoAYQBdAgBwBcoQBldgJwCWAOwDmIAL4FYlBCGSR02fEVIgALGDAAOSgHZmbTpB79hYyeEo7Z8xbgLFIZRkwsM1M6HNSZ7Kp%2Bq69AAEAK0AYgYgHFwAqkIC7ADyKACyOGhYAK58OBIEDLqeSD5KDqpgIQBqUTHG8Ykp6Zk5eRYAtNQ2UPxZyo5kAKzM4qNAA).
 
 ![photo_2025-10-21_10-22-50](https://github.com/user-attachments/assets/d94e34c5-9f30-4abf-9085-91c20cea7fc0)
 
