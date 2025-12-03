@@ -11842,7 +11842,7 @@
 		(uuid "ce272b5c-1aa3-4676-a0ab-5c4e46c467df")
 	)
 	(bus_entry
-		(at 20.32 64.77)
+		(at 17.78 64.77)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -12013,7 +12013,7 @@
 		(uuid "f699c4ea-7cd1-4fe2-af88-8ce720b2bc15")
 	)
 	(bus_entry
-		(at 20.32 62.23)
+		(at 17.78 62.23)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -12164,7 +12164,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 64.77) (xy 20.32 64.77)
+			(xy 29.21 64.77) (xy 17.78 64.77)
 		)
 		(stroke
 			(width 0)
@@ -12255,7 +12255,7 @@
 	)
 	(bus
 		(pts
-			(xy 38.1 55.88) (xy 17.78 55.88)
+			(xy 38.1 55.88) (xy 15.24 55.88)
 		)
 		(stroke
 			(width 0)
@@ -12476,6 +12476,16 @@
 			(type default)
 		)
 		(uuid "174332c6-7de8-4dfa-984a-2d20f4f76b95")
+	)
+	(bus
+		(pts
+			(xy 15.24 64.77) (xy 15.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c3112f-2ca0-44a9-ab0c-1528da91cfb5")
 	)
 	(wire
 		(pts
@@ -12764,7 +12774,7 @@
 	)
 	(bus
 		(pts
-			(xy 17.78 55.88) (xy 17.78 64.77)
+			(xy 15.24 55.88) (xy 15.24 64.77)
 		)
 		(stroke
 			(width 0)
@@ -14192,7 +14202,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 62.23) (xy 20.32 62.23)
+			(xy 29.21 62.23) (xy 17.78 62.23)
 		)
 		(stroke
 			(width 0)
@@ -16823,16 +16833,6 @@
 		)
 		(uuid "f57e19af-05c2-4864-b904-0c3395dc2972")
 	)
-	(bus
-		(pts
-			(xy 17.78 64.77) (xy 17.78 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f60a26fd-bd5b-4f1d-bdd1-ab649cd9d32f")
-	)
 	(wire
 		(pts
 			(xy 27.94 220.98) (xy 16.51 220.98)
@@ -17068,6 +17068,17 @@
 			(justify left bottom)
 		)
 		(uuid "1057d991-3f82-48ea-8561-2536097c3ee2")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 25.146 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d0c4808-174b-4cdb-a213-0ff8902a201e")
 	)
 	(text "Bluetooth Module"
 		(exclude_from_sim no)
@@ -17331,16 +17342,6 @@
 			(justify left bottom)
 		)
 		(uuid "00f888c2-9fcf-4fbd-a967-2bc68dd4b9ac")
-	)
-	(label "WBO_Heater"
-		(at 40.64 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0240c613-d7d8-4e74-9c99-f98400869348")
 	)
 	(label "IN_PPS1"
 		(at 95.25 339.09 0)
@@ -17692,6 +17693,16 @@
 		)
 		(uuid "25d25f4d-4b06-4b13-ba42-7915abdbfdeb")
 	)
+	(label "1_WBO_Ip"
+		(at 40.64 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2613da33-11eb-4e05-a655-811d70343d77")
+	)
 	(label "12V_KEY"
 		(at 41.91 137.16 0)
 		(effects
@@ -17982,6 +17993,16 @@
 		)
 		(uuid "4af6c5f5-704d-4746-a150-ef30f9166442")
 	)
+	(label "3_WBO_Heater"
+		(at 40.64 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c404263-303b-482c-9b01-ca3858029436")
+	)
 	(label "INJ4"
 		(at 154.94 127 0)
 		(effects
@@ -18001,16 +18022,6 @@
 			(justify left bottom)
 		)
 		(uuid "4e30bf61-7bd3-498e-8b57-b8836d98cea6")
-	)
-	(label "WBO_Ip"
-		(at 40.64 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f65abcb-0667-438b-bcc6-40bdfbae6a32")
 	)
 	(label "DC1_DIS"
 		(at 257.81 96.52 180)
@@ -18072,7 +18083,7 @@
 		)
 		(uuid "55c33200-31c7-4b84-9bd9-b11e83d425cd")
 	)
-	(label "WBO_Un"
+	(label "6_WBO_Un"
 		(at 41.91 67.31 0)
 		(effects
 			(font
@@ -18112,7 +18123,7 @@
 		)
 		(uuid "58a68530-11d1-4b01-96aa-502c0f16ca21")
 	)
-	(label "WBO_Vm"
+	(label "2_WBO_Vm"
 		(at 41.91 62.23 0)
 		(effects
 			(font
@@ -18132,7 +18143,7 @@
 		)
 		(uuid "5c3067a3-c211-4863-bd61-211cb23fcfb7")
 	)
-	(label "WBO_Ip"
+	(label "1_WBO_Ip"
 		(at 41.91 64.77 0)
 		(effects
 			(font
@@ -18482,16 +18493,6 @@
 		)
 		(uuid "76b86a5d-186c-4167-9430-ecbe1909d9d4")
 	)
-	(label "WBO_Vm"
-		(at 40.64 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77114398-9adb-4396-b181-e6a6430e89e2")
-	)
 	(label "IN_VIGN"
 		(at 63.5 309.88 0)
 		(effects
@@ -18622,16 +18623,6 @@
 		)
 		(uuid "8caf8a65-7cbd-486d-9c7d-d2619af04292")
 	)
-	(label "WBO_Rtrim"
-		(at 40.64 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cf9abee-35e4-450f-a40c-776be4330ce7")
-	)
 	(label "OUT_IGN2"
 		(at 44.45 105.41 0)
 		(effects
@@ -18661,6 +18652,16 @@
 			(justify right bottom)
 		)
 		(uuid "901d085d-05f3-45e6-8bea-03ef8e55b76b")
+	)
+	(label "2_WBO_Vm"
+		(at 40.64 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "938d4535-4f89-4775-8ccd-ce69d33238f8")
 	)
 	(label "OUT_INJ2"
 		(at 31.75 105.41 180)
@@ -18922,6 +18923,16 @@
 		)
 		(uuid "b29b04a5-539d-431a-8fed-6467d8606deb")
 	)
+	(label "5_WBO_Rtrim"
+		(at 40.64 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2e30521-d69c-41d9-aa48-eba9f2a84b55")
+	)
 	(label "IN_MAP"
 		(at 180.34 200.66 180)
 		(effects
@@ -19031,6 +19042,16 @@
 			(justify right bottom)
 		)
 		(uuid "bd9d7d9f-4990-4561-88d4-aa12417057c9")
+	)
+	(label "6_WBO_Un"
+		(at 40.64 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf7b05e3-b9d4-40cb-91a0-74270a271ac0")
 	)
 	(label "CAN-"
 		(at 255.27 129.54 180)
@@ -19202,7 +19223,7 @@
 		)
 		(uuid "d0ca51f1-da40-47c9-ab75-e3d0d2627ee1")
 	)
-	(label "WBO_Heater"
+	(label "3_WBO_Heater"
 		(at 29.21 62.23 180)
 		(effects
 			(font
@@ -19342,7 +19363,7 @@
 		)
 		(uuid "e2d47d77-4f92-4691-a499-1ba897f4a856")
 	)
-	(label "WBO_Rtrim"
+	(label "5_WBO_Rtrim"
 		(at 29.21 64.77 180)
 		(effects
 			(font
@@ -19511,16 +19532,6 @@
 			(justify right bottom)
 		)
 		(uuid "f925ecd5-db24-4623-ae88-ac5bf04d608c")
-	)
-	(label "WBO_Un"
-		(at 40.64 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fab47851-58a3-47af-9fc1-6f7007fd72a8")
 	)
 	(label "IN_AUX3"
 		(at 40.64 226.06 0)
