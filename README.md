@@ -116,8 +116,8 @@ Use hot air gun to de-solder whole chip. Then twist pins 4 and 6 up so both do n
 
 Now use thin wire to connect:
 1. pin 6 to pin 10 of the same chip.
-2. pin 4 to **Vref** at R769 + C754. See file:///home/work/rusefi/docs/uaefi-d-ibom.html for its locations
-3. pin 8 to **thresh_high** at U756 pin 1. See file:///home/work/rusefi/docs/uaefi-d-ibom.html for its locations
+2. pin 4 to **Vref** at R769 + C754. See [iBOM](https://github.com/rusefi/uaefi/blob/main/boards/uaefi-d/board/uaefi-d-ibom.html) for its locations
+3. pin 8 to **thresh_high** at U756 pin 1. See [iBOM](https://github.com/rusefi/uaefi/blob/main/boards/uaefi-d/board/uaefi-d-ibom.html) for its locations
 
 ![photo_2025-10-12_11-40-24](https://github.com/user-attachments/assets/d103b3f7-429a-4be8-9031-adfdd35b5004)
 
