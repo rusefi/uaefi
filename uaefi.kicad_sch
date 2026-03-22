@@ -6,8 +6,8 @@
 	(paper "A3" portrait)
 	(title_block
 		(title "UAEFI")
-		(date "2025-04-30")
-		(rev "E")
+		(date "2026-03-22")
+		(rev "E2")
 		(company "rusEFI.com")
 		(comment 1 "https://rusefi.com/s/uaefi")
 	)
@@ -3296,6 +3296,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "JDY-33:JDY-33"
 			(pin_names
 				(offset 1.016)
@@ -4215,298 +4348,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-		)
-		(symbol "hellen-one-common:Fuse-Pad-Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "Fuse-Pad-Pad"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "hellen-one-common:PAD-1206-PAD"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "12H1500D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C182446"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse-Pad-Pad_0_1"
-				(circle
-					(center -2.54 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 0)
-					(mid -0.635 -0.4563)
-					(end 0 0)
-					(stroke
-						(width 0.0005)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0)
-					(mid 0.635 0.398)
-					(end 0 0)
-					(stroke
-						(width 0.0005)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Fuse-Pad-Pad_1_0"
-				(rectangle
-					(start -2.54 -1.27)
-					(end 2.54 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
-		(symbol "hellen-one-common:Jumper-Pad-Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "Jumper-Pad-Pad"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "hellen-one-common:PAD-0805-PAD"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C17477"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper-Pad-Pad_0_1"
-				(circle
-					(center -2.54 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Jumper-Pad-Pad_1_0"
-				(rectangle
-					(start -2.54 -1.27)
-					(end 2.54 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -8147,7 +7988,7 @@
 				)
 			)
 		)
-		(symbol "hellen-one-wbo-0.5:Module-wbo-0.5"
+		(symbol "hellen-one-wbo-0.6:Module-wbo-0.6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8159,15 +8000,15 @@
 					)
 				)
 			)
-			(property "Value" "Module-wbo-0.5"
-				(at 8.89 -40.64 0)
+			(property "Value" "Module-wbo-0.6"
+				(at 8.128 -41.91 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "hellen-one-wbo-0.5:wbo"
+			(property "Footprint" "hellen-one-wbo-0.6:wbo"
 				(at 25.4 1.27 0)
 				(effects
 					(font
@@ -8194,25 +8035,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Module-wbo-0.5_0_0"
-				(text "Analog/digital"
-					(at 20.32 -20.32 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
+			(symbol "Module-wbo-0.6_0_0"
 				(text "Heater negative"
-					(at 16.51 -7.62 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "Power GND"
-					(at 19.05 -5.08 0)
+					(at 17.526 -7.366 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8220,10 +8045,10 @@
 					)
 				)
 			)
-			(symbol "Module-wbo-0.5_1_0"
+			(symbol "Module-wbo-0.6_1_0"
 				(rectangle
 					(start 0 0)
-					(end 33.02 -39.37)
+					(end 33.02 -40.64)
 					(stroke
 						(width 0)
 						(type default)
@@ -8232,13 +8057,45 @@
 						(type background)
 					)
 				)
-				(text "Internal TC2030\nconnector"
-					(at 7.1222 -16.2666 0)
+				(text "Analog/digital/power"
+					(at 18.034 -20.32 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Internal SWD TC2030 connector"
+					(at 0.508 -22.86 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 						(justify left)
+					)
+				)
+				(text "Pump Current"
+					(at 18.542 -12.446 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Sensor Voltage VS"
+					(at 16.256 -17.78 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Virtual Ground\nVS/IP"
+					(at 18.288 -15.24 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 				(pin passive line
@@ -8316,7 +8173,7 @@
 				(pin passive line
 					(at 40.64 -7.62 180)
 					(length 7.62)
-					(name "LSU_H+"
+					(name "LSU_Htr"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8324,24 +8181,6 @@
 						)
 					)
 					(number "E5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "LSU_H-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13248,7 +13087,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 134.62) (xy 68.58 134.62)
+			(xy 64.77 134.62) (xy 71.12 134.62)
 		)
 		(stroke
 			(width 0)
@@ -13925,6 +13764,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 146.05) (xy 58.42 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbc9c2f-9dae-405d-a8be-565c2a4b525b")
+	)
+	(wire
+		(pts
 			(xy 95.25 157.48) (xy 104.14 157.48)
 		)
 		(stroke
@@ -14006,6 +13855,16 @@
 			(color 255 0 255 1)
 		)
 		(uuid "62ce3392-ab79-4cdc-b04e-6d0922b0c42e")
+	)
+	(wire
+		(pts
+			(xy 121.92 317.5) (xy 140.97 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63178f32-df3d-497e-87a1-da6ba1927223")
 	)
 	(wire
 		(pts
@@ -14497,6 +14356,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 175.26) (xy 121.92 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bfd5084-b35d-42f1-a63a-5cc79c934ed4")
+	)
+	(wire
+		(pts
 			(xy 165.1 157.48) (xy 180.34 157.48)
 		)
 		(stroke
@@ -14706,16 +14575,6 @@
 			(type default)
 		)
 		(uuid "886181d0-3905-4fd1-aa76-96eba8c0307b")
-	)
-	(wire
-		(pts
-			(xy 132.08 317.5) (xy 140.97 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898d32f5-e0a5-420e-a5e1-2d95df954e6c")
 	)
 	(bus
 		(pts
@@ -16344,6 +16203,16 @@
 		)
 		(uuid "da829157-6853-466d-a484-d1f45d101876")
 	)
+	(wire
+		(pts
+			(xy 119.38 154.94) (xy 121.92 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dacc6fc0-4d9f-44cb-b094-541ca831159f")
+	)
 	(bus
 		(pts
 			(xy 275.59 30.48) (xy 260.35 30.48)
@@ -17453,16 +17322,6 @@
 		)
 		(uuid "118765bc-f19d-4c6c-9ad5-6d5d2678d36b")
 	)
-	(label "WBO_Un"
-		(at 86.36 363.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1337114c-884f-4610-ac0d-5eab59986e06")
-	)
 	(label "OUT_LS1"
 		(at 120.65 139.7 0)
 		(effects
@@ -17993,6 +17852,16 @@
 		)
 		(uuid "4af6c5f5-704d-4746-a150-ef30f9166442")
 	)
+	(label "6_WBO_Un"
+		(at 86.36 363.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b178c2c-d3dc-4c95-aba6-6df6226bff5a")
+	)
 	(label "3_WBO_Heater"
 		(at 40.64 39.37 0)
 		(effects
@@ -18022,6 +17891,16 @@
 			(justify left bottom)
 		)
 		(uuid "4e30bf61-7bd3-498e-8b57-b8836d98cea6")
+	)
+	(label "5_WBO_Rtrim"
+		(at 99.06 365.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f1e4fa1-5245-4b18-9434-d6abe9e79fba")
 	)
 	(label "DC1_DIS"
 		(at 257.81 96.52 180)
@@ -18082,6 +17961,16 @@
 			(justify left bottom)
 		)
 		(uuid "55c33200-31c7-4b84-9bd9-b11e83d425cd")
+	)
+	(label "1_WBO_Ip"
+		(at 86.36 365.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56d14bdc-e80e-4120-8633-550db9e9eed3")
 	)
 	(label "6_WBO_Un"
 		(at 41.91 67.31 0)
@@ -18222,16 +18111,6 @@
 			(justify left bottom)
 		)
 		(uuid "61d7dc2b-e70b-4807-8979-16a252220e48")
-	)
-	(label "WBO_Rtrim"
-		(at 99.06 365.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "624a7c53-b9d6-4055-b66f-1f7f57b74e27")
 	)
 	(label "IN_BUTTON1"
 		(at 27.94 182.88 180)
@@ -19333,16 +19212,6 @@
 		)
 		(uuid "df7df180-f1ac-4f23-9d11-71cce73ed688")
 	)
-	(label "WBO_Ip"
-		(at 86.36 365.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dfc53445-a07a-44a0-b54c-6128f3ba7632")
-	)
 	(label "IGN3"
 		(at 154.94 87.63 0)
 		(effects
@@ -20277,73 +20146,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 36.83 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bd6386e-f93d-4274-b328-a6017ae0f36d")
-		(property "Reference" "#PWR013"
-			(at 53.34 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6f85150-27a6-4b79-9d67-6eb4fd9940df")
-		)
-		(instances
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
 		(at 64.77 355.6 0)
 		(mirror y)
@@ -20630,88 +20432,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hellen-one-common:Fuse-Pad-Pad")
-		(at 124.46 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14dd76f6-a548-4452-bc3d-75c7acd25f2a")
-		(property "Reference" "F6"
-			(at 119.38 173.99 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "12H1500D"
-			(at 131.5492 174.1513 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:PAD-1206-PAD"
-			(at 124.46 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C182446"
-			(at 124.46 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90b1a3ea-fc91-4b79-8c73-7e272ce59db1")
-		)
-		(pin "2"
-			(uuid "768da32f-f355-487a-a4a6-81cf8ebf870c")
-		)
-		(instances
-			(project "alphax_4ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "F6")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 64.77 134.62 0)
 		(unit 1)
@@ -20846,83 +20566,6 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Jumper-Pad-Pad")
-		(at 127 317.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b4123e5-2c6c-405d-b04f-fd27f68ef7bf")
-		(property "Reference" "R4"
-			(at 132.08 316.23 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "Jumper-Pad-Pad"
-			(at 127 319.278 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "hellen-one-common:PAD-0805-PAD"
-			(at 127 321.31 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 317.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17477"
-			(at 127 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4efb306-8857-4f2e-80fe-7fc503d08a62")
-		)
-		(pin "2"
-			(uuid "7f8f3b9b-1117-46b5-9227-eb46da068e54")
-		)
-		(instances
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -21576,88 +21219,6 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "P8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Fuse-Pad-Pad")
-		(at 58.42 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21bac282-060d-41b3-8302-c88e5e1e92fa")
-		(property "Reference" "F6"
-			(at 59.69 139.7 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "12H1500D"
-			(at 55.88 143.51 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:PAD-1206-PAD"
-			(at 54.61 143.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 143.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C182446"
-			(at 54.61 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "805cdf8f-fa7f-4178-8409-d829433b9b1d")
-		)
-		(pin "2"
-			(uuid "060be602-3ae5-46d0-986d-ac536ed9c70f")
-		)
-		(instances
-			(project "alphax_4ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "F6")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -22788,6 +22349,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 58.42 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3aaaac56-9787-442b-af12-4286dd0f0b8e")
+		(property "Reference" "F1"
+			(at 56.642 143.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 54.61 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 60.198 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C182446"
+			(at 58.42 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c46c6d8-5efd-4f7a-954b-6e57098628f0")
+		)
+		(pin "2"
+			(uuid "8972854b-7405-458f-ace4-839d0f5016a0")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hellen-one-knock-0.2:Module-knock-0.2")
 		(at 82.55 264.16 0)
 		(unit 1)
@@ -23088,88 +22726,6 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Fuse-Pad-Pad")
-		(at 124.46 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4014f889-f7f7-4f3f-86fe-51a46b440971")
-		(property "Reference" "F6"
-			(at 119.38 153.67 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "12H1500D"
-			(at 131.5492 153.8313 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:PAD-1206-PAD"
-			(at 124.46 158.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 154.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C182446"
-			(at 124.46 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da0d9bbb-00f1-4f62-b956-5fc75f11ecd5")
-		)
-		(pin "2"
-			(uuid "c5279b6d-886d-46c9-908a-2aa10bc5d387")
-		)
-		(instances
-			(project "alphax_4ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "F6")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -24262,6 +23818,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 125.73 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55d8c83a-9b37-42ab-8c4f-0a525997c79d")
+		(property "Reference" "F4"
+			(at 121.158 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 125.73 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 125.73 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C182446"
+			(at 125.73 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06bea0f5-c649-4431-b998-ba2d53c0c1b6")
+		)
+		(pin "2"
+			(uuid "6d03c089-8449-47a0-8079-9e013a8e5f49")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 207.01 298.45 90)
 		(unit 1)
@@ -24474,6 +24107,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 74.93 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5987a5cd-0ed5-4e3f-866d-a4ad19f6eacf")
+		(property "Reference" "F2"
+			(at 70.358 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 74.93 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 74.93 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C182446"
+			(at 74.93 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95dbff87-98f4-40d9-98ae-46b2eec93731")
+		)
+		(pin "2"
+			(uuid "dd27567c-6ddd-4fdd-8ab1-52b54b02d41f")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 20.32 218.44 270)
 		(mirror x)
@@ -24612,88 +24322,6 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hellen-one-common:Fuse-Pad-Pad")
-		(at 73.66 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63098b8c-34dd-41dd-88f1-d36392860750")
-		(property "Reference" "F6"
-			(at 68.58 133.35 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "12H1500D"
-			(at 80.7492 133.5113 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "hellen-one-common:PAD-1206-PAD"
-			(at 73.66 138.43 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 134.62 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C182446"
-			(at 73.66 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "580c6b02-1a43-450f-a6f5-a39639814d9e")
-		)
-		(pin "2"
-			(uuid "22156f4f-4f47-4d80-a0cf-38c8d765cd02")
-		)
-		(instances
-			(project "alphax_4ch"
-				(path "/63d2dd9f-d5ff-4811-a88d-0ba932475460"
-					(reference "F6")
-					(unit 1)
-				)
-			)
-			(project "uaefi"
-				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
-					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -25957,7 +25585,7 @@
 		)
 	)
 	(symbol
-		(lib_id "hellen-one-wbo-0.5:Module-wbo-0.5")
+		(lib_id "hellen-one-wbo-0.6:Module-wbo-0.6")
 		(at 100.33 31.75 0)
 		(mirror y)
 		(unit 1)
@@ -25974,15 +25602,15 @@
 				)
 			)
 		)
-		(property "Value" "Module-wbo-0.5"
-			(at 74.93 72.39 0)
+		(property "Value" "Module-wbo-0.6"
+			(at 75.692 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-wbo-0.5:wbo"
+		(property "Footprint" "hellen-one-wbo-0.6:wbo"
 			(at 74.93 30.48 0)
 			(effects
 				(font
@@ -26023,9 +25651,6 @@
 		)
 		(pin "E5"
 			(uuid "2f0ab1cc-21c5-41c1-babb-c05ab60120e0")
-		)
-		(pin "E6"
-			(uuid "59236ced-455d-4f21-af55-e0fad86c0966")
 		)
 		(pin "G"
 			(uuid "a206ce2f-a1e3-4067-985b-06fdf60ee1ee")
@@ -28122,6 +27747,83 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 125.73 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1b0a2be-50a8-49dc-8068-33064e157517")
+		(property "Reference" "F3"
+			(at 121.158 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 125.73 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 125.73 177.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C182446"
+			(at 125.73 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8297ed77-a2ea-4802-83f2-9e307f25c279")
+		)
+		(pin "2"
+			(uuid "e3ae5d84-cdb9-4e21-90ce-989fce953ef6")
+		)
+		(instances
+			(project "uaefi"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
+					(reference "F3")
 					(unit 1)
 				)
 			)
