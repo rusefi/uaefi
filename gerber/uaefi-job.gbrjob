@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.9-8.0.9-0~ubuntu24.04.1"
     },
-    "CreationDate": "2026-02-21T13:41:46+00:00"
+    "CreationDate": "2026-03-22T21:08:38+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "uaefi",
       "GUID": "75616566-692e-46b6-9963-61645f706362",
-      "Revision": "E"
+      "Revision": "E2"
     },
     "Size": {
       "X": 100.1,
