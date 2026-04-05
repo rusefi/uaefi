@@ -1,3 +1,4 @@
+#include "global_replacements.csv"
 # remove +5V pull-ups from SPI1, because we use it with +3.3v accelerometer
 R103,
 R105,
