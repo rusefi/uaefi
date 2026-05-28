@@ -1,3 +1,10 @@
+# rev E-2
+
+April 2026
+
+* upgrade to improved WBO module https://github.com/rusefi/uaefi/issues/107
+* some unneeded vias around fuses were removed https://github.com/rusefi/uaefi/issues/106
+
 # rev E
 
 * power supply fix for RTC
