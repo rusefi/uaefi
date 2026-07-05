@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UAEFI")
-		(date "2025-04-30")
-		(rev "E")
+		(date "2026-07-05")
+		(rev "F")
 		(company "rusEFI.com")
 	)
 	(lib_symbols

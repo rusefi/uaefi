@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UAEFI")
-		(date "2025-04-30")
-		(rev "E")
+		(date "2026-07-05")
+		(rev "F")
 		(company "rusEFI.com")
 	)
 	(lib_symbols
@@ -429,7 +429,7 @@
 		)
 	)
 	(junction
-		(at 168.91 91.44)
+		(at 180.34 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8aeee9fc-a926-4514-a56a-87820e9fcfdb")
@@ -441,7 +441,7 @@
 		(uuid "e728651a-3754-41f5-abd4-9fb72f590282")
 	)
 	(junction
-		(at 180.34 86.36)
+		(at 191.77 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef8abec2-505f-41a8-8c50-91b0f4b5eabc")
@@ -476,7 +476,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 91.44) (xy 171.45 91.44)
+			(xy 180.34 91.44) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -486,7 +486,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 86.36) (xy 180.34 86.36)
+			(xy 160.02 86.36) (xy 165.1 86.36)
 		)
 		(stroke
 			(width 0)
@@ -496,7 +496,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 91.44) (xy 168.91 91.44)
+			(xy 175.26 91.44) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc72161-5e4b-423d-bbd0-736dada4bdd7")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 165.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -526,6 +536,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 86.36) (xy 191.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b43f99-309a-4974-8901-ae6ba1562c5a")
+	)
+	(wire
+		(pts
 			(xy 129.54 96.52) (xy 129.54 93.98)
 		)
 		(stroke
@@ -536,7 +556,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 86.36) (xy 182.88 86.36)
+			(xy 191.77 86.36) (xy 194.31 86.36)
 		)
 		(stroke
 			(width 0)
@@ -567,7 +587,7 @@
 	)
 	(hierarchical_label "IN2"
 		(shape input)
-		(at 182.88 86.36 0)
+		(at 194.31 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -578,7 +598,7 @@
 	)
 	(hierarchical_label "IN1"
 		(shape input)
-		(at 171.45 91.44 0)
+		(at 182.88 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -762,7 +782,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 96.52 0)
+		(at 191.77 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -770,7 +790,7 @@
 		(dnp no)
 		(uuid "59e85ecf-6ed3-4c4f-9b1b-274bc3e63fe4")
 		(property "Reference" "#PWR035"
-			(at 180.34 102.87 0)
+			(at 191.77 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -779,7 +799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 100.33 0)
+			(at 191.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 96.52 0)
+			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -796,7 +816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 96.52 0)
+			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 96.52 0)
+			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +857,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 101.6 0)
+		(at 180.34 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -845,7 +865,7 @@
 		(dnp no)
 		(uuid "752d18a1-a5b4-49af-b8a2-7a145810591f")
 		(property "Reference" "#PWR035"
-			(at 168.91 107.95 0)
+			(at 180.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +874,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 105.41 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 101.6 0)
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 101.6 0)
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,7 +900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 101.6 0)
+			(at 180.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +932,7 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 180.34 86.36 90)
+		(at 191.77 86.36 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -921,7 +941,7 @@
 		(dnp no)
 		(uuid "94472053-6dde-4e9a-9a4a-1dcfa880e1a8")
 		(property "Reference" "R30"
-			(at 177.8 91.44 0)
+			(at 189.23 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +949,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 180.34 91.44 0)
+			(at 191.77 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +957,7 @@
 			)
 		)
 		(property "Footprint" "hellen-one-common:R0603"
-			(at 184.15 90.17 0)
+			(at 195.58 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 86.36 0)
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 86.36 0)
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +984,7 @@
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 180.34 86.36 0)
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,16 +1019,16 @@
 	)
 	(symbol
 		(lib_id "hellen-one-common:Res")
-		(at 168.91 91.44 90)
-		(mirror x)
+		(at 175.26 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a284569b-b861-48e2-88ac-fb31172ac17f")
-		(property "Reference" "R30"
-			(at 166.37 96.52 0)
+		(uuid "9f03d109-f830-46a0-a8e7-91e5e0468e7b")
+		(property "Reference" "R41"
+			(at 170.18 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +1036,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 168.91 96.52 0)
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,7 +1044,7 @@
 			)
 		)
 		(property "Footprint" "hellen-one-common:R0603"
-			(at 172.72 95.25 0)
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +1053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 91.44 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1062,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 91.44 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1071,84 @@
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 168.91 91.44 0)
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce3a59e6-9879-462c-a9c0-7346f27d3da8")
+		)
+		(pin "2"
+			(uuid "6d4032ea-f0e0-4967-bab8-b4f2a330471f")
+		)
+		(instances
+			(project "uaefi-pro"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/c1e0fc38-44a5-4f4c-8a40-7ced112340c0"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 180.34 91.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a284569b-b861-48e2-88ac-fb31172ac17f")
+		(property "Reference" "R30"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 180.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen-one-common:R0603"
+			(at 184.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,6 +1176,83 @@
 			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/c1e0fc38-44a5-4f4c-8a40-7ced112340c0"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "hellen-one-common:Res")
+		(at 175.26 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c06efd20-5a37-4f9f-8c60-ccaebeae3603")
+		(property "Reference" "R4"
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hellen-one-common:R0603"
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "242ef273-af3b-458f-a782-2189fd4f6bed")
+		)
+		(pin "2"
+			(uuid "9a10c73d-8581-49d8-8d48-2904ebf0d0cb")
+		)
+		(instances
+			(project "uaefi-pro"
+				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/c1e0fc38-44a5-4f4c-8a40-7ced112340c0"
+					(reference "R4")
 					(unit 1)
 				)
 			)
