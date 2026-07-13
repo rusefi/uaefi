@@ -6,8 +6,8 @@
 	(paper "A3" portrait)
 	(title_block
 		(title "UAEFI")
-		(date "2026-07-05")
-		(rev "F")
+		(date "2026-07-14")
+		(rev "F2")
 		(company "rusEFI.com")
 		(comment 1 "https://rusefi.com/s/uaefi-pro")
 	)

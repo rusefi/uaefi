@@ -107,4 +107,4 @@ J10,"39301160","02x08_4.2mm","C5355564"
 # same board ID as rev A for now!
 #include hellen-one/board_id/generated/board_id_uaefi-a.csv
 
-#include bom_pullups_uaefi-f.csv
+#include bom_pullups_uaefi-f2.csv
