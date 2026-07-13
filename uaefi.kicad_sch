@@ -9,7 +9,7 @@
 		(date "2026-07-14")
 		(rev "F2")
 		(company "rusEFI.com")
-		(comment 1 "https://rusefi.com/s/uaefi-pro")
+		(comment 1 "https://rusefi.com/s/uaefi")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x05_Pin"
