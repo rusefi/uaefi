@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>2026-07-05T12:58:01+0000</date>
+    <date>2026-07-13T23:37:51+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>F</rev>
-        <date>2026-07-05</date>
+        <rev>F2</rev>
+        <date>2026-07-14</date>
         <source>uaefi.kicad_sch</source>
         <comment number="1" value="https://rusefi.com/s/uaefi-pro"/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>F</rev>
-        <date>2026-07-05</date>
+        <rev>F2</rev>
+        <date>2026-07-14</date>
         <source>DC_MOTOR_0.1.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>F</rev>
-        <date>2026-07-05</date>
+        <rev>F2</rev>
+        <date>2026-07-14</date>
         <source>LS4.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>F</rev>
-        <date>2026-07-05</date>
+        <rev>F2</rev>
+        <date>2026-07-14</date>
         <source>DC_MOTOR_0.1.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -80,8 +80,8 @@
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>F</rev>
-        <date>2026-07-05</date>
+        <rev>F2</rev>
+        <date>2026-07-14</date>
         <source>LS_HOT.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -98,8 +98,8 @@
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>F</rev>
-        <date>2026-07-05</date>
+        <rev>F2</rev>
+        <date>2026-07-14</date>
         <source>MAP.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -116,8 +116,8 @@
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>F</rev>
-        <date>2026-07-05</date>
+        <rev>F2</rev>
+        <date>2026-07-14</date>
         <source>IGN6.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -134,8 +134,8 @@
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>F</rev>
-        <date>2026-07-05</date>
+        <rev>F2</rev>
+        <date>2026-07-14</date>
         <source>egt.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -152,8 +152,8 @@
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>F</rev>
-        <date>2026-07-05</date>
+        <rev>F2</rev>
+        <date>2026-07-14</date>
         <source>INJ6.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
