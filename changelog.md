@@ -1,3 +1,9 @@
+# rev F
+
+July 2026
+
+* series resistor for low side drivers to protect the mcu https://github.com/rusefi/uaefi/issues/114
+
 # rev E-2
 
 April 2026
