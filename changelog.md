@@ -13,6 +13,7 @@ April 2026
 
 # rev E
 
+* stronger smart coil buffer https://github.com/rusefi/uaefi/issues/78
 * power supply fix for RTC
 * https://github.com/rusefi/uaefi/labels/rev-E
 
