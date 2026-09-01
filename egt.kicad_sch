@@ -7,7 +7,7 @@
 	(title_block
 		(title "UAEFI")
 		(date "2026-07-14")
-		(rev "F2")
+		(rev "F3")
 		(company "rusEFI.com")
 	)
 	(lib_symbols
