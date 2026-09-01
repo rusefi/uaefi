@@ -10,7 +10,7 @@
 	(title_block
 		(title "UAEFI")
 		(date "2026-07-14")
-		(rev "F2")
+		(rev "F3")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -31667,7 +31667,7 @@
 		(uuid "14073be9-4b61-488e-b425-638885a940b7")
 		(at 142.05 132.85 90)
 		(property "Reference" "BT1"
-			(at -8.579942 4.767 0)
+			(at -8.579942 4.767 180)
 			(layer "B.SilkS")
 			(uuid "7d17daac-bba0-4e57-9dcb-bd214c78fa73")
 			(effects
@@ -31727,7 +31727,7 @@
 			)
 		)
 		(property "LCSC" "C70381"
-			(at 276.5 -7.5 0)
+			(at 276.5 -7.5 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0c6875ea-0abf-4f87-92b5-dd638e64262c")
@@ -31856,7 +31856,7 @@
 			(uuid "db244c3a-b9cf-4c59-a575-16da1c2dce7a")
 		)
 		(fp_text user "CR1220"
-			(at 8 -1 0)
+			(at 9.436779 -1.687966 45)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "2299cd2a-fe10-4432-bc1a-2bd1bc54fdf7")
@@ -32891,7 +32891,7 @@
 		(uuid "2cffcaa8-12f9-428c-abe1-4e5578a4b1f5")
 		(at 147 125 -90)
 		(property "Reference" "C33"
-			(at -1.3 0.8 90)
+			(at -1.9 0.85 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "6302862f-d239-4902-a0cb-9ea40b43bfa9")
@@ -33423,7 +33423,7 @@
 			)
 		)
 		(property "Footprint" "hellen-one-common:R0603"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1a527b18-9958-4abf-87fe-31d673766c99")
@@ -33436,7 +33436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9991a303-a5d7-46c0-b19c-23278bcafee0")
@@ -33449,7 +33449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c1606cb5-3291-45ad-8650-27b87f158c00")
@@ -39477,7 +39477,7 @@
 			)
 		)
 		(property "Footprint" "hellen-one-common:R0603"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d7a45f6-f030-48fe-9c91-264abe1814dc")
@@ -39489,7 +39489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27129258-5aba-4709-9f44-846be1a64265")
@@ -39501,7 +39501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8180e006-b724-4527-aeb6-2ea091c13e2b")
@@ -41294,7 +41294,7 @@
 			)
 		)
 		(property "Footprint" "hellen-one-common:R0603"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "749ce193-b939-43ce-90c2-b75bf2dd4013")
@@ -41306,7 +41306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1c51ed8-95c9-4bf7-9d95-9fe255c4ab5c")
@@ -41318,7 +41318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6263fcec-e672-42fb-8779-030134b0a7e5")
@@ -46842,7 +46842,7 @@
 			)
 		)
 	)
-	(gr_text "rev. f2"
+	(gr_text "rev. f3"
 		(at 74.4 156.9 0)
 		(layer "F.SilkS")
 		(uuid "4d8c8621-3491-470f-a836-e79e0ca5511d")

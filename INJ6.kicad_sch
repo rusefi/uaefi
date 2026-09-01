@@ -869,6 +869,7 @@
 	(hierarchical_label "OUT3"
 		(shape output)
 		(at 113.03 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -880,6 +881,7 @@
 	(hierarchical_label "OUT1"
 		(shape output)
 		(at 113.03 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -891,6 +893,7 @@
 	(hierarchical_label "IN4"
 		(shape input)
 		(at 187.96 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -902,6 +905,7 @@
 	(hierarchical_label "IN2"
 		(shape input)
 		(at 187.96 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -913,6 +917,7 @@
 	(hierarchical_label "IN1"
 		(shape input)
 		(at 213.36 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -924,6 +929,7 @@
 	(hierarchical_label "OUT6"
 		(shape output)
 		(at 113.03 125.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -935,6 +941,7 @@
 	(hierarchical_label "IN6"
 		(shape input)
 		(at 187.96 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -946,6 +953,7 @@
 	(hierarchical_label "IN3"
 		(shape input)
 		(at 213.36 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -957,6 +965,7 @@
 	(hierarchical_label "OUT2"
 		(shape output)
 		(at 113.03 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -968,6 +977,7 @@
 	(hierarchical_label "OUT4"
 		(shape output)
 		(at 113.03 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -979,6 +989,7 @@
 	(hierarchical_label "IN5"
 		(shape input)
 		(at 213.36 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -990,6 +1001,7 @@
 	(hierarchical_label "OUT5"
 		(shape output)
 		(at 113.03 120.65 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1132,7 +1144,7 @@
 			(uuid "0778d37b-c7ab-41cf-a1ea-28243358a41e")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
 					(reference "R42")
 					(unit 1)
@@ -1456,7 +1468,7 @@
 			(uuid "ca0e7e31-cd0f-4f5c-8b62-7ab5624bf92d")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
 					(reference "R43")
 					(unit 1)
@@ -1533,7 +1545,7 @@
 			(uuid "92792915-8bf9-4284-847e-d9d61bead5a4")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
 					(reference "R45")
 					(unit 1)
@@ -1705,7 +1717,7 @@
 			(uuid "c2627902-3c6c-4df3-83a3-6f0efcaecc30")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
 					(reference "R44")
 					(unit 1)
@@ -1782,7 +1794,7 @@
 			(uuid "2c63315b-dbcb-449e-aa52-fed783dfff4b")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
 					(reference "R47")
 					(unit 1)
@@ -2300,7 +2312,7 @@
 			(uuid "865ee5ee-e96d-4b73-b0f3-d8934a7d4c21")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497/45207479-6ae5-486c-ab42-805dda4ce511"
 					(reference "R46")
 					(unit 1)

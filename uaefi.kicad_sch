@@ -7,7 +7,7 @@
 	(title_block
 		(title "UAEFI")
 		(date "2026-07-14")
-		(rev "F2")
+		(rev "F3")
 		(company "rusEFI.com")
 		(comment 1 "https://rusefi.com/s/uaefi")
 	)
@@ -17229,6 +17229,7 @@
 	)
 	(label "OUT_LS2"
 		(at 44.45 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17239,6 +17240,7 @@
 	)
 	(label "IN_PPS1"
 		(at 95.25 339.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17249,6 +17251,7 @@
 	)
 	(label "VR_DISCRETE_A"
 		(at 125.73 220.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17259,6 +17262,7 @@
 	)
 	(label "OUT_IGN3"
 		(at 44.45 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17269,6 +17273,7 @@
 	)
 	(label "PG_5VP"
 		(at 256.54 116.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17279,6 +17284,7 @@
 	)
 	(label "IN_HALL1"
 		(at 180.34 226.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17289,6 +17295,7 @@
 	)
 	(label "OUT_LS1"
 		(at 31.75 100.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17299,6 +17306,7 @@
 	)
 	(label "3_WBO_Heater"
 		(at 40.64 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17309,6 +17317,7 @@
 	)
 	(label "OUT_LS1"
 		(at 57.15 355.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17319,6 +17328,7 @@
 	)
 	(label "12V_KEY"
 		(at 33.02 365.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17329,6 +17339,7 @@
 	)
 	(label "IN_PPS1"
 		(at 180.34 180.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17339,6 +17350,7 @@
 	)
 	(label "VR_DISCRETE+"
 		(at 66.04 215.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17349,6 +17361,7 @@
 	)
 	(label "IN_KNOCK_RAW"
 		(at 40.64 172.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17359,6 +17372,7 @@
 	)
 	(label "OUT_LS1"
 		(at 120.65 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17369,6 +17383,7 @@
 	)
 	(label "DC2_DIR"
 		(at 153.67 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17379,6 +17394,7 @@
 	)
 	(label "IN_BUTTON1"
 		(at 181.61 288.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17389,6 +17405,7 @@
 	)
 	(label "IN_PPS2"
 		(at 27.94 228.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17399,6 +17416,7 @@
 	)
 	(label "OUT_DC1-"
 		(at 120.65 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17409,6 +17427,7 @@
 	)
 	(label "OUT_IGN3"
 		(at 120.65 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17419,6 +17438,7 @@
 	)
 	(label "IN_CLT"
 		(at 46.99 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17429,6 +17449,7 @@
 	)
 	(label "LS3"
 		(at 154.94 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17439,6 +17460,7 @@
 	)
 	(label "OUT_DC1-"
 		(at 29.21 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17449,6 +17471,7 @@
 	)
 	(label "IN_CLT"
 		(at 180.34 187.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17459,6 +17482,7 @@
 	)
 	(label "IN_IAT"
 		(at 115.57 341.63 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17469,6 +17493,7 @@
 	)
 	(label "OUT_INJ4"
 		(at 120.65 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17479,6 +17504,7 @@
 	)
 	(label "IN_AUX2"
 		(at 27.94 231.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17489,6 +17515,7 @@
 	)
 	(label "OUT_LS4"
 		(at 120.65 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17499,6 +17526,7 @@
 	)
 	(label "OUT_DC2-"
 		(at 120.65 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17509,6 +17537,7 @@
 	)
 	(label "INJ6"
 		(at 154.94 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17519,6 +17548,7 @@
 	)
 	(label "IN_MAP"
 		(at 21.59 341.63 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17529,6 +17559,7 @@
 	)
 	(label "VR_DISCRETE-"
 		(at 40.64 215.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17539,6 +17570,7 @@
 	)
 	(label "OUT_INJ1"
 		(at 120.65 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17549,6 +17581,7 @@
 	)
 	(label "CAN+"
 		(at 255.27 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17559,6 +17592,7 @@
 	)
 	(label "IGN5"
 		(at 154.94 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17569,6 +17603,7 @@
 	)
 	(label "12V_KEY"
 		(at 41.91 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17579,6 +17614,7 @@
 	)
 	(label "IN_FLEX"
 		(at 180.34 172.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17589,6 +17625,7 @@
 	)
 	(label "IN_TPS2"
 		(at 66.04 350.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17599,6 +17636,7 @@
 	)
 	(label "IN_BUTTON2"
 		(at 34.29 341.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17609,6 +17647,7 @@
 	)
 	(label "IN_BUTTON1"
 		(at 34.29 339.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17619,6 +17658,7 @@
 	)
 	(label "OUT_LS3"
 		(at 106.68 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17629,6 +17669,7 @@
 	)
 	(label "OUT_LS_HOT1"
 		(at 26.67 355.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17639,6 +17680,7 @@
 	)
 	(label "OUT_LS4"
 		(at 106.68 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17649,6 +17691,7 @@
 	)
 	(label "OUT_IGN1"
 		(at 69.85 358.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17659,6 +17702,7 @@
 	)
 	(label "OUT_LS4"
 		(at 44.45 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17669,6 +17713,7 @@
 	)
 	(label "OUT_LS_HOT1"
 		(at 31.75 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17679,6 +17724,7 @@
 	)
 	(label "1_WBO_Ip"
 		(at 86.36 365.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17689,6 +17735,7 @@
 	)
 	(label "OUT_INJ3"
 		(at 88.9 358.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17699,6 +17746,7 @@
 	)
 	(label "IN_MAP"
 		(at 40.64 185.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17709,6 +17757,7 @@
 	)
 	(label "VIGN"
 		(at 143.51 307.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17719,6 +17768,7 @@
 	)
 	(label "VR_DISCRETE+"
 		(at 138.43 350.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17729,6 +17779,7 @@
 	)
 	(label "IN_AUX1"
 		(at 21.59 339.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17739,6 +17790,7 @@
 	)
 	(label "VBAT"
 		(at 167.64 256.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17749,6 +17801,7 @@
 	)
 	(label "IN_HALL2"
 		(at 180.34 228.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17759,6 +17812,7 @@
 	)
 	(label "IGN6"
 		(at 154.94 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17769,6 +17823,7 @@
 	)
 	(label "VR_MAX9924"
 		(at 125.73 236.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17779,6 +17834,7 @@
 	)
 	(label "USB+"
 		(at 251.46 167.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17789,6 +17845,7 @@
 	)
 	(label "USB+"
 		(at 223.52 302.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17799,6 +17856,7 @@
 	)
 	(label "1_WBO_Ip"
 		(at 40.64 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17809,6 +17867,7 @@
 	)
 	(label "USB-"
 		(at 241.3 325.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17819,6 +17878,7 @@
 	)
 	(label "OUT_LS_HOT2"
 		(at 31.75 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17829,6 +17889,7 @@
 	)
 	(label "OUT_LS_HOT2"
 		(at 133.35 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17839,6 +17900,7 @@
 	)
 	(label "5_WBO_Rtrim"
 		(at 29.21 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17849,6 +17911,7 @@
 	)
 	(label "OUT_IGN5"
 		(at 101.6 358.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17859,6 +17922,7 @@
 	)
 	(label "VREF1"
 		(at 167.64 238.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17869,6 +17933,7 @@
 	)
 	(label "IN_BUTTON1"
 		(at 180.34 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17879,6 +17944,7 @@
 	)
 	(label "IN_TPS1"
 		(at 40.64 175.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17889,6 +17955,7 @@
 	)
 	(label "OUT_LS3"
 		(at 120.65 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17899,6 +17966,7 @@
 	)
 	(label "INJ4"
 		(at 154.94 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17909,6 +17977,7 @@
 	)
 	(label "VR_DISCRETE+"
 		(at 40.64 218.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17919,6 +17988,7 @@
 	)
 	(label "DC1_DIS"
 		(at 257.81 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17929,6 +17999,7 @@
 	)
 	(label "LS4"
 		(at 154.94 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17939,6 +18010,7 @@
 	)
 	(label "IN_CLT"
 		(at 128.27 341.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17949,6 +18021,7 @@
 	)
 	(label "IN_HALL2"
 		(at 27.94 223.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17959,6 +18032,7 @@
 	)
 	(label "USB-"
 		(at 223.52 299.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17969,6 +18043,7 @@
 	)
 	(label "VR_MAX9924+"
 		(at 96.52 350.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17979,6 +18054,7 @@
 	)
 	(label "VBUS"
 		(at 224.79 275.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17989,6 +18065,7 @@
 	)
 	(label "INJ5"
 		(at 154.94 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17999,6 +18076,7 @@
 	)
 	(label "IN_KNOCK"
 		(at 133.35 274.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18009,6 +18087,7 @@
 	)
 	(label "OUT_INJ5"
 		(at 31.75 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18019,6 +18098,7 @@
 	)
 	(label "DC2_DIS"
 		(at 257.81 172.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18029,6 +18109,7 @@
 	)
 	(label "VR_MAX9924-"
 		(at 40.64 220.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18039,6 +18120,7 @@
 	)
 	(label "OUT_IGN4"
 		(at 133.35 358.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18049,6 +18131,7 @@
 	)
 	(label "IGN2"
 		(at 154.94 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18059,6 +18142,7 @@
 	)
 	(label "IN_AUX2"
 		(at 53.34 347.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18069,6 +18153,7 @@
 	)
 	(label "OUT_LS3"
 		(at 44.45 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18079,6 +18164,7 @@
 	)
 	(label "USB-"
 		(at 251.46 170.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18089,6 +18175,7 @@
 	)
 	(label "IN_BUTTON1"
 		(at 27.94 182.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18099,6 +18186,7 @@
 	)
 	(label "OUT_INJ1"
 		(at 57.15 358.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18109,6 +18197,7 @@
 	)
 	(label "OUT_IGN5"
 		(at 44.45 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18119,6 +18208,7 @@
 	)
 	(label "OUT_IGN4"
 		(at 120.65 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18129,6 +18219,7 @@
 	)
 	(label "IN_TPS2"
 		(at 40.64 228.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18139,6 +18230,7 @@
 	)
 	(label "DC2_PWM"
 		(at 153.67 176.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18149,6 +18241,7 @@
 	)
 	(label "OUT_IGN6"
 		(at 44.45 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18159,6 +18252,7 @@
 	)
 	(label "CAN+"
 		(at 114.3 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18169,6 +18263,7 @@
 	)
 	(label "OUT_LS2"
 		(at 39.37 355.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18179,6 +18274,7 @@
 	)
 	(label "VR_DISCRETE-"
 		(at 66.04 218.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18189,6 +18285,7 @@
 	)
 	(label "VREF1"
 		(at 86.36 256.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18199,6 +18296,7 @@
 	)
 	(label "OUT_INJ5"
 		(at 120.65 358.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18209,6 +18307,7 @@
 	)
 	(label "MISO3"
 		(at 248.92 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18219,6 +18318,7 @@
 	)
 	(label "PWR_EN"
 		(at 63.5 317.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18229,6 +18329,7 @@
 	)
 	(label "VBUS"
 		(at 228.6 297.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18239,6 +18340,7 @@
 	)
 	(label "VR_DISCRETE"
 		(at 125.73 215.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18249,6 +18351,7 @@
 	)
 	(label "OUT_IGN4"
 		(at 44.45 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18259,6 +18362,7 @@
 	)
 	(label "CAN-"
 		(at 27.94 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18269,6 +18373,7 @@
 	)
 	(label "VR_MAX9924-"
 		(at 66.04 238.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18279,6 +18384,7 @@
 	)
 	(label "2_WBO_Vm"
 		(at 41.91 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18289,6 +18395,7 @@
 	)
 	(label "6_WBO_Un"
 		(at 41.91 67.31 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18299,6 +18406,7 @@
 	)
 	(label "VBAT"
 		(at 143.51 304.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18309,6 +18417,7 @@
 	)
 	(label "OUT_IGN2"
 		(at 120.65 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18319,6 +18428,7 @@
 	)
 	(label "PG_5VP"
 		(at 140.97 317.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18329,6 +18439,7 @@
 	)
 	(label "OUT_LS_HOT1"
 		(at 133.35 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18339,6 +18450,7 @@
 	)
 	(label "OUT_DC2+"
 		(at 41.91 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18349,6 +18461,7 @@
 	)
 	(label "LS_HOT2"
 		(at 154.94 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18359,6 +18472,7 @@
 	)
 	(label "2_WBO_Vm"
 		(at 40.64 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18369,6 +18483,7 @@
 	)
 	(label "IN_VIGN"
 		(at 63.5 309.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18379,6 +18494,7 @@
 	)
 	(label "OUT_INJ3"
 		(at 120.65 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18389,6 +18505,7 @@
 	)
 	(label "VR_DISCRETE_THR"
 		(at 125.73 226.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18399,6 +18516,7 @@
 	)
 	(label "OUT_DC1+"
 		(at 41.91 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18409,6 +18527,7 @@
 	)
 	(label "1_WBO_Ip"
 		(at 41.91 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18419,6 +18538,7 @@
 	)
 	(label "EGT+"
 		(at 27.94 213.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18429,6 +18549,7 @@
 	)
 	(label "DC2_PWM"
 		(at 171.45 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18439,6 +18560,7 @@
 	)
 	(label "DC2_DIR"
 		(at 257.81 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18449,6 +18571,7 @@
 	)
 	(label "IN_BUTTON3"
 		(at 180.34 233.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18459,6 +18582,7 @@
 	)
 	(label "IN_TPS2"
 		(at 180.34 208.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18469,6 +18593,7 @@
 	)
 	(label "CAN+"
 		(at 27.94 170.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18479,6 +18604,7 @@
 	)
 	(label "IN_HALL3"
 		(at 180.34 231.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18489,6 +18615,7 @@
 	)
 	(label "CAN-"
 		(at 128.27 339.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18499,6 +18626,7 @@
 	)
 	(label "VR_DISCRETE_THR"
 		(at 180.34 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18509,6 +18637,7 @@
 	)
 	(label "OUT_IGN2"
 		(at 44.45 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18519,6 +18648,7 @@
 	)
 	(label "5_WBO_Rtrim"
 		(at 40.64 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18529,6 +18659,7 @@
 	)
 	(label "IN_HALL3"
 		(at 27.94 220.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18539,6 +18670,7 @@
 	)
 	(label "IN_AUX1"
 		(at 180.34 193.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18549,6 +18681,7 @@
 	)
 	(label "OUT_INJ2"
 		(at 31.75 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18559,6 +18692,7 @@
 	)
 	(label "DC1_DIR"
 		(at 171.45 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18569,6 +18703,7 @@
 	)
 	(label "IN_PPS2"
 		(at 180.34 210.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18579,6 +18714,7 @@
 	)
 	(label "OUT_LS4"
 		(at 69.85 355.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18589,6 +18725,7 @@
 	)
 	(label "OUT_LS_HOT2"
 		(at 26.67 358.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18599,6 +18736,7 @@
 	)
 	(label "VR_DISCRETE"
 		(at 248.92 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18609,6 +18747,7 @@
 	)
 	(label "OUT_INJ2"
 		(at 120.65 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18619,6 +18758,7 @@
 	)
 	(label "VBUS"
 		(at 236.22 312.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18629,6 +18769,7 @@
 	)
 	(label "OUT_DC2-"
 		(at 29.21 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18639,6 +18780,7 @@
 	)
 	(label "SCK3"
 		(at 248.92 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18649,6 +18791,7 @@
 	)
 	(label "OUT_LS1"
 		(at 106.68 152.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18659,6 +18802,7 @@
 	)
 	(label "LS2"
 		(at 154.94 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18669,6 +18813,7 @@
 	)
 	(label "OUT_INJ1"
 		(at 31.75 102.87 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18679,6 +18824,7 @@
 	)
 	(label "VIGN"
 		(at 167.64 254 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18689,6 +18835,7 @@
 	)
 	(label "6_WBO_Un"
 		(at 86.36 363.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18699,6 +18846,7 @@
 	)
 	(label "OUT_LS2"
 		(at 106.68 157.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18709,6 +18857,7 @@
 	)
 	(label "INJ3"
 		(at 154.94 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18719,6 +18868,7 @@
 	)
 	(label "IN_TPS1"
 		(at 180.34 177.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18729,6 +18879,7 @@
 	)
 	(label "IN_VMAIN"
 		(at 77.47 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18739,6 +18890,7 @@
 	)
 	(label "EGT+"
 		(at 275.59 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18749,6 +18901,7 @@
 	)
 	(label "ADC3"
 		(at 173.99 220.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18759,6 +18912,7 @@
 	)
 	(label "OUT_IGN6"
 		(at 120.65 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18769,6 +18923,7 @@
 	)
 	(label "OUT_INJ6"
 		(at 120.65 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18779,6 +18934,7 @@
 	)
 	(label "IN_HALL1"
 		(at 83.82 347.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18789,6 +18945,7 @@
 	)
 	(label "IN_HALL2"
 		(at 96.52 347.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18799,6 +18956,7 @@
 	)
 	(label "IN_TPS1"
 		(at 82.55 341.63 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18809,6 +18967,7 @@
 	)
 	(label "VBUS"
 		(at 251.46 175.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18819,6 +18978,7 @@
 	)
 	(label "IN_HALL3"
 		(at 125.73 347.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18829,6 +18989,7 @@
 	)
 	(label "IN_PPS2"
 		(at 66.04 347.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18839,6 +19000,7 @@
 	)
 	(label "6_WBO_Un"
 		(at 40.64 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18849,6 +19011,7 @@
 	)
 	(label "IN_MAP"
 		(at 180.34 200.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18859,6 +19022,7 @@
 	)
 	(label "OUT_IGN1"
 		(at 44.45 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18869,6 +19033,7 @@
 	)
 	(label "IN_BUTTON2"
 		(at 181.61 293.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18879,6 +19044,7 @@
 	)
 	(label "OUT_INJ4"
 		(at 31.75 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18889,6 +19055,7 @@
 	)
 	(label "IN_BUTTON2"
 		(at 180.34 170.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18899,6 +19066,7 @@
 	)
 	(label "OUT_INJ2"
 		(at 88.9 355.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18909,6 +19077,7 @@
 	)
 	(label "OUT_INJ5"
 		(at 120.65 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18919,6 +19088,7 @@
 	)
 	(label "VR_MAX9924"
 		(at 248.92 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18929,6 +19099,7 @@
 	)
 	(label "IN_BUTTON3"
 		(at 27.94 215.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18939,6 +19110,7 @@
 	)
 	(label "IN_FLEX"
 		(at 27.94 175.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18949,6 +19121,7 @@
 	)
 	(label "IN_VIGN"
 		(at 72.39 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18959,6 +19132,7 @@
 	)
 	(label "5_WBO_Rtrim"
 		(at 99.06 365.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18969,6 +19143,7 @@
 	)
 	(label "CAN-"
 		(at 255.27 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18979,6 +19154,7 @@
 	)
 	(label "OUT_LS3"
 		(at 39.37 358.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18989,6 +19165,7 @@
 	)
 	(label "IN_AUX2"
 		(at 180.34 195.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18999,6 +19176,7 @@
 	)
 	(label "IN_BUTTON3"
 		(at 181.61 298.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19009,6 +19187,7 @@
 	)
 	(label "IGN1"
 		(at 154.94 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19019,6 +19198,7 @@
 	)
 	(label "IN_IAT"
 		(at 180.34 185.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19029,6 +19209,7 @@
 	)
 	(label "IN_AUX3"
 		(at 83.82 350.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19039,6 +19220,7 @@
 	)
 	(label "EGT-"
 		(at 40.64 213.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19049,6 +19231,7 @@
 	)
 	(label "VR_MAX9924+"
 		(at 40.64 223.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19059,6 +19242,7 @@
 	)
 	(label "IN_BUTTON2"
 		(at 40.64 182.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19069,6 +19253,7 @@
 	)
 	(label "IN_IAT"
 		(at 40.64 170.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19079,6 +19264,7 @@
 	)
 	(label "OUT_LS2"
 		(at 120.65 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19089,6 +19275,7 @@
 	)
 	(label "PWR_EN"
 		(at 167.64 248.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19099,6 +19286,7 @@
 	)
 	(label "OUT_DC1+"
 		(at 120.65 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19109,6 +19297,7 @@
 	)
 	(label "IN_HALL1"
 		(at 27.94 226.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19119,6 +19308,7 @@
 	)
 	(label "USB+"
 		(at 229.87 280.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19129,6 +19319,7 @@
 	)
 	(label "OUT_IGN1"
 		(at 120.65 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19139,6 +19330,7 @@
 	)
 	(label "OUT_IGN5"
 		(at 120.65 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19149,6 +19341,7 @@
 	)
 	(label "IGN4"
 		(at 154.94 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19159,6 +19352,7 @@
 	)
 	(label "IN_KNOCK_RAW"
 		(at 59.69 274.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19169,6 +19363,7 @@
 	)
 	(label "DC1_DIS"
 		(at 153.67 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19179,6 +19374,7 @@
 	)
 	(label "CAN-"
 		(at 114.3 36.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19189,6 +19385,7 @@
 	)
 	(label "CAN+"
 		(at 115.57 339.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19199,6 +19396,7 @@
 	)
 	(label "IN_FLEX"
 		(at 82.55 339.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19209,6 +19407,7 @@
 	)
 	(label "LS_HOT1"
 		(at 154.94 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19219,6 +19418,7 @@
 	)
 	(label "INJ1"
 		(at 154.94 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19229,6 +19429,7 @@
 	)
 	(label "IN_AUX3"
 		(at 180.34 213.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19239,6 +19440,7 @@
 	)
 	(label "IGN3"
 		(at 154.94 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19249,6 +19451,7 @@
 	)
 	(label "DC2_DIS"
 		(at 153.67 181.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19259,6 +19462,7 @@
 	)
 	(label "INJ2"
 		(at 154.94 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19269,6 +19473,7 @@
 	)
 	(label "OUT_INJ6"
 		(at 31.75 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19279,6 +19484,7 @@
 	)
 	(label "OUT_IGN2"
 		(at 101.6 355.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19289,6 +19495,7 @@
 	)
 	(label "OUT_DC2+"
 		(at 120.65 179.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19299,6 +19506,7 @@
 	)
 	(label "EGT-"
 		(at 275.59 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19309,6 +19517,7 @@
 	)
 	(label "IN_KNOCK_RAW"
 		(at 95.25 341.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19319,6 +19528,7 @@
 	)
 	(label "OUT_INJ4"
 		(at 120.65 355.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19329,6 +19539,7 @@
 	)
 	(label "USB-"
 		(at 229.87 283.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19339,6 +19550,7 @@
 	)
 	(label "LS1"
 		(at 154.94 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19349,6 +19561,7 @@
 	)
 	(label "OUT_INJ3"
 		(at 31.75 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19359,6 +19572,7 @@
 	)
 	(label "IN_AUX1"
 		(at 27.94 185.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19369,6 +19583,7 @@
 	)
 	(label "DC1_PWM"
 		(at 171.45 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19379,6 +19594,7 @@
 	)
 	(label "3_WBO_Heater"
 		(at 29.21 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19389,6 +19605,7 @@
 	)
 	(label "OUT_IGN3"
 		(at 133.35 355.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19399,6 +19616,7 @@
 	)
 	(label "IN_PPS1"
 		(at 27.94 172.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19409,6 +19627,7 @@
 	)
 	(label "VR_MAX9924+"
 		(at 66.04 236.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19419,6 +19638,7 @@
 	)
 	(label "IN_VMAIN"
 		(at 180.34 215.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19429,6 +19649,7 @@
 	)
 	(label "IN_AUX3"
 		(at 40.64 226.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19439,6 +19660,7 @@
 	)
 	(label "VR_MAX9924-"
 		(at 125.73 350.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19449,6 +19671,7 @@
 	)
 	(label "INTERNAL_MAP"
 		(at 180.34 203.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19459,6 +19682,7 @@
 	)
 	(label "USB+"
 		(at 241.3 330.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19610,7 +19834,7 @@
 			(uuid "0586f62d-e319-440d-b728-65642a7dfb5b")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "#PWR13")
 					(unit 1)
@@ -19753,7 +19977,7 @@
 			(uuid "2a36a3e9-ae8f-48f8-b35f-11d60c0df121")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "D3")
 					(unit 1)
@@ -20810,7 +21034,7 @@
 			(uuid "bbf129bd-8079-46af-9589-02fa67e69a24")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "F2")
 					(unit 1)
@@ -22304,7 +22528,7 @@
 			(uuid "9293e858-e64c-4d8c-a745-f0c44f08a683")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "D5")
 					(unit 1)
@@ -26133,7 +26357,7 @@
 			(uuid "2e14f817-6cc1-4641-b745-a2a6753b7eb3")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "F1")
 					(unit 1)
@@ -26275,7 +26499,7 @@
 			(uuid "62136b24-27ea-4410-ba4d-2dea8fc19837")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "D2")
 					(unit 1)
@@ -26887,7 +27111,7 @@
 			(uuid "d55f22ac-1e51-47fa-91c6-a0b0228501d8")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "F4")
 					(unit 1)
@@ -28169,7 +28393,7 @@
 			(uuid "ded1d123-ae95-48f1-9f96-739b65b0a6a6")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "D4")
 					(unit 1)
@@ -29522,7 +29746,7 @@
 			(uuid "d58f1b07-d1dc-4cd9-9a06-86268ae5ce26")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "M6")
 					(unit 1)
@@ -30027,7 +30251,7 @@
 			(uuid "db764a7d-0bb0-4868-94ff-3f9a0c47d1ef")
 		)
 		(instances
-			(project "uaefi-pro"
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "F3")
 					(unit 1)
@@ -30883,7 +31107,7 @@
 			(uuid "3d69ce98-d6e4-487e-8aed-bd71de076acb")
 		)
 		(instances
-			(project ""
+			(project "uaefi"
 				(path "/ac264c30-3e9a-4be2-b97a-9949b68bd497"
 					(reference "M1")
 					(unit 1)
