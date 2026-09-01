@@ -1,3 +1,9 @@
+# rev F3
+
+Sept 2026
+
+better clearance for metal enclosure
+
 # rev F2
 
 July 2026
