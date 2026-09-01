@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>/home/runner/work/uaefi/uaefi/uaefi.kicad_sch</source>
-    <date>2026-09-01T17:37:24+0000</date>
+    <date>2026-09-01T17:54:32+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>UAEFI</title>
         <company>rusEFI.com</company>
-        <rev>F2</rev>
+        <rev>F3</rev>
         <date>2026-07-14</date>
         <source>uaefi.kicad_sch</source>
         <comment number="1" value="https://rusefi.com/s/uaefi"/>
