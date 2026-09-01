@@ -1,3 +1,10 @@
+# rev F2
+
+July 2026
+
+* resistor moved https://github.com/rusefi/uaefi/issues/110
+* QR code added https://github.com/rusefi/uaefi/issues/118
+
 # rev F
 
 July 2026
