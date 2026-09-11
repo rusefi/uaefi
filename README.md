@@ -1,6 +1,6 @@
 # Ultra Affordable EFI
 
-🟢[$175 base model rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)🟢
+🟢[$275 base model rusEFI store](https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi)🟢
 
 ## Community Support
 
@@ -23,10 +23,6 @@ Powered by [rusEFI firmware](https://github.com/rusefi/rusefi)
 1mb of flash is _required_.
 
 One day we shall try https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F427VIT6%2FC57097#EC or https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F437VIT7%2FC1338578#EC
-
-## rusEFI Store
-
-https://www.shop.rusefi.com/shop/p/uaefi-ultra-affordable-efi
 
 ## HOWTO JLCPCB
 
